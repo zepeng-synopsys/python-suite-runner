@@ -1,0 +1,72 @@
+
+kw prog       e:/64_executable/mdm_mesher.exe
+kw iroot      e:/test_suite
+kw scrroot    d:/test_suite_mdm_mesher_only
+
+kw output     d:/test_suite_mdm_mesher_only/test_results/molex_models/2026_05_22(tau01)(auto)(Legacy)((60_11)(3_hour)
+kw refoutput  d:/test_suite_mdm_mesher_only/test_results/molex_models/2026_05_17(tau01)(auto)(Solid)((60_11)(3_hour)
+kw jobtable   d:/test_suite_mdm_mesher_only/test_suite_molex_all_78.pjtable
+#kw jobtable   d:/test_suite_mdm_mesher_only/failed1.pjtable
+
+kw threads 12
+kw timeout 2:00:00
+
+env   SUITE_COPY_FORMATS=ngmesh
+
+#env  MDM_WRITE_OUT_WYMODEL=1
+#env  MDM_RUN_WYMODEL=1
+env   TAU_TOLERANT_MESH_LEVELaa=3
+env   TAU_USE_TAU_PLUSaa=1
+env   MDM_RUN_PARASOLID=1
+
+#1-auto 2-legacy 3-PhiPlus  4-TAU Wrapper
+env   TAU_MESHER_CHOICE_FLAG=1
+env   TAU_ForceFallBack=1
+env   TAU_USE_NEW_SOLID_IDaaa=1
+env   TAU_COUNT_SOLID_ID_TIME=1
+
+env   TAU_SET_STOP_FLAGaa=2
+env   TAU_UNION_FREE_MESHaa=1
+env   TAU_BASE_MESH_METHODaa=2
+env   TAU_DO_REFINEMENT_FLAGaa=2
+env   nbyxfmm=12
+env   ANSYSEM_FEATURE_F231148_classic_parallel_recovery_ENABLEaa=1
+env   TAU_ACTIVE_ASPECT_RATIOaa=1
+env   USE_TAU_BINARY_OUTPUT=1
+env   TAU_PROFILE_MESHING_TIME=1
+env   TAU_ACIS_FREE_MESHERaa=0
+env   USE_TAU_PORT_MESHERaa=1
+#env  MDM_USE_OLD_FACETER=1
+env   DoNotFallBack=1
+env   TAU_Model_Mesh_Operationaa=0.05 30. -1.0
+env   mdm_global_mesh_refinement_factoraa=0.3
+env   TAUReferenceOutput=$refoutput
+env   RefernceMeshRepository=$refoutput
+env   SimulateMeshFacetingProcessaa=dump
+#env  UseAnsoftClassicMesher=1
+env   DoNotFallBack=1
+#env  DontUsePhiMesher=1
+#env  IgnoreObliqueBodies=1
+#env  VerifySurfTriAssignments=1
+#env  SaveErrorsUnderConstruction=1
+#env  XSR_SaveG3dFile=1
+#env  PreserveFaceIds=1
+env   DoNotEchoStderr=1
+env   SupressStdErr=1
+env   DontPullPointsToTrueSurface=1
+env   G3D_GEOMPROC=1
+env   MDM_REF_COMPARE_FACTOR=0.05
+env   MDM_REF_COMPARE_MESH_SIZE=50
+env   MDM_REF_COMPARE_MESH_TIME=10.
+env   ForgiveMissingFaceIds=1
+#env  ForceSurfMesh=1
+env   SaveMeshDataRepository="./"
+env   ForgiveDuplicateIds=1
+env   ANSOFT_DEBUG_MODE=2
+env   ANSOFT_DEBUG_LOG=debug.runlog
+
+env  TAU_DO_MESH_COMPAREaa=1
+env  TAU_work_mesh_folder=d:\test_suite_mdm_mesher_only\test_results\molex_models_all\2020_08_30_2021R1_final
+env   TAU_ref_mesh_folder=d:\test_suite_mdm_mesher_only\test_results\molex_models_all\2020_08_28_2021R1_final_2jobs
+
+#50 models,  Classic:      6threads (03:10:00 R194 28/50 failed 56%)

@@ -1,0 +1,97 @@
+#total_models:  #1 - #47 
+# old 29
+$iroot/13_bpsm_models_ECAD_MCAD/   001B_77174_V7_SPB16
+$iroot/13_bpsm_models_ECAD_MCAD/   002B_UPAD_pilot_test1
+$iroot/13_bpsm_models_ECAD_MCAD/   003B_QM76046_S23011_ES3_cutout
+$iroot/13_bpsm_models_ECAD_MCAD/   004B_Chimp_59_MXP_cutout2
+$iroot/13_bpsm_models_ECAD_MCAD/   004B_Chimp_59_MXP_cutout4
+$iroot/13_bpsm_models_ECAD_MCAD/   005B_Galileo_PCIe_breakout
+$iroot/13_bpsm_models_ECAD_MCAD/   006B_J800_breakout
+$iroot/13_bpsm_models_ECAD_MCAD/   007B_DisplayPort_breakout
+$iroot/13_bpsm_models_ECAD_MCAD/   008B_Novena_SATA
+$iroot/13_bpsm_models_ECAD_MCAD/   009B_B1B3B7_Hexplexer_3DDie_split
+$iroot/13_bpsm_models_ECAD_MCAD/   010B_dpbl1a_Tony
+$iroot/13_bpsm_models_ECAD_MCAD/   011B_system_assembly1
+$iroot/13_bpsm_models_ECAD_MCAD/   012N_D295677_Connectors_HFSS
+$iroot/13_bpsm_models_ECAD_MCAD/   012N_D295677_Connectors_Q3D
+$iroot/13_bpsm_models_ECAD_MCAD/   013S_UHB_DSM_Full_Hybrid_M4_Steve
+$iroot/13_bpsm_models_ECAD_MCAD/   014S_GS21_Native_Snap
+$iroot/13_bpsm_models_ECAD_MCAD/   015S_GS21_MeshAssembly_Snap
+$iroot/13_bpsm_models_ECAD_MCAD/   016S_Single_Spad_Native
+$iroot/13_bpsm_models_ECAD_MCAD/   017S_Single_Spad_MeshAssembly
+$iroot/13_bpsm_models_ECAD_MCAD/   018S_Single_Spad_Native2
+$iroot/13_bpsm_models_ECAD_MCAD/   019S_Single_Spad_MeshAssembly2
+$iroot/13_bpsm_models_ECAD_MCAD/   020S_UHB_Native
+$iroot/13_bpsm_models_ECAD_MCAD/   021S_UHB_MeshAssembly
+##defects
+$iroot/13_bpsm_models_ECAD_MCAD/   022D_D759042_Simple
+$iroot/13_bpsm_models_ECAD_MCAD/   023D_D426897_DisplayPort_breakout
+$iroot/13_bpsm_models_ECAD_MCAD/   024D_D798970_port_terminals
+$iroot/13_bpsm_models_ECAD_MCAD/   025D_D605074_QM42500
+$iroot/13_bpsm_models_ECAD_MCAD/   026D_D768309_DisplayPort_encrypted
+$iroot/13_bpsm_models_ECAD_MCAD/   027D_D742764_3DL_3DComp
+$iroot/13_bpsm_models_ECAD_MCAD/   028D_D774141_parametric
+$iroot/13_bpsm_models_ECAD_MCAD/   029D_D570898_port_refinement
+$iroot/13_bpsm_models_ECAD_MCAD/   030D_D571944_Q3D_DC
+###$iroot/13_bpsm_models_ECAD_MCAD/   031D_D718744_ecad_2_clusters
+$iroot/13_bpsm_models_ECAD_MCAD/   032D_D976942_HFSS_2_MCAD
+$iroot/13_bpsm_models_ECAD_MCAD/   033B_mesh_assembly_159738
+$iroot/13_bpsm_models_ECAD_MCAD/   034D_D539813_Case1_whole_PCB_SI
+$iroot/13_bpsm_models_ECAD_MCAD/   035B_PkgOnPCB_RFConn_Half
+$iroot/13_bpsm_models_ECAD_MCAD/   036D_D417231_pcb_xlarray
+$iroot/13_bpsm_models_ECAD_MCAD/   037S_Sergey_DDR_Board
+$iroot/13_bpsm_models_ECAD_MCAD/   038D_D727049_QM_77178_HFSS
+$iroot/13_bpsm_models_ECAD_MCAD/   039D_D791473(QM)(terminal_edges)
+$iroot/13_bpsm_models_ECAD_MCAD/   040D_D681328_HFM_SSS
+$iroot/13_bpsm_models_ECAD_MCAD/   041D_D537222_qm77058
+$iroot/13_bpsm_models_ECAD_MCAD/   041D_D537222_QPF7553
+$iroot/13_bpsm_models_ECAD_MCAD/   042D_D580720_HFSS_layout
+$iroot/13_bpsm_models_ECAD_MCAD/   043D_D912578_HFSS_ECAD_3_Layouts
+$iroot/13_bpsm_models_ECAD_MCAD/   044D_D1267444_HFSS_FacingX
+$iroot/13_bpsm_models_ECAD_MCAD/   045D_D1281709_HFSS_FacingY
+$iroot/13_bpsm_models_ECAD_MCAD/   046D_D1312285_Parasolid_Transform
+
+###total mcad side crossing
+$iroot/13_bpsm_models_ECAD_MCAD/   060D_D843578_HFSS_side_crossing
+$iroot/13_bpsm_models_ECAD_MCAD/   061D_D805100_HFSS_side_crossing
+$iroot/13_bpsm_models_ECAD_MCAD/   062D_D891278_HFSS_side_crossing
+
+###$iroot/13_bpsm_models_ECAD_MCAD/   063D_D530674_brd_side_crossing_22
+$iroot/13_bpsm_models_ECAD_MCAD/   063D_D530674_PRT-73525-01GS_crossing_22
+$iroot/13_bpsm_models_ECAD_MCAD/   064D_D755542_PCB_No_Tef_Bryan_side_crossing
+$iroot/13_bpsm_models_ECAD_MCAD/   065D_D533272_HDMI_Bryan_side_crossing
+
+###Total QM models:  30
+#total_models:  30
+$iroot/13_bpsm_models_ECAD_MCAD/   101_shakush6_E02_I04_sim_FullEVBwSMA_Asy
+$iroot/13_bpsm_models_ECAD_MCAD/   102_shakush6_E02_I05_sim_FullEVB_FullEM_Asy
+$iroot/13_bpsm_models_ECAD_MCAD/   103_AD8006_M31_A22_MS_bondwire
+$iroot/13_bpsm_models_ECAD_MCAD/   104_QM7717801111QQN1J_EMTOP
+$iroot/13_bpsm_models_ECAD_MCAD/   105_QM71018_LAM_e1p5_r01_v03_7pass_PhiPlus_fixed
+$iroot/13_bpsm_models_ECAD_MCAD/   106_QM77178_MUX_MHB_R01_S11_L00_E01f
+$iroot/13_bpsm_models_ECAD_MCAD/   107_QM77178_MUX_MHB_R01_S11_L00_E01f_modified
+$iroot/13_bpsm_models_ECAD_MCAD/   108_D823194_Shakush6_E02_EM_AlNfixed_FullEVBsim_asy
+
+$iroot/13_bpsm_models_ECAD_MCAD/   109_B1B3_Quadplexer_hfss
+$iroot/13_bpsm_models_ECAD_MCAD/   110_B1B3_Quadplexer_ecad
+$iroot/13_bpsm_models_ECAD_MCAD/   111_B1B3B7_Hex_hfss
+$iroot/13_bpsm_models_ECAD_MCAD/   112_B1B3B7_Hex_ecad
+$iroot/13_bpsm_models_ECAD_MCAD/   113_GS21_fixed_hfss
+$iroot/13_bpsm_models_ECAD_MCAD/   114_GS21_fixed_ecad
+$iroot/13_bpsm_models_ECAD_MCAD/   115_QM76022_Mudar_fix3_hfss
+$iroot/13_bpsm_models_ECAD_MCAD/   116_QM76022_Mudar_fix3_ecad
+$iroot/13_bpsm_models_ECAD_MCAD/   117_QM76046_SingleSpad_hfss
+$iroot/13_bpsm_models_ECAD_MCAD/   118_QM76046_SingleSpad_ecad
+$iroot/13_bpsm_models_ECAD_MCAD/   119_QM77038_0481_hfss
+$iroot/13_bpsm_models_ECAD_MCAD/   120_QM77038_0481_ecad
+$iroot/13_bpsm_models_ECAD_MCAD/   121_QPF7551_0081_LayoutAlign_hfss
+$iroot/13_bpsm_models_ECAD_MCAD/   122_QPF7551_0081_LayoutAlign_ecad
+$iroot/13_bpsm_models_ECAD_MCAD/   123_RDL_A3dcomp_hfss
+$iroot/13_bpsm_models_ECAD_MCAD/   124_RDL_A3dcomp_ecad
+$iroot/13_bpsm_models_ECAD_MCAD/   125_UHB_hfss
+$iroot/13_bpsm_models_ECAD_MCAD/   126_UHB_ecad
+$iroot/13_bpsm_models_ECAD_MCAD/   127_UHB_FromQorvo_hfss
+$iroot/13_bpsm_models_ECAD_MCAD/   128_UHB_FromQorvo_ecad
+$iroot/13_bpsm_models_ECAD_MCAD/   129_WiFi_Die_on_Laminate_hfss
+$iroot/13_bpsm_models_ECAD_MCAD/   130_WiFi_Die_on_Laminate_ecad
+

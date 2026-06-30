@@ -1,0 +1,99 @@
+
+
+#total_models:        77
+$iroot/23_stride/   999_TSMC_test_nick
+
+$iroot/23_stride/   001_CCI_DB
+$iroot/23_stride/   002_CCI_DB.NMOS_POW_8_MDW_24_POMDS_11_IO_SVT
+$iroot/23_stride/   003_ICV_DB.momcap_rtm005
+$iroot/23_stride/   004_CCI_DB
+$iroot/23_stride/   005_CCI_DB.NMOS_POW_8_MDW_24_POMDS_11_IO_SVT
+$iroot/23_stride/   006_ICV_DB.momcap_rtm005
+$iroot/23_stride/   007_CCI_DB
+$iroot/23_stride/   008_CCI_DB.NMOS_POW_8_MDW_24_POMDS_11_IO_SVT
+$iroot/23_stride/   009_ICV_DB.momcap_rtm005
+$iroot/23_stride/   010_CCI_DB
+$iroot/23_stride/   011_CCI_DB.NMOS_POW_8_MDW_24_POMDS_11_IO_SVT
+$iroot/23_stride/   012_ICV_DB.momcap_rtm005
+$iroot/23_stride/   013_CCI_DB
+$iroot/23_stride/   014_CCI_DB.NMOS_POW_8_MDW_24_POMDS_11_IO_SVT
+$iroot/23_stride/   015_ICV_DB.momcap_rtm005
+$iroot/23_stride/   016_ICV_DB.momcap_rtm005
+$iroot/23_stride/   017_ICV_DB.momcap_rtm005
+$iroot/23_stride/   018_ICV_DB.momcap_rtm005
+$iroot/23_stride/   019_ICV_DB.momcap_rtm005
+$iroot/23_stride/   020_ICV_DB.momcap_rtm005
+$iroot/23_stride/   021_ICV_DB.momcap_rtm005
+$iroot/23_stride/   022_ICV_DB_0128_ALL_geometry.momcap_rtm005log
+$iroot/23_stride/   023_ICV_DB_0128_dielectrics_only.momcap_rtm005
+$iroot/23_stride/   024_ICV_DB_0128_signal_layers_only.momcap_rtm005
+$iroot/23_stride/   025_ICV_DB_0128_diel_no_diel_extents.momcap_rtm005
+$iroot/23_stride/   026_ICV_DB_0128_signal_and_diel_extents.momcap_rtm005
+$iroot/23_stride/   027_ICV_DB_0130_ALL_geometry.momcap_rtm005
+$iroot/23_stride/   028_ICV_DB_0130_diel__no_diel_extents.momcap_rtm005
+$iroot/23_stride/   029_ICV_DB_0130_dielectrics_only.momcap_rtm005
+$iroot/23_stride/   030_ICV_DB_0130_signal_and_diel_extents.momcap_rtm005
+$iroot/23_stride/   031_ICV_DB_0130_signal_layers_only.momcap_rtm005
+$iroot/23_stride/   032_0305_all_geometry_CCI_DB.MR_SYM_01s
+$iroot/23_stride/   033_0305_al_geometry_CCI_DB.M2RA_SYM_02s
+$iroot/23_stride/   034_0305_all_geometry_CCI_DB.MR_SYM_03s
+$iroot/23_stride/   035_0305_all_geometry_CCI_DB.MR_SYM_04s
+$iroot/23_stride/   036_0305_diel_no_diel_CCI_DB.MR_SYM_01s
+$iroot/23_stride/   037_0305_diel_no_diel_CCI_DB.M2RA_SYM_02s
+$iroot/23_stride/   038_0305_diel_no_diel CCI_DB.MR_SYM_03s
+$iroot/23_stride/   039_0305_diel_no_diel_CCI_DB.MR_SYM_04s
+$iroot/23_stride/   040_0305_dielectrics_only_CCI_DB.MR_SYM_01s
+$iroot/23_stride/   041_0305_dielectrics_only_CCI_DB.M2RA_SYM_02s
+$iroot/23_stride/   042_0305_dielectrics_only_CCI_DB.MR_SYM_03s
+$iroot/23_stride/   043_0305_dielectrics_only_CCI_DB.MR_SYM_04s
+$iroot/23_stride/   044_0305_signal_and_diel_extents_CCI_DB.MR_SYM_01s
+$iroot/23_stride/   045_0305_signal_and_diel_extents_CCI_DB.M2RA_SYM_02s
+$iroot/23_stride/   046_0305_signal_and_diel_extents_CCI_DB.MR_SYM_03s
+$iroot/23_stride/   047_0305_signal_and_diel_extents_CCI_DB.MR_SYM_04s
+$iroot/23_stride/   048_0305_signal_layers_only_CCI_DB.MR_SYM_01s
+$iroot/23_stride/   049_0305_signal_layers_only_CCI_DB.M2RA_SYM_02s
+$iroot/23_stride/   050_0305_signal_layers_only_CCI_DB.MR_SYM_03s
+$iroot/23_stride/   051_0305_signal_layers_only_CCI_DB.MR_SYM_04s
+$iroot/23_stride/   052_0309_all_geometry_CCI_DB.MR_SYM_01s
+$iroot/23_stride/   053_0309_all_geometry_CCI_DB.M2RA_SYM_02s
+$iroot/23_stride/   054_0309_all_geometry_CCI_DB.MR_SYM_03s
+$iroot/23_stride/   055_0309_all_geometry_CCI_DB.MR_SYM_04s
+$iroot/23_stride/   056_0309_diel__no_diel_extents_CCI_DB.MR_SYM_01s
+$iroot/23_stride/   057_0309_diel__no_diel_extents_CCI_DB.M2RA_SYM_02s
+$iroot/23_stride/   058_0309_diel__no_diel_extents_CCI_DB.MR_SYM_03s
+$iroot/23_stride/   059_0309_diel__no_diel_extents_CCI_DB.MR_SYM_04s
+$iroot/23_stride/   060_0309_dielectrics_only_CCI_DB.MR_SYM_01s
+$iroot/23_stride/   061_0309_dielectrics_only_CCI_DB.M2RA_SYM_02s
+$iroot/23_stride/   062_0309_dielectrics_only_CCI_DB.MR_SYM_03s
+$iroot/23_stride/   063_0309_dielectrics_only_CCI_DB.MR_SYM_04s
+$iroot/23_stride/   064_0309_signal_and_diel_extents_CCI_DB.MR_SYM_01s
+$iroot/23_stride/   065_0309_signal_and_diel_extents_CCI_DB.M2RA_SYM_02s
+$iroot/23_stride/   066_0309_signal_and_diel_extents_CCI_DB.MR_SYM_03s
+$iroot/23_stride/   067_0309_signal_and_diel_extents_CCI_DB.MR_SYM_04s
+$iroot/23_stride/   068_0309_signal_layers_only_CCI_DB.MR_SYM_01s
+$iroot/23_stride/   069_0309_signal_layers_only_CCI_DB.M2RA_SYM_02s
+$iroot/23_stride/   070_0309_signal_layers_only_CCI_DB.MR_SYM_03s
+$iroot/23_stride/   071_0309_signal_layers_only_CCI_DB.MR_SYM_04s
+
+#total_models:        17
+
+$iroot/23_stride/072_0319_CCI_DB_RG08_004/   072_0319_CCI_DB_RG08_004_cutout_0
+$iroot/23_stride/072_0319_CCI_DB_RG08_004/   072_0319_CCI_DB_RG08_004_cutout_1
+$iroot/23_stride/072_0319_CCI_DB_RG08_004/   072_0319_CCI_DB_RG08_004_cutout_10
+$iroot/23_stride/072_0319_CCI_DB_RG08_004/   072_0319_CCI_DB_RG08_004_cutout_11
+$iroot/23_stride/072_0319_CCI_DB_RG08_004/   072_0319_CCI_DB_RG08_004_cutout_12
+$iroot/23_stride/072_0319_CCI_DB_RG08_004/   072_0319_CCI_DB_RG08_004_cutout_13
+$iroot/23_stride/072_0319_CCI_DB_RG08_004/   072_0319_CCI_DB_RG08_004_cutout_14
+$iroot/23_stride/072_0319_CCI_DB_RG08_004/   072_0319_CCI_DB_RG08_004_cutout_15
+$iroot/23_stride/072_0319_CCI_DB_RG08_004/   072_0319_CCI_DB_RG08_004_cutout_2
+$iroot/23_stride/072_0319_CCI_DB_RG08_004/   072_0319_CCI_DB_RG08_004_cutout_3
+$iroot/23_stride/072_0319_CCI_DB_RG08_004/   072_0319_CCI_DB_RG08_004_cutout_4
+$iroot/23_stride/072_0319_CCI_DB_RG08_004/   072_0319_CCI_DB_RG08_004_cutout_5
+$iroot/23_stride/072_0319_CCI_DB_RG08_004/   072_0319_CCI_DB_RG08_004_cutout_6
+$iroot/23_stride/072_0319_CCI_DB_RG08_004/   072_0319_CCI_DB_RG08_004_cutout_7
+$iroot/23_stride/072_0319_CCI_DB_RG08_004/   072_0319_CCI_DB_RG08_004_cutout_8
+$iroot/23_stride/072_0319_CCI_DB_RG08_004/   072_0319_CCI_DB_RG08_004_cutout_9
+$iroot/23_stride/072_0319_CCI_DB_RG08_004/   072_0319_CCI_DB_RG08_004_full
+
+
+

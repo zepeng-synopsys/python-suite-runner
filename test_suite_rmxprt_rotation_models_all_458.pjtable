@@ -1,0 +1,477 @@
+#number of models: 76
+$iroot/10RMXprt_models_examples_v2023/            3hp                                                                   
+$iroot/10RMXprt_models_examples_v2023/            ac120_i                                                               
+$iroot/10RMXprt_models_examples_v2023/            assm_1                                                                
+$iroot/10RMXprt_models_examples_v2023/            assm_2                                                                
+$iroot/10RMXprt_models_examples_v2023/            assm_3                                                                
+$iroot/10RMXprt_models_examples_v2023/            assm_4                                                                
+$iroot/10RMXprt_models_examples_v2023/            ASSM_4p50Hz550W                                                       
+$iroot/10RMXprt_models_examples_v2023/            assm_5                                                                
+$iroot/10RMXprt_models_examples_v2023/            assm_6                                                                
+$iroot/10RMXprt_models_examples_v2023/            bjs10_61                                                              
+$iroot/10RMXprt_models_examples_v2023/            bjs7_6_1                                                              
+$iroot/10RMXprt_models_examples_v2023/            Bjs7_mot                                                              
+$iroot/10RMXprt_models_examples_v2023/            BLDC_4p1500rpm550W                                                    
+$iroot/10RMXprt_models_examples_v2023/            bsm                                                                   
+$iroot/10RMXprt_models_examples_v2023/            cpsg_1                                                                
+$iroot/10RMXprt_models_examples_v2023/            CPSG_4p50Hz550VA                                                      
+$iroot/10RMXprt_models_examples_v2023/            DCM_4p1100rpm500kW                                                    
+$iroot/10RMXprt_models_examples_v2023/            DCM_4p3000rpm500kW                                                    
+$iroot/10RMXprt_models_examples_v2023/            dfig_1                                                                
+$iroot/10RMXprt_models_examples_v2023/            dfig_2                                                                
+$iroot/10RMXprt_models_examples_v2023/            g2_5                                                                  
+$iroot/10RMXprt_models_examples_v2023/            ipm_1                                                                 
+$iroot/10RMXprt_models_examples_v2023/            ipm_2                                                                 
+$iroot/10RMXprt_models_examples_v2023/            ipm_3                                                                 
+$iroot/10RMXprt_models_examples_v2023/            ipm_5                                                                 
+$iroot/10RMXprt_models_examples_v2023/            ipm_6                                                                 
+$iroot/10RMXprt_models_examples_v2023/            ipm_HysRotor                                                          
+$iroot/10RMXprt_models_examples_v2023/            ipm_SolidRotor                                                        
+$iroot/10RMXprt_models_examples_v2023/            LSSM_4p50Hz550W                                                       
+$iroot/10RMXprt_models_examples_v2023/            nssm_1                                                                
+$iroot/10RMXprt_models_examples_v2023/            NSSM_2p3000rpm125MVA                                                  
+$iroot/10RMXprt_models_examples_v2023/            pmsg_1                                                                
+$iroot/10RMXprt_models_examples_v2023/            PMSG_4p50Hz550W                                                       
+$iroot/10RMXprt_models_examples_v2023/            SalientPoleRotor                                                      
+$iroot/10RMXprt_models_examples_v2023/            SalientPoleStator                                                     
+$iroot/10RMXprt_models_examples_v2023/            sm_1                                                                  
+$iroot/10RMXprt_models_examples_v2023/            sm_2                                                                  
+$iroot/10RMXprt_models_examples_v2023/            sm_3                                                                  
+$iroot/10RMXprt_models_examples_v2023/            sm_4                                                                  
+$iroot/10RMXprt_models_examples_v2023/            sm_5                                                                  
+$iroot/10RMXprt_models_examples_v2023/            sm_6                                                                  
+$iroot/10RMXprt_models_examples_v2023/            sm_7                                                                  
+$iroot/10RMXprt_models_examples_v2023/            sm_8                                                                  
+$iroot/10RMXprt_models_examples_v2023/            srm_1                                                                 
+$iroot/10RMXprt_models_examples_v2023/            SRM_8_6p1500rpm550W                                                   
+$iroot/10RMXprt_models_examples_v2023/            stndj_1                                                               
+$iroot/10RMXprt_models_examples_v2023/            SynM3_6p50Hz538kW                                                     
+$iroot/10RMXprt_models_examples_v2023/            tsyde_22                                                              
+$iroot/10RMXprt_models_examples_v2023/            UniM_2p12500rpm100W                                                   
+$iroot/10RMXprt_models_examples_v2023/            ws_1                                                                  
+$iroot/10RMXprt_models_examples_v2023/            ws_2                                                                  
+$iroot/10RMXprt_models_examples_v2023/            ws_3                                                                  
+$iroot/10RMXprt_models_examples_v2023/            ws_4                                                                  
+$iroot/10RMXprt_models_examples_v2023/            ws_5                                                                  
+$iroot/10RMXprt_models_examples_v2023/            ws_6                                                                  
+$iroot/10RMXprt_models_examples_v2023/            ylew_95                                                               
+$iroot/10RMXprt_models_examples_v2023/            yz200_24                                                              
+$iroot/10RMXprt_models_examples_v2023/            yz200_6                                                               
+$iroot/10RMXprt_models_examples_v2023/            yzd132_4                                                              
+$iroot/10RMXprt_models_examples_v2023/            yzd132_4G                                                             
+$iroot/10RMXprt_models_examples_v2023/            yzd132_8                                                              
+$iroot/10RMXprt_models_examples_v2023/            zf_500                                                                
+$iroot/10RMXprt_models_examples_v2023/            z_500                                                                 
+$iroot/10RMXprt_models_examples_v2023/            AssymetricWinding                                                     
+$iroot/10RMXprt_models_examples_v2023/            IndM1_2p60Hz3hp                                                       
+$iroot/10RMXprt_models_examples_v2023/            IndM3_6p50Hz11kW                                                      
+$iroot/10RMXprt_models_examples_v2023/            InnerRotor                                                            
+$iroot/10RMXprt_models_examples_v2023/            OuterRotor                                                            
+$iroot/10RMXprt_models_examples_v2023/            PMDC_2p2400rpm75W                                                     
+$iroot/10RMXprt_models_examples_v2023/            QuickStart_bldc                                                       
+$iroot/10RMXprt_models_examples_v2023/            QuickStart_manual                                                     
+$iroot/10RMXprt_models_examples_v2023/            StepMotor_Design1_Hybrid                                              
+$iroot/10RMXprt_models_examples_v2023/            StepMotor_Design2_VR                                                  
+$iroot/10RMXprt_models_examples_v2023/            StepMotor_Design3_SRM                                                 
+$iroot/10RMXprt_models_examples_v2023/            StepMotor_Design4_OutRot                                              
+$iroot/10RMXprt_models_examples_v2023/            SynRRotor                                                             
+
+
+#total_models:  121
+
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0002_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0003_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0004_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0005_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0006_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0007_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0008_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0009_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0010_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0011_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0012_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0013_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0014_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0015_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0017_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0018_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0019_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0020_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0021_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0022_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0023_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0025_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0026_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0027_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0028_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0029_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0030_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0031_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0032_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0033_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0034_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0035_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0036_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0037_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0038_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0039_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0040_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0041_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0042_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0043_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0044_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0045_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0046_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0050_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_0052_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_EmbeddedBreadloaf0001_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_EmbeddedBreadloaf0002_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_EmbeddedBreadloaf0003_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_EmbeddedBreadloaf0004_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_EmbeddedBreadloaf0005_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_EmbeddedBreadloaf0006_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_EmbeddedBreadloaf0007_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_EmbeddedBreadloaf0008_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_EmbeddedParallel0001_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_EmbeddedParallel0002_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_EmbeddedParallel0003_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_EmbeddedParallel0004_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_EmbeddedParallel0005_Maxwell_3D
+###$iroot/10MotorCAD_new/BPM/   BPM_UDP_EmbeddedParallel0006_Maxwell_3D
+###$iroot/10MotorCAD_new/BPM/   BPM_UDP_EmbeddedParallel0007_Maxwell_3D
+###$iroot/10MotorCAD_new/BPM/   BPM_UDP_EmbeddedParallel0008_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_EmbeddedRadial0001_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_EmbeddedRadial0002_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_EmbeddedRadial0003_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_EmbeddedRadial0004_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_EmbeddedRadial0005_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_EmbeddedRadial0006_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_EmbeddedRadial0007_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_EmbeddedRadial0008_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_EmbeddedRadial0009_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_InsetBreadloaf0001_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_InsetBreadloaf0002_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_InsetBreadloaf0003_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_InsetBreadloaf0004_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_InsetBreadloaf0005_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_InsetBreadloaf0006_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_InsetBreadloaf0007_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_InsetBreadloaf0008_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_InsetBreadloaf0009_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_InsetBreadloaf0010_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_InsetParallel0001_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_InsetParallel0002_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_InsetParallel0004_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_InsetParallel0005_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_InsetParallel0006_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_InsetParallel0007_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_InsetParallel0008_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_InsetRadial0001_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_InsetRadial0002_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_InsetRadial0003_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_InsetRadial0004_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_InsetRadial0005_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_InsetRadial0006_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_InsetRadial0007_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_SurfaceBreadloaf0001_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_SurfaceBreadloaf0002_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_SurfaceBreadloaf0003_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_SurfaceBreadloaf0004_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_SurfaceBreadloaf0005_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_SurfaceBreadloaf0007_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_SurfaceBreadloaf0008_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_SurfaceBreadloaf0009_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_SurfaceBreadloaf0011_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_SurfaceBreadloaf0012_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_VSimple0001_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_VSimple0002_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_VSimple0003_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_VSimple0004_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_VSimple0005_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_VSimple0006_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_VSimple0007_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_VSimple0009_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_VWeb0001_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_VWeb0002_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_VWeb0003_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_VWeb0004_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_VWeb0005_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_VWeb0006_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_VWeb0008_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_VWeb0009_Maxwell_3D
+$iroot/10MotorCAD_new/BPM/   BPM_UDP_VWeb0011_Maxwell_3D
+
+
+#total_models:  81
+
+$iroot/10MotorCAD_new/IM/   IM_UDP_0001_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0002_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0004_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0005_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0006_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0007_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0008_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0009_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0010_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0011_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0012_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0013_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0014_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0015_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0016_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0018_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0019_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0020_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0021_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0022_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0023_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0024_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0025_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0026_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0027_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0028_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0029_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0030_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0031_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0032_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0033_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0034_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0035_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0037_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0038_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0039_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0040_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0041_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0042_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0043_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0045_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0046_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0047_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0048_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0049_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0050_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0051_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0052_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0053_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0054_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0055_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0056_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0057_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0058_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0059_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0060_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0061_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0062_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0063_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0065_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0066_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0067_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0068_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0069_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0070_Maxwell_3D
+####$iroot/10MotorCAD_new/IM/   IM_UDP_0071_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0072_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0073_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0074_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0077_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0078_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0080_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0081_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0084_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0085_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0086_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0087_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0088_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0089_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0090_Maxwell_3D
+$iroot/10MotorCAD_new/IM/   IM_UDP_0091_Maxwell_3D
+
+
+#total_models:  22
+
+$iroot/10MotorCAD_new/Template/   TEMPLATE_a1_Maxwell_3D
+$iroot/10MotorCAD_new/Template/   TEMPLATE_a3_Maxwell_3D
+###$iroot/10MotorCAD_new/Template/   TEMPLATE_e1_Maxwell_3D
+###$iroot/10MotorCAD_new/Template/   TEMPLATE_e2_Maxwell_3D
+$iroot/10MotorCAD_new/Template/   TEMPLATE_e3_Maxwell_3D
+$iroot/10MotorCAD_new/Template/   TEMPLATE_e4a_Maxwell_3D
+$iroot/10MotorCAD_new/Template/   TEMPLATE_e4_Maxwell_3D
+$iroot/10MotorCAD_new/Template/   TEMPLATE_e5_Maxwell_3D
+$iroot/10MotorCAD_new/Template/   TEMPLATE_e6_Maxwell_3D
+$iroot/10MotorCAD_new/Template/   TEMPLATE_e7_Maxwell_3D
+###$iroot/10MotorCAD_new/Template/   TEMPLATE_e8_Maxwell_3D
+$iroot/10MotorCAD_new/Template/   TEMPLATE_e9_Maxwell_3D
+$iroot/10MotorCAD_new/Template/   TEMPLATE_i1_Maxwell_3D
+$iroot/10MotorCAD_new/Template/   TEMPLATE_i2_Maxwell_3D
+$iroot/10MotorCAD_new/Template/   TEMPLATE_i3_Maxwell_3D
+$iroot/10MotorCAD_new/Template/   TEMPLATE_i4_Maxwell_3D
+$iroot/10MotorCAD_new/Template/   TEMPLATE_i5_Maxwell_3D
+$iroot/10MotorCAD_new/Template/   TEMPLATE_i6a_Maxwell_3D
+$iroot/10MotorCAD_new/Template/   TEMPLATE_i6b_Maxwell_3D
+$iroot/10MotorCAD_new/Template/   TEMPLATE_i8_Maxwell_3D
+$iroot/10MotorCAD_new/Template/   TEMPLATE_i9_Maxwell_3D
+$iroot/10MotorCAD_new/Template/   TEMPLATE_r1_Maxwell_3D
+
+ 
+#total_84_models_in_the_list
+
+$iroot/10RMXprt_full_model_partial_mesh/     3hp_frac2
+$iroot/10RMXprt_full_model_partial_mesh/     ac120_i_frac2
+$iroot/10RMXprt_full_model_partial_mesh/     assm_1_frac4
+$iroot/10RMXprt_full_model_partial_mesh/     assm_2_frac4
+$iroot/10RMXprt_full_model_partial_mesh/     assm_3_frac4
+$iroot/10RMXprt_full_model_partial_mesh/     assm_4_frac4
+$iroot/10RMXprt_full_model_partial_mesh/     assm_5_frac4
+$iroot/10RMXprt_full_model_partial_mesh/     assm_6_frac4
+$iroot/10RMXprt_full_model_partial_mesh/     ASSM_frac4
+$iroot/10RMXprt_full_model_partial_mesh/     AssymetricWinding_frac2
+$iroot/10RMXprt_full_model_partial_mesh/     bjs10_61_frac6
+$iroot/10RMXprt_full_model_partial_mesh/     bjs7_6_1_frac6
+$iroot/10RMXprt_full_model_partial_mesh/     Bjs7_frac6
+$iroot/10RMXprt_full_model_partial_mesh/     BLDC_4p1500rpm550W_frac4
+$iroot/10RMXprt_full_model_partial_mesh/     bsm_frac2
+$iroot/10RMXprt_full_model_partial_mesh/     CageRotor_frac4
+$iroot/10RMXprt_full_model_partial_mesh/     cpsg_1_frac2
+$iroot/10RMXprt_full_model_partial_mesh/     CPSG_4p50Hz550VA_frac2
+$iroot/10RMXprt_full_model_partial_mesh/     DCM_4p3000rpm500kW_frac2
+$iroot/10RMXprt_full_model_partial_mesh/     DCM_frac2
+$iroot/10RMXprt_full_model_partial_mesh/     dfig_1_frac6
+$iroot/10RMXprt_full_model_partial_mesh/     dfig_2_frac6
+$iroot/10RMXprt_full_model_partial_mesh/     full10_frac4
+$iroot/10RMXprt_full_model_partial_mesh/     full11_frac2
+$iroot/10RMXprt_full_model_partial_mesh/     full1_frac4
+$iroot/10RMXprt_full_model_partial_mesh/     full2_frac2
+$iroot/10RMXprt_full_model_partial_mesh/     full3_frac4
+$iroot/10RMXprt_full_model_partial_mesh/     full4_frac30
+$iroot/10RMXprt_full_model_partial_mesh/     full5_frac24
+$iroot/10RMXprt_full_model_partial_mesh/     full5_frac6
+$iroot/10RMXprt_full_model_partial_mesh/     full6_inner_frac2
+$iroot/10RMXprt_full_model_partial_mesh/     full6_outer_frac2
+$iroot/10RMXprt_full_model_partial_mesh/     full7_frac10
+$iroot/10RMXprt_full_model_partial_mesh/     full8_frac8
+$iroot/10RMXprt_full_model_partial_mesh/     g2_5_frac4
+$iroot/10RMXprt_full_model_partial_mesh/     IndM1_frac2
+$iroot/10RMXprt_full_model_partial_mesh/     IndM3_frac2
+$iroot/10RMXprt_full_model_partial_mesh/     ipm_1_frac4
+$iroot/10RMXprt_full_model_partial_mesh/     ipm_2_frac4
+$iroot/10RMXprt_full_model_partial_mesh/     ipm_3_frac4
+$iroot/10RMXprt_full_model_partial_mesh/     ipm_5_frac4
+$iroot/10RMXprt_full_model_partial_mesh/     ipm_6_frac4
+$iroot/10RMXprt_full_model_partial_mesh/     ipm_HysRotor_frac12
+$iroot/10RMXprt_full_model_partial_mesh/     ipm_HysRotor_frac24
+$iroot/10RMXprt_full_model_partial_mesh/     ipm_HysRotor_frac6
+$iroot/10RMXprt_full_model_partial_mesh/     ipm_SolidRotor_frac24
+$iroot/10RMXprt_full_model_partial_mesh/     LSSM_4p50Hz550W_frac4
+$iroot/10RMXprt_full_model_partial_mesh/     nssm_1_frac2
+$iroot/10RMXprt_full_model_partial_mesh/     NSSM_2p3000rpm125MVA_frac2
+$iroot/10RMXprt_full_model_partial_mesh/     PMDC_2p2400rpm75W_frac2
+$iroot/10RMXprt_full_model_partial_mesh/     pmsg_1_frac4
+$iroot/10RMXprt_full_model_partial_mesh/     PMSG_4p50Hz550W_frac4
+$iroot/10RMXprt_full_model_partial_mesh/     QuickStart_frac4
+$iroot/10RMXprt_full_model_partial_mesh/     SalientPole_frac4
+$iroot/10RMXprt_full_model_partial_mesh/     sm_1_frac4
+$iroot/10RMXprt_full_model_partial_mesh/     sm_2_frac4
+$iroot/10RMXprt_full_model_partial_mesh/     sm_3_frac4
+$iroot/10RMXprt_full_model_partial_mesh/     sm_4_frac4
+$iroot/10RMXprt_full_model_partial_mesh/     sm_5_frac4
+$iroot/10RMXprt_full_model_partial_mesh/     sm_6_frac4
+$iroot/10RMXprt_full_model_partial_mesh/     sm_7_frac4
+$iroot/10RMXprt_full_model_partial_mesh/     sm_8_frac4
+$iroot/10RMXprt_full_model_partial_mesh/     srm_1_frac2
+$iroot/10RMXprt_full_model_partial_mesh/     SRM_frac2
+$iroot/10RMXprt_full_model_partial_mesh/     StepMotor_frac2
+$iroot/10RMXprt_full_model_partial_mesh/     stndj_1_frac2
+$iroot/10RMXprt_full_model_partial_mesh/     SynM3_frac6
+$iroot/10RMXprt_full_model_partial_mesh/     SynRRotor_frac4
+$iroot/10RMXprt_full_model_partial_mesh/     tsyde_22_frac12
+$iroot/10RMXprt_full_model_partial_mesh/     UniM_2p12500rpm100W_frac2
+$iroot/10RMXprt_full_model_partial_mesh/     ws_1_frac4
+$iroot/10RMXprt_full_model_partial_mesh/     ws_2_frac4
+$iroot/10RMXprt_full_model_partial_mesh/     ws_3_frac4
+$iroot/10RMXprt_full_model_partial_mesh/     ws_4_frac4
+$iroot/10RMXprt_full_model_partial_mesh/     ws_5_frac4
+$iroot/10RMXprt_full_model_partial_mesh/     ws_6_frac4
+$iroot/10RMXprt_full_model_partial_mesh/     ylew_frac2
+$iroot/10RMXprt_full_model_partial_mesh/     yz200_24_frac2
+$iroot/10RMXprt_full_model_partial_mesh/     yz200_6_frac2
+$iroot/10RMXprt_full_model_partial_mesh/     yzd132_4G_frac4
+$iroot/10RMXprt_full_model_partial_mesh/     yzd132_4_frac4
+$iroot/10RMXprt_full_model_partial_mesh/     yzd132_8_frac4
+$iroot/10RMXprt_full_model_partial_mesh/     zf_500_frac2
+$iroot/10RMXprt_full_model_partial_mesh/     z_500_frac2
+
+#number of models: 74
+$iroot/10RMXprt_Clone_Models_Customer/            200W_ext_Y_design_1                                                   
+$iroot/10RMXprt_Clone_Models_Customer/            3D_GM_R15_2_Pole_400_Variations_2_800_core_v2014_case1                
+$iroot/10RMXprt_Clone_Models_Customer/            3D_GM_R15_2_Pole_400_Variations_2_800_core_v2014_good_case1           
+$iroot/10RMXprt_Clone_Models_Customer/            3D_PriusMotor                                                         
+$iroot/10RMXprt_Clone_Models_Customer/            assm_-121_to_-31_degree                                               
+$iroot/10RMXprt_Clone_Models_Customer/            assm_149_to_-122_degree                                               
+$iroot/10RMXprt_Clone_Models_Customer/            assm_149_to_-122_degree_no_matching_boundary                          
+$iroot/10RMXprt_Clone_Models_Customer/            assm_angle_neg33_to_pos_56                                            
+$iroot/10RMXprt_Clone_Models_Customer/            assm_angle_neg33_to_pos_56_no_matching_boundary                       
+$iroot/10RMXprt_Clone_Models_Customer/            AssymetricWinding_full_model_simple1                                  
+$iroot/10RMXprt_Clone_Models_Customer/            Botch_full_model_simple_no_winding_non_skew                           
+$iroot/10RMXprt_Clone_Models_Customer/            Botch_full_model_simple_no_winding_skewed_13degree                    
+$iroot/10RMXprt_Clone_Models_Customer/            Botch_full_skewed_simple                                              
+$iroot/10RMXprt_Clone_Models_Customer/            DE93712_R16P4_140916_V2015                                            
+$iroot/10RMXprt_Clone_Models_Customer/            E12A708_1-2_quartermodel_taiwan                                       
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/full1                                                                 
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/full10                                                                
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/full11                                                                
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/full2                                                                 
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/full8                                                                 
+$iroot/10RMXprt_Clone_Models_Customer/            Nissan_Leaf_tutorialfile_3D_full_model_Marius_Rosu                    
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/partial10                                                             
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/partial12                                                             
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/partial13                                                             
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/partial18                                                             
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/partial19                                                             
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/partial1_inner                                                        
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/partial20                                                             
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/partial21                                                             
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/partial24                                                             
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/partial25                                                             
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/partial27                                                             
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/partial28                                                             
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/partial29                                                             
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/partial3                                                              
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/partial30                                                             
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/partial8                                                              
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/partial9                                                              
+$iroot/10RMXprt_Clone_Models_Customer/            Prius_clone_mesh_failed_Olivier                                       
+$iroot/10RMXprt_Clone_Models_Customer/            Prius_clone_mesh_failed_with_true_surface_Olivier                     
+$iroot/10RMXprt_Clone_Models_Customer/            SOMFY_Confidential_clone_mesh_test_Olivier                            
+$iroot/10RMXprt_Clone_Models_Customer/            SOMFY_Confidential_clone_mesh_test_one_static_Olivier                 
+$iroot/10RMXprt_Clone_Models_Customer/            TESLA_Confidential_clone_mesh_test_Olivier                            
+$iroot/10RMXprt_Clone_Models_Customer/            Test_home_made_failed_induction_full_failed_Olivier                   
+$iroot/10RMXprt_Clone_Models_Customer/            Test_home_made_failed_induction_half_failed_Olivier                   
+$iroot/10RMXprt_Clone_Models_Customer/            Test_home_made_failed_IPM_full_failed_Olivier                         
+$iroot/10RMXprt_Clone_Models_Customer/            Test_home_made_failed_IPM_half_failed_Olivier                         
+$iroot/10RMXprt_Clone_Models_Customer/            tsyde_22_ful_model                                                    
+$iroot/10RMXprt_Clone_Models_Customer/            tsyde_22_ful_model_simple1                                            
+$iroot/10RMXprt_Clone_Models_Customer/            3D_GM_R15_Emad_03_26_2014                                             
+$iroot/10RMXprt_Clone_Models_Customer/            AssymetricWinding_full_model                                          
+$iroot/10RMXprt_Clone_Models_Customer/            Botch_32mm_modified_V2017                                             
+$iroot/10RMXprt_Clone_Models_Customer/            Botch_full_model_simple_no_winding_skewed_15degree                    
+$iroot/10RMXprt_Clone_Models_Customer/            Botch_full_model_simple_no_winding_skewed_25degree                    
+$iroot/10RMXprt_Clone_Models_Customer/            Botch_full_model_simple_no_winding_skewed_35degree                    
+$iroot/10RMXprt_Clone_Models_Customer/            Botch_full_model_simple_no_winding_skewed_45degree                    
+$iroot/10RMXprt_Clone_Models_Customer/            Botch_full_skewed_fixed3_2017_07_25                                   
+$iroot/10RMXprt_Clone_Models_Customer/            Claw17Trans4_HALF_2                                                   
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/full3                                                                 
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/full4                                                                 
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/full5                                                                 
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/full6_inner                                                           
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/full6_outer                                                           
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/full7                                                                 
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/partial14                                                             
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/partial15                                                             
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/partial16                                                             
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/partial1_outer                                                        
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/partial22                                                             
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/partial23_statoronly                                                  
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/partial26                                                             
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/partial4                                                              
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/partial5                                                              
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/partial7                                                              

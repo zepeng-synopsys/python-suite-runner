@@ -1,0 +1,46 @@
+
+kw prog e:/64_executable/mdm_mesher.exe
+#kw prog e:/64_executable/G3dMesher.exe
+kw iroot d:/test_suite_mdm_mesher_only/defect_model
+kw scrroot d:/test_suite_mdm_mesher_only/defect_model/matching_boundary_test
+kw jobtable d:/test_suite_mdm_mesher_only/test3.pjtable
+
+kw output d:/test_suite_mdm_mesher_only/defect_model/matching_boundary_test/test_R180_11_15_pullpoints
+
+kw threads 1
+kw timeout 10:00:00
+
+#env   MDM_USE_OLD_FACETER=1
+#env   mdm_mesh_coarsening_target_cell_number=1
+#env   NUM_PROCESSES_4_TAU_MESHER=24
+#env   MDM_WRITE_OUT_WYMODEL=1
+#env   MDM_RUN_WYMODEL=1
+env    DoNotFallBack=1
+#env   ModelMeshRefinements=11.25 0.001 2
+#env   MDM_TEST_NEXTGEN_MESH=1
+env    DontPullPointsToTrueSurfaceaa=1
+
+#env UseAnsoftClassicMesher=1
+#env DontUsePhiMesher=1
+#env IgnoreObliqueBodies=1
+#env VerifySurfTriAssignments=1
+#env SaveErrorsUnderConstruction=1
+#env XSR_SaveG3dFile=1
+#env PreserveFaceIds=1
+env DoNotEchoStderr=1
+env SupressStdErr=1
+
+env G3D_GEOMPROC=1
+
+env ForgiveMissingFaceIds=1
+#env ForceSurfMesh=1
+#env ModelMeshRefinements=11.25 0.001 2
+#env RefernceMeshRepository=$refoutput
+env SaveMeshDataRepository="./"
+env ANSOFT_DEBUG_MODE=2
+env ANSOFT_DEBUG_LOG=debug.runlog
+env ANSOFT_DEBUG_MODE=2
+env ForgiveDuplicateIds=1
+
+
+

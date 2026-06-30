@@ -1,0 +1,56 @@
+
+kw prog       e:/64_executable/mdm_mesher.exe
+kw scrroot    d:/test_suite_mdm_mesher_only
+kw iroot      d:/meshgen_qa/python_suite
+
+kw output     d:/test_suite_mdm_mesher_only/test_results/ravi_mcad_models/2020_03_02_2020R2_final
+kw refoutput  d:/test_suite_mdm_mesher_only/test_results/ravi_mcad_models/2018_09_24_R193_final
+kw jobtable   d:/meshgen_qa/python_suite/jt_current_mcad_all.pjtable
+#kw jobtable  d:/test_suite_mdm_mesher_only/test_suite_ravi_mcad_tau_failed_models.pjtable
+
+kw threads 8
+kw timeout 5:00:00
+
+#env  MDM_WRITE_OUT_WYMODEL=1
+#env  MDM_RUN_WYMODEL=1
+env   MDM_RUN_PARASOLIDaa=1
+env   TAU_TOLERANT_MESH_LEVELaa=3
+env   TAU_USE_TAU_PLUSaa=1
+
+#1-auto 2-legacy 3-PhiPlus  4-TAU Wrapper
+env   TAU_MESHER_CHOICE_FLAGaa=2
+env  USE_TAU_PORT_MESHERaa=1
+env  TAU_SET_STOP_FLAGaa=1
+env   TAU_ForceFallBack=1
+env  TAU_DO_MESH_COMPAREaa=1
+env  TAU_work_mesh_folder=d:\test_suite_mdm_mesher_only\test_results\middle_hard_models\2020_03_01_2020R2_final
+env   TAU_ref_mesh_folder=d:\test_suite_mdm_mesher_only\test_results\middle_hard_models\2019_10_21_R196_final
+
+env   NUM_PROCESSES_4_TAU_MESHER=12
+env   TAU_PROFILE_MESHING_TIME=1
+#env  MDM_USE_OLD_FACETER=1
+env   TAU_VERIFY_BVM_OUTPUTaa=1
+env   DoNotFallBack=1
+env   TAUReferenceOutput=$refoutput
+env   RefernceMeshRepository=$refoutput
+#env  UseAnsoftClassicMesher=1
+env   DoNotFallBack=1
+#env  DontUsePhiMesher=1
+#env  IgnoreObliqueBodies=1
+#env  VerifySurfTriAssignments=1
+#env  SaveErrorsUnderConstruction=1
+#env  XSR_SaveG3dFile=1
+#env  PreserveFaceIds=1
+env   DoNotEchoStderr=1
+env   SupressStdErr=1
+env   DontPullPointsToTrueSurface=1
+env   G3D_GEOMPROC=1
+env   MDM_REF_COMPARE_FACTOR=0.01
+env   MDM_REF_COMPARE_MESH_SIZE=500
+env   MDM_REF_COMPARE_MESH_TIME=30.
+env   ForgiveMissingFaceIds=1
+#env  ForceSurfMesh=1
+env   SaveMeshDataRepository="./"
+env   ForgiveDuplicateIds=1
+env   ANSOFT_DEBUG_MODE=2
+env   ANSOFT_DEBUG_LOG=debug.runlog

@@ -1,0 +1,55 @@
+#200 models,12cores,TAU Flex: 16threads(00:17:07R196 19-07-31) 12threads(00:28:40R196 19-10-02) 2threads(02:14:02R195 19-06-28)
+#200 models,12cores,TAU:      16threads(00:30:53R196 19-07-31) 12threads(00:36:33R196 19-10-02) 2threads(02:28:32R195 19-05-30)
+
+kw prog      e:/64_executable/mdm_mesher.exe
+kw iroot     e:/meshgen_qa/python_suite
+kw scrroot   d:/test_suite_mdm_mesher_only
+
+kw output    d:/test_suite_mdm_mesher_only/test_results/mcad_all_ravi_suites/2019_10_02_R196_final
+kw refoutput d:/test_suite_mdm_mesher_only/test_results/mcad_all_ravi_suites/2018_09_24_R193_final
+kw jobtable  d:/test_suite_mdm_mesher_only/z_ravi_jt_current_mcad_all.pjtable
+
+kw    threads 6
+kw    timeout 05:00:00
+
+#env  MDM_WRITE_OUT_WYMODEL=1
+#env  MDM_RUN_WYMODEL=1
+env   MDM_RUN_PARASOLIDaa=1
+env   TAU_TOLERANT_MESH_LEVELaa=3
+env   TAU_USE_TAU_PLUSaa=1
+
+#1-auto 2-legacy 3-PhiPlus  4-TAU Wrapper
+env   TAU_MESHER_CHOICE_FLAGaa=2
+env   nbyxfmm=12
+env   TAU_ForceFallBack=1
+env   TAU_PROFILE_MESHING_TIME=1
+
+env   TAU_USE_NEW_GEOM_HANDLERaa=1
+env   TAU_USE_NEXTGEN_NODE_HANDLERaa=1
+env   TAU_AUTOMATED_MESH_OPERATIONSaa=1
+
+#env  MDM_USE_OLD_FACETER=1
+env   DoNotFallBack=1
+env   TAUReferenceOutput=$refoutput
+env   RefernceMeshRepository=$refoutput
+#env  UseAnsoftClassicMesher=1
+env   DoNotFallBack=1
+#env  DontUsePhiMesher=1
+#env  IgnoreObliqueBodies=1
+#env  VerifySurfTriAssignments=1
+#env  SaveErrorsUnderConstruction=1
+#env  XSR_SaveG3dFile=1
+#env  PreserveFaceIds=1
+env   DoNotEchoStderr=1
+env   SupressStdErr=1
+env   DontPullPointsToTrueSurface=1
+env   G3D_GEOMPROC=1
+env   MDM_REF_COMPARE_FACTOR=0.01
+env   MDM_REF_COMPARE_MESH_SIZE=500
+env   MDM_REF_COMPARE_MESH_TIME=30.
+env   ForgiveMissingFaceIds=1
+#env  ForceSurfMesh=1
+env   SaveMeshDataRepository="./"
+env   ForgiveDuplicateIds=1
+env   ANSOFT_DEBUG_MODE=2
+env   ANSOFT_DEBUG_LOG=debug.runlog

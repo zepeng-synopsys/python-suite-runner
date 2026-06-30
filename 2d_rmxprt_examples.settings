@@ -1,0 +1,47 @@
+
+kw prog      e:/64_executable/mdm_mesher.exe
+kw iroot     e:/test_suite
+kw scrroot   d:/test_suite_mdm_mesher_only
+
+kw output    d:/test_suite_mdm_mesher_only/test_results/2d_models/rmxprt_examples/2023_05_04_symmetry_meshing
+kw refoutput d:/test_suite_mdm_mesher_only/test_results/2d_models/rmxprt_examples/2023_03_15_0(wyuan)
+#kw jobtable  d:/test_suite_mdm_mesher_only/test_suite_2d_rmxprt_examples_75.pjtable
+#kw jobtable  d:/test_suite_mdm_mesher_only/test_suite_2d_rmxprt_examples_cogging_torque_59.pjtable
+kw jobtable d:/test_suite_mdm_mesher_only/failed.pjtable
+
+kw threads   24
+kw timeout   01:00:00
+env  MDM_RUN_PARASOLID=1
+env  TAU_2D_CLONE_MESH_TEST=1
+env  TAU_BAND_MAPPING_ANGLEaa=0.001
+env  TAU_CLONE_MESH_TEST=1
+
+env  TAU_SET_STOP_FLAG=3
+env  TAU_DESIRE_MESH_LENGTHaa=2
+env  TAUReferenceOutput=$refoutput
+env  RefernceMeshRepository=$refoutput
+env  DoNotFallBack=1
+#env DontUsePhiMesher=1
+env  ForgiveMissingFaceIds=1
+#env ForceSurfMesh=1
+#env ModelMeshRefinements=11.25 0.001 2
+env  SaveMeshDataRepository="./"
+env  ForgiveDuplicateIds=1
+
+env  MDM_REF_COMPARE_FACTOR=0.01
+env  MDM_REF_COMPARE_MESH_SIZE=100
+env  MDM_REF_COMPARE_MESH_TIME=20.
+#env UseAnsoftClassicMesher=1
+#env IgnoreObliqueBodies=1
+#env VerifySurfTriAssignments=1
+#env SaveErrorsUnderConstruction=1
+#env XSR_SaveG3dFile=1
+#env PreserveFaceIds=1
+env  DoNotEchoStderr=1
+env  SupressStdErr=1
+env  DontPullPointsToTrueSurface=1
+env  G3D_GEOMPROC=1
+env  ANSOFT_DEBUG_MODE=2
+env  ANSOFT_DEBUG_LOG=debug.runlog
+
+

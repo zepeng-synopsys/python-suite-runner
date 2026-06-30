@@ -1,0 +1,24 @@
+#number of models: 23
+$iroot/hfss_middle_hard_models/                   13coil_8turn_spiral                                                   
+$iroot/hfss_middle_hard_models/                   20_1_anslinks                                                         
+$iroot/hfss_middle_hard_models/                   AntConn_BigVias                                                       
+$iroot/hfss_middle_hard_models/                   antconn_bigvias_core6                                                 
+$iroot/hfss_middle_hard_models/                   B1_SAS_RX                                                             
+$iroot/hfss_middle_hard_models/                   Case3_BBrim                                                           
+$iroot/hfss_middle_hard_models/                   case5b_stack                                                          
+$iroot/hfss_middle_hard_models/                   cut26                                                                 
+$iroot/hfss_middle_hard_models/                   DiffPairBGA_36                                                        
+$iroot/hfss_middle_hard_models/                   half_cyl_body                                                         
+$iroot/hfss_middle_hard_models/                   links_package_test_v11                                                
+$iroot/hfss_middle_hard_models/                   match_vertex_fails                                                    
+$iroot/hfss_middle_hard_models/                   MeshAngleHelixSheet                                                   
+$iroot/hfss_middle_hard_models/                   opt7_5                                                                
+$iroot/hfss_middle_hard_models/                   package_only_2cores_no_thick                                          
+$iroot/hfss_middle_hard_models/                   routing_9pairs_264mil_BottomLaunch                                    
+$iroot/hfss_middle_hard_models/                   S12_array                                                             
+$iroot/hfss_middle_hard_models/                   SCRPA33                                                               
+$iroot/hfss_middle_hard_models/                   sept_rnd_9                                                            
+$iroot/hfss_middle_hard_models/                   SheetOctoWheel                                                        
+$iroot/hfss_middle_hard_models/                   slab_v11                                                              
+$iroot/hfss_middle_hard_models/                   SMA_V11_HFSS11                                                        
+$iroot/hfss_middle_hard_models/                   VTRAM_trig2                                                           

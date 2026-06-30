@@ -1,0 +1,25 @@
+﻿# Runtime outputs
+test_results/
+scratch/
+*.testres
+*.debug.runlog
+*.used
+completedjobs.txt
+000results.html
+results.out
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+*.lnk
+Thumbs.db
+
+# Backup files
+*_backup*.py
+
+lib/result_example/
+*.md
+*.ngmesh

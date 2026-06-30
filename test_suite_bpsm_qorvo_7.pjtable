@@ -1,0 +1,10 @@
+#total_models:  7
+
+$iroot/13_bpsm_models_ECAD_MCAD/   101_shakush6_E02_I04_sim_FullEVBwSMA_Asy
+$iroot/13_bpsm_models_ECAD_MCAD/   102_shakush6_E02_I05_sim_FullEVB_FullEM_Asy
+$iroot/13_bpsm_models_ECAD_MCAD/   103_AD8006_M31_A22_MS_bondwire
+$iroot/13_bpsm_models_ECAD_MCAD/   104_QM7717801111QQN1J_EMTOP
+$iroot/13_bpsm_models_ECAD_MCAD/   105_QM71018_LAM_e1p5_r01_v03_7pass_PhiPlus_fixed
+$iroot/13_bpsm_models_ECAD_MCAD/   106_QM77178_MUX_MHB_R01_S11_L00_E01f
+$iroot/13_bpsm_models_ECAD_MCAD/   107_QM77178_MUX_MHB_R01_S11_L00_E01f_modified
+

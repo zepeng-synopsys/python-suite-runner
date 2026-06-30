@@ -1,0 +1,57 @@
+
+kw prog     e:/64_executable/mdm_mesher.exe
+kw iroot    e:/test_suite
+kw scrroot  d:/test_suite_mdm_mesher_only
+
+kw output     d:/test_suite_mdm_mesher_only/test_results/stride_models/2025_12_22_2(tau00)(M14)(Simple)(Solid)(10_2)(80_seconds)
+kw refoutput  d:/test_suite_mdm_mesher_only/test_results/stride_models/2025_12_22_1(tau00)(M14)(Simple)(10_2)(80_seconds)
+#kw jobtable   D:/test_suite_mdm_mesher_only/test_suite_stride_15.pjtable
+kw jobtable   D:/test_suite_mdm_mesher_only/test_suite_stride_simple_10.pjtable
+#kw jobtable  D:/test_suite_mdm_mesher_only/failed.pjtable
+
+kw threads 15
+kw timeout 00:30:00
+
+#1-auto 2-legacy 3-PhiPlus
+env  TAU_MESHER_CHOICE_FLAG=3
+env  TAU_USE_FAST_EDGE_PRESERVE_FLAG=1
+env  TAU_DO_PARALLEL_MESHING=14
+env  TAU_GEOMETRY_FREE_MESHINGaa=1
+env  TAU_DO_DC_Meshingaa=1
+env  TAU_USE_NEW_SOLID_ID=1
+
+#M15(stop=6 for triangles)
+env  TAU_SET_STOP_FLAGaa=6
+env  nbyxfmm=12
+env  TAUReferenceOutput=$refoutput
+env  RefernceMeshRepository=$refoutput
+env  DoNotFallBack=1
+#env DontUsePhiMesher=1
+env  ForgiveMissingFaceIds=1
+#env ForceSurfMesh=1
+#env ModelMeshRefinements=11.25 0.001 2
+env  SaveMeshDataRepository="./"
+env  ForgiveDuplicateIds=1
+
+env  MDM_REF_COMPARE_FACTOR=0.01
+env  MDM_REF_COMPARE_MESH_SIZE=500
+env  MDM_REF_COMPARE_MESH_TIME=10.
+#env UseAnsoftClassicMesher=1
+#env IgnoreObliqueBodies=1
+#env VerifySurfTriAssignments=1
+#env SaveErrorsUnderConstruction=1
+#env XSR_SaveG3dFile=1
+#env PreserveFaceIds=1
+env  DoNotEchoStderr=1
+env  SupressStdErr=1
+env  DontPullPointsToTrueSurface=1
+env  G3D_GEOMPROC=1
+env  ANSOFT_DEBUG_MODE=2
+env  ANSOFT_DEBUG_LOG=debug.runlog
+
+
+
+
+
+
+

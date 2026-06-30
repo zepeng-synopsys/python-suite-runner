@@ -1,0 +1,53 @@
+kw prog       e:/64_executable/mdm_mesher.exe
+kw iroot      e:/test_suite
+kw scrroot    d:/test_suite_mdm_mesher_only
+
+kw output     d:/test_suite_mdm_mesher_only/test_results/hfie_models_all/2023_08_24_R241_final(NEW)(133_remeshed)
+kw refoutput  d:/test_suite_mdm_mesher_only/test_results/hfie_models_all/2023_04_02_R232_final(NEW)(133_remeshed)
+kw jobtable   d:/test_suite_mdm_mesher_only/test_suite_hfie_models_270.pjtable
+#kw jobtable  d:/test_suite_mdm_mesher_only/test2.pjtable
+
+kw threads 16
+kw timeout 01:00:00
+
+#env MDM_WRITE_OUT_WYMODEL=1
+#env MDM_RUN_WYMODEL=1
+env  MDM_RUN_PARASOLID=1
+env  ANSYSEM_USE_ASPECT_RATIO_CYLINDER_CONE=1
+
+env  TAU_REMESH_FLAGaa=2
+env  TAU_TEST_SMESH_FLAG=1
+#1(only test S-mesh) -1(only test B-mesh)
+env  TAU_SET_TEST_PRODUCTaa=1
+#env ModelMeshRefinements=11.25 0.001 2
+env  nbyxfmm=12
+env  TAU_ACTIVE_ASPECT_RATIOaa=1
+#env UseAnsoftClassicMesher=1
+#env DontUsePhiMesher=1
+env  TAUReferenceOutput=$refoutput
+env  DoNotFallBack=1
+#env IgnoreObliqueBodies=1
+#env VerifySurfTriAssignments=1
+#env SaveErrorsUnderConstruction=1
+#env XSR_SaveG3dFile=1
+#env PreserveFaceIds=1
+env DoNotEchoStderr=1
+env SupressStdErr=1
+env DontPullPointsToTrueSurface=1
+env G3D_GEOMPROC=1
+env MDM_REF_COMPARE_FACTOR=0.01
+env MDM_REF_COMPARE_MESH_SIZE=100
+env MDM_REF_COMPARE_MESH_TIME=20.
+env ForgiveMissingFaceIds=1
+#env ForceSurfMesh=1
+#env ModelMeshRefinements=11.25 0.001 2
+#env RefernceMeshRepository=$refoutput
+env SaveMeshDataRepository="./"
+env ANSOFT_DEBUG_MODE=2
+env ANSOFT_DEBUG_LOG=debug.runlog
+env ANSOFT_DEBUG_MODE=2
+env ForgiveDuplicateIds=1
+
+
+
+

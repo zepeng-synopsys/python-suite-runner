@@ -1,0 +1,43 @@
+
+kw prog      e:/64_executable/mdm_mesher.exe
+kw iroot     e:/test_suite
+kw scrroot   d:/test_suite_mdm_mesher_only
+
+kw output    d:/test_suite_mdm_mesher_only/test_results/2d_models/cogging_torque/2022_09_02(wyuan)(para)
+kw refoutput d:/test_suite_mdm_mesher_only/test_results/2d_models/cogging_torque/2022_08_31(wyuan)(para)
+kw jobtable  d:/test_suite_mdm_mesher_only/test_suite_2d_cogging_torque.pjtable
+#kw jobtable d:/test_suite_mdm_mesher_only/failed.pjtable
+
+kw threads   6
+kw timeout   01:00:00
+env  MDM_RUN_PARASOLID=1
+env  TAU_CLONE_MESH_TEST=1
+
+env  TAU_SET_STOP_FLAGaa=1
+env  TAUReferenceOutput=$refoutput
+env  RefernceMeshRepository=$refoutput
+env  DoNotFallBack=1
+#env DontUsePhiMesher=1
+env  ForgiveMissingFaceIds=1
+#env ForceSurfMesh=1
+#env ModelMeshRefinements=11.25 0.001 2
+env  SaveMeshDataRepository="./"
+env  ForgiveDuplicateIds=1
+
+env  MDM_REF_COMPARE_FACTOR=0.01
+env  MDM_REF_COMPARE_MESH_SIZE=100
+env  MDM_REF_COMPARE_MESH_TIME=20.
+#env UseAnsoftClassicMesher=1
+#env IgnoreObliqueBodies=1
+#env VerifySurfTriAssignments=1
+#env SaveErrorsUnderConstruction=1
+#env XSR_SaveG3dFile=1
+#env PreserveFaceIds=1
+env  DoNotEchoStderr=1
+env  SupressStdErr=1
+env  DontPullPointsToTrueSurface=1
+env  G3D_GEOMPROC=1
+env  ANSOFT_DEBUG_MODE=2
+env  ANSOFT_DEBUG_LOG=debug.runlog
+
+

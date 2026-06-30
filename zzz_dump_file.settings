@@ -1,0 +1,39 @@
+
+kw prog       e:/64_executable/mdm_mesher.exe
+kw iroot      e:/test_suite
+kw scrroot    d:/test_suite_mdm_mesher_only/aaa
+
+kw output     d:/test_suite_mdm_mesher_only/000_dump_file
+kw jobtable   d:/test_suite_mdm_mesher_only/failed.pjtable
+
+kw threads 1
+kw timeout 1:00:00
+
+env   MDM_RUN_PARASOLID=1
+
+#1-auto 2-legacy 3-PhiPlus  4-TAU Wrapper
+env   TAU_MESHER_CHOICE_FLAG=2
+env   TAU_SET_STOP_FLAG=1
+env   SimulateMeshFacetingProcess=dump
+
+#env  UseAnsoftClassicMesher=1
+env   DoNotFallBack=1
+#env  DontUsePhiMesher=1
+#env  IgnoreObliqueBodies=1
+#env  VerifySurfTriAssignments=1
+#env  SaveErrorsUnderConstruction=1
+#env  XSR_SaveG3dFile=1
+#env  PreserveFaceIds=1
+env   DoNotEchoStderr=1
+env   SupressStdErr=1
+env   DontPullPointsToTrueSurface=1
+env   G3D_GEOMPROC=1
+env   MDM_REF_COMPARE_FACTOR=0.01
+env   MDM_REF_COMPARE_MESH_SIZE=500
+env   MDM_REF_COMPARE_MESH_TIME=30.
+env   ForgiveMissingFaceIds=1
+#env  ForceSurfMesh=1
+env   SaveMeshDataRepository="./"
+env   ForgiveDuplicateIds=1
+env   ANSOFT_DEBUG_MODE=2
+env   ANSOFT_DEBUG_LOG=debug.runlog

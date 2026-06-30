@@ -1,0 +1,48 @@
+
+kw prog    e:/64_executable/mdm_mesher
+kw iroot   e:/test_suite
+kw scrroot d:/test_suite_mdm_mesher_only
+
+kw output d:/test_suite_mdm_mesher_only/test_results/rmxprt_models/clone_mesh_customer/2023_09_01_R241_develop
+kw refoutput d:/test_suite_mdm_mesher_only/test_results/rmxprt_models/clone_mesh_customer/2023_02_29(wyuan)(clone)(40_failed)
+kw jobtable D:/test_suite_mdm_mesher_only/test_suite_rmxprt_clone_models_examples_all.pjtable
+#kw jobtable D:/test_suite_mdm_mesher_only/test_suite_rmxprt_clone_models_vincent_43.pjtable
+kw jobtable D:/test_suite_mdm_mesher_only/test_suite_rmxprt_marius_bosch_17.pjtable
+#kw jobtable D:/test_suite_mdm_mesher_only/test1.pjtable
+
+kw threads 17
+kw timeout 05:00:00
+
+#env  MDM_RUN_WYMODEL=1
+#env  MDM_WRITE_OUT_WYMODEL=1
+env   MDM_RUN_PARASOLIDaa=1
+env   TAU_TOLERANT_MESH_LEVELaa=3
+
+env   TAU_CLONE_MESH_TESTaa=1
+env   TAU_USE_TAU_PLUSaa=1
+env   NUM_PROCESSES_4_TAU_MESHER=12
+env   TAU_PROFILE_MESHING_TIME=1
+env   USE_TAU_BINARY_OUTPUT=1
+env   TAUReferenceOutput=$refoutput
+env   DoNotFallBack=1
+env   ForgiveMissingFaceIds=1
+#env  ForceSurfMesh=1
+env   RefernceMeshRepository=$refoutput
+env   SaveMeshDataRepository="./"
+env   ForgiveDuplicateIds=1
+#env  UseAnsoftClassicMesher=1
+#env  DontUsePhiMesher=1
+#env  IgnoreObliqueBodies=1
+#env  VerifySurfTriAssignments=1
+#env  SaveErrorsUnderConstruction=1
+#env  XSR_SaveG3dFile=1
+#env  PreserveFaceIds=1
+env   DoNotEchoStderr=1
+env   SupressStdErr=1
+env   DontPullPointsToTrueSurface=1
+env   G3D_GEOMPROC=1
+env   MDM_REF_COMPARE_FACTOR=0.2
+env   MDM_REF_COMPARE_MESH_SIZE=500
+env   MDM_REF_COMPARE_MESH_TIME=20.
+env   ANSOFT_DEBUG_MODE=2
+env   ANSOFT_DEBUG_LOG=debug.runlog

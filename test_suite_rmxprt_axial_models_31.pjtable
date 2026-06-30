@@ -1,0 +1,37 @@
+
+#total_models:  24
+
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/   afassm_1_full_model_simple_skew
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/   afbldc_2_no_coils
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/   afbldc_4_no_coils
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/   CadFem-non-skewed-new-band
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/   CadFem_band_larger_innerRegion
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/   CadFem_band_to_center
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/   CadFem_band_to_center_segment_1_innerRegion_small
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/   CadFem_band_to_center_segment_3
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/   CadFem_band_to_center_segment_3_innerRegion_small
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/   CadFem_band_with_hole
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/   chuan_test1
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/   chuan_test_band_inside_outer
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/   chuan_test_band_touch_outer
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/   D751872_Axial_CadFem
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/   DE143615_1_FULL_WORKING_MODEL_clone_failed
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/   DE143615_1_INIMESH_default_clone_band_mesh_leak
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/   DE143615_1_INIMESH_manual_succeed
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/   DE143615_2_HALF_default_clone_failed_static
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/   DE143615_2_HALF_WORKING_MODEL_clone_success
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/   DE143615_3_HALF_90DEG_SLICE_static_failed
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/   DE143615_3_HALF_default_clone_failed_moving_regular_has_leak
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/   DE143615_4_FULL_SKEW_clone_failed
+$iroot/10RMXprt_Clone_Models_Customer/     BLDC_test_clone_mesh_failed_Olivier
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    full9
+
+#total_models:  7
+
+$iroot/10RMXprt_models_examples_v2023/   afassm_1
+$iroot/10RMXprt_models_examples_v2023/   afassm_2
+$iroot/10RMXprt_models_examples_v2023/   afbldc_1
+$iroot/10RMXprt_models_examples_v2023/   afbldc_2
+$iroot/10RMXprt_models_examples_v2023/   afbldc_3
+$iroot/10RMXprt_models_examples_v2023/   afbldc_4
+$iroot/10RMXprt_models_examples_v2023/   AxialCageRotor

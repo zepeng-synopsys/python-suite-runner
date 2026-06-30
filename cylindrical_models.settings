@@ -1,0 +1,57 @@
+
+kw prog      e:/64_executable/mdm_mesher.exe
+kw iroot     e:/test_suite
+kw scrroot   d:/test_suite_mdm_mesher_only
+
+kw output    d:/test_suite_mdm_mesher_only/test_results/cylindrical_models/2022_06_01(union)
+kw refoutput d:/test_suite_mdm_mesher_only/test_results/cylindrical_models/2022_06_01(no_union)
+kw jobtable  d:/test_suite_mdm_mesher_only/test_suite_cylindrical_models_200.pjtable
+#kw jobtable  d:/test_suite_mdm_mesher_only/failed1.pjtable
+
+kw threads 24
+kw timeout 5:00:00
+
+#env  MDM_WRITE_OUT_WYMODEL=1
+#env  MDM_RUN_WYMODEL=1
+env   MDM_RUN_PARASOLID=1
+
+#1-auto 2-legacy 3-PhiPlus  4-TAU Wrapper
+env   TAU_MESHER_CHOICE_FLAG=2
+
+env   TAU_SET_STOP_FLAG=1
+env   TAU_UNION_FREE_MESHaa=1
+env   TAU_ForceFallBackaa=1
+env   nbyxfmm=12
+env   TAU_ACTIVE_ASPECT_RATIOaa=1
+env   USE_TAU_PORT_MESHERaa=1
+env   MDM_USE_OLD_FACETERaa=1
+env   mdm_global_mesh_refinement_factoraa=0.1
+env   TAU_PROFILE_MESHING_TIME=1
+env   DoNotFallBack=1
+env   TAUReferenceOutput=$refoutput
+env   RefernceMeshRepository=$refoutput
+#env  UseAnsoftClassicMesher=1
+env   DoNotFallBack=1
+#env  DontUsePhiMesher=1
+#env  IgnoreObliqueBodies=1
+#env  VerifySurfTriAssignments=1
+#env  SaveErrorsUnderConstruction=1
+#env  XSR_SaveG3dFile=1
+#env  PreserveFaceIds=1
+env   DoNotEchoStderr=1
+env   SupressStdErr=1
+env   DontPullPointsToTrueSurface=1
+env   G3D_GEOMPROC=1
+env   MDM_REF_COMPARE_FACTOR=0.01
+env   MDM_REF_COMPARE_MESH_SIZE=500
+env   MDM_REF_COMPARE_MESH_TIME=30.
+env   ForgiveMissingFaceIds=1
+#env  ForceSurfMesh=1
+env   SaveMeshDataRepository="./"
+env   ForgiveDuplicateIds=1
+env   ANSOFT_DEBUG_MODE=2
+env   ANSOFT_DEBUG_LOG=debug.runlog
+
+env  TAU_DO_MESH_COMPAREaa=1
+env  TAU_work_mesh_folder=d:\test_suite_mdm_mesher_only\test_results\middle_hard_models\2020_03_01_2020R2_final
+env   TAU_ref_mesh_folder=d:\test_suite_mdm_mesher_only\test_results\middle_hard_models\2019_10_21_R196_final

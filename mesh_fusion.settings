@@ -1,0 +1,65 @@
+kw prog       e:/64_executable/mdm_mesher.exe
+kw iroot      e:/test_suite
+kw scrroot    d:/test_suite_mdm_mesher_only
+
+kw output     d:/test_suite_mdm_mesher_only/test_results/mesh_fusion/2021_09_10(wyuan)(Flex)(EdgeConformal)
+kw refoutput  d:/test_suite_mdm_mesher_only/test_results/mesh_fusion/2021_09_09(wyuan)(Flex)(EdgeConformal)
+kw jobtable   d:/test_suite_mdm_mesher_only/test_suite_mesh_fusion_models_41.pjtable
+#kw jobtable  d:/test_suite_mdm_mesher_only/failed.pjtable
+
+kw threads 12
+kw timeout 5:00:00
+
+#env MDM_WRITE_OUT_WYMODEL=1
+env  MDM_RUN_WYMODEL=1
+env  MDM_RUN_PARASOLIDaa=1
+env  TAU_TOLERANT_MESH_LEVEL=3
+env  TAU_USE_TAU_PLUSaa=1
+env  TAU_EDGE_CONFORMAL_FLAG=1
+env  TAU_PARALLEL_MESH_FLAG=1
+
+env  TAU_SET_STOP_FLAGaa=2
+env  TAU_ForceFallBackaa=1
+env  TAU_BVM_VERIFYaa=1
+env  USE_TAU_BINARY_OUTPUT=1
+env  nbyxfmm=12
+env  TAU_ACIS_FREE_MESHERaa=0
+
+env  USE_TAU_PORT_MESHERaa=1
+#env MDM_TEST_MESH_TYPE_OUTPUT=-1
+#MDM_TEST_MESH_TYPE_OUTPUT   volume mesh(1), surface mesh(-1)
+
+env  EnableTolerantClassicaa=1
+env  mdm_global_mesh_refinement_factoraa=1.0
+#env mdm_mesh_coarsening_target_cell_number=-1
+env  TAUReferenceOutput=$refoutput
+env  RefernceMeshRepository=$refoutput
+###env  DoNotFallBack=1
+#env DontUsePhiMesher=1
+env  ForgiveMissingFaceIds=1
+#env ForceSurfMesh=1
+#env ModelMeshRefinements=11.25 0.001 2
+env  SaveMeshDataRepository="./"
+env  ForgiveDuplicateIds=1
+
+env  ANSYSEM_FEATURE_SF5188_TolCls_ENABLEaa=1
+env  MDM_REF_COMPARE_FACTOR=0.0
+env   MDM_REF_COMPARE_MESH_SIZE=50
+env   MDM_REF_COMPARE_MESH_TIME=10.
+#env UseAnsoftClassicMesher=1
+#env IgnoreObliqueBodies=1
+#env VerifySurfTriAssignments=1
+#env SaveErrorsUnderConstruction=1
+#env XSR_SaveG3dFile=1
+#env PreserveFaceIds=1
+env  DoNotEchoStderr=1
+env  SupressStdErr=1
+env  DontPullPointsToTrueSurface=1
+env  G3D_GEOMPROC=1
+env  ANSOFT_DEBUG_MODE=2
+env  ANSOFT_DEBUG_LOG=debug.runlog
+
+
+
+
+

@@ -1,0 +1,9 @@
+#total_models:  6
+
+$iroot/2d_RMxprt_cogging_torque/   01_2D_Olivier_Case_wired_body
+$iroot/2d_RMxprt_cogging_torque/   02_BMW_i3_2D_cogging_wired_body
+$iroot/2d_RMxprt_cogging_torque/   03_EL3_Olivier_wired_body
+$iroot/2d_RMxprt_cogging_torque/   04_Olivier_final_wired_body
+$iroot/2d_RMxprt_cogging_torque/   05_Olivier_Method_wired_body
+$iroot/2d_RMxprt_cogging_torque/   06_Valeo_confidential_wired_body
+

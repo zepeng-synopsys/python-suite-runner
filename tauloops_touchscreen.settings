@@ -1,0 +1,49 @@
+
+kw prog     e:/64_executable/mdm_mesher.exe
+kw iroot    e:/test_suite/15_Q3D_touch_screen
+kw scrroot  d:/test_suite_mdm_mesher_only
+
+kw output     d:/test_suite_mdm_mesher_only/test_results/tauloops/touchscreen/2024_12_16(wyuan)
+kw refoutput  d:/test_suite_mdm_mesher_only/test_results/tauloops/touchscreen/2024_12_16(wyuan)
+kw jobtable   D:/test_suite_mdm_mesher_only/test_suite_tauloops_q3d_touchscreen_51.pjtable
+#kw jobtable  D:/test_suite_mdm_mesher_only/failed.pjtable
+
+kw threads 16
+kw timeout 01:00:00
+
+env  TAU_SET_STOP_FLAG=1
+env  TAU_NEW_Development_FLAG=21
+
+env   nbyxfmm=12
+env  TAUReferenceOutput=$refoutput
+env  RefernceMeshRepository=$refoutput
+env  DoNotFallBack=1
+#env DontUsePhiMesher=1
+env  ForgiveMissingFaceIds=1
+#env ForceSurfMesh=1
+#env ModelMeshRefinements=11.25 0.001 2
+env  SaveMeshDataRepository="./"
+env  ForgiveDuplicateIds=1
+
+env  MDM_REF_COMPARE_FACTOR=0.01
+env  MDM_REF_COMPARE_MESH_SIZE=500
+env  MDM_REF_COMPARE_MESH_TIME=10.
+#env UseAnsoftClassicMesher=1
+#env IgnoreObliqueBodies=1
+#env VerifySurfTriAssignments=1
+#env SaveErrorsUnderConstruction=1
+#env XSR_SaveG3dFile=1
+#env PreserveFaceIds=1
+env  DoNotEchoStderr=1
+env  SupressStdErr=1
+env  DontPullPointsToTrueSurface=1
+env  G3D_GEOMPROC=1
+env  ANSOFT_DEBUG_MODE=2
+env  ANSOFT_DEBUG_LOG=debug.runlog
+
+
+
+
+
+
+

@@ -1,0 +1,57 @@
+#
+# The code to be run
+#
+
+kw prog e:/64_executable/mdm_mesher.exe
+kw iroot e:/test_suite
+kw output d:/test_suite_mdm_mesher_only/test_results/loops_models_all/16_loops_models_all_2016_05_03_R18_TAU_node_preserve
+kw refoutput d:/test_suite_mdm_mesher_only/test_results/loops_models_all/16_loops_models_all_2016_04_18_R18_geomproc
+kw jobtable D:/test_suite_mdm_mesher_only/test_suite_loops_all_16_geomproc.pjtable
+
+#kw output d:/test_suite_mdm_mesher_only/test_results/loops_models_all/17_loops_models_all_2016_05_03_R18_TAU_node_preserve
+#kw refoutput d:/test_suite_mdm_mesher_only/test_results/loops_models_all/17_loops_models_all_2016_04_18_R18_geomproc
+#kw jobtable D:/test_suite_mdm_mesher_only/test_suite_loops_all_17_geomproc.pjtable
+
+kw scrroot d:/test_suite_mdm_mesher_only
+#kw jobtable D:/test_suite_mdm_mesher_only/test_me.pjtable
+
+kw threads 32
+kw timeout 01:00:00
+
+######END of python script controls. 
+######Begin env to be passed to the executable.
+
+env ReferenceOutput=$refoutput
+env ForgiveMissingFaceIds=1
+#env ForceSurfMesh=1
+#env ModelMeshRefinements=11.25 0.001 2
+env RefernceMeshRepository=$refoutput
+env SaveMeshDataRepository="./"
+env ANSOFT_DEBUG_MODE=2
+env ANSOFT_DEBUG_LOG=debug.runlog
+env ANSOFT_DEBUG_MODE=2
+env ForgiveDuplicateIds=1
+
+env MDM_REF_COMPARE_FACTOR=0.2
+env UseTauTolerantMesher=1
+#env MDM_USE_NEW_FACETER=1
+#env mdm_mesh_coarsening_target_cell_number=1
+#env NUM_PROCESSES_4_TAU_MESHER=12
+#env UseAnsoftClassicMesher=1
+env DoNotFallBack=1
+#env DontUsePhiMesher=1
+#env IgnoreObliqueBodies=1
+#env VerifySurfTriAssignments=1
+#env SaveErrorsUnderConstruction=1
+#env XSR_SaveG3dFile=1
+#env PreserveFaceIds=1
+env DoNotEchoStderr=1
+env SupressStdErr=1
+env DontPullPointsToTrueSurface=1
+env G3D_GEOMPROC=1
+
+
+
+
+
+

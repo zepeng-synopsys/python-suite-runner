@@ -1,0 +1,53 @@
+#
+# The code to be run
+#
+
+kw prog e:/64_executable/mdm_mesher.exe
+kw iroot e:/test_suite
+kw scrroot d:/test_suite_mdm_mesher_only
+
+kw output d:/test_suite_mdm_mesher_only/test_results/near_field_points_models_all/near_field_points_models_all_2016_10_25
+kw refoutput d:/test_suite_mdm_mesher_only/test_results/near_field_points_models_all/near_field_points_models_all_2016_05_18
+kw jobtable D:/test_suite_mdm_mesher_only/test_suite_near_field_points.pjtable
+#kw jobtable D:/test_suite_mdm_mesher_only/test1.pjtable
+
+kw threads 8
+kw timeout 01:00:00
+
+env MDM_REF_COMPARE_FACTOR=0.2
+env MDM_REF_COMPARE_MESH_SIZE=10
+env MDM_REF_COMPARE_MESH_TIME=2.
+env UseTauTolerantMesher=1
+env DoNotFallBack=1
+env ReferenceOutput=$refoutput
+#env MDM_TEST_NEXTGEN_MESH=1
+
+
+env ForgiveMissingFaceIds=1
+#env ForceSurfMesh=1
+#env ModelMeshRefinements=11.25 0.001 2
+env RefernceMeshRepository=$refoutput
+env SaveMeshDataRepository="./"
+env ANSOFT_DEBUG_MODE=2
+env ANSOFT_DEBUG_LOG=debug.runlog
+env ANSOFT_DEBUG_MODE=2
+env ForgiveDuplicateIds=1
+
+#env UseAnsoftClassicMesher=1
+env DoNotFallBack=1
+#env DontUsePhiMesher=1
+#env IgnoreObliqueBodies=1
+#env VerifySurfTriAssignments=1
+#env SaveErrorsUnderConstruction=1
+#env XSR_SaveG3dFile=1
+#env PreserveFaceIds=1
+env DoNotEchoStderr=1
+env SupressStdErr=1
+env DontPullPointsToTrueSurface=1
+env G3D_GEOMPROC=1
+
+
+
+
+
+

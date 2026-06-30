@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title> SettingsFileHelp </title>
+</head>
+
+<body>
+
+<h1> This document contains description of *.runset settings file used for the test suite runner </h1>
+
+A *.runset file contain settings to be used by the test suite runner. Everytime we start the testsuite runner, settings are loaded from this file.
+Every line in the *.runset file starts with either 'kw' or 'env' or '#'. '#' means that line is commented and we ignore it.
+
+<h1> "env" </h1>
+<p>
+This keyword is used to set the environment variables before running the g3Dmesher on given job files. This keyword is followed by the environment variable and value. <br>
+For example, <br>
+env ReferenceOutput=$refoutput <br>
+env ForgiveMissingFaceIds=1 <br>
+
+The '$refoutput' means it refers to the value of the settings refoutput. While parsing the line env ReferenceOutput=$refoutput, the program replaces the $refoutput with the value of refoutput. 
+For more details on settings refer below
+</p>
+
+<h1> "kw" </h1>
+
+<p>
+This keyword is used to set various settings of the testsuite runner such as input path, output path, number of threads etc. Each 'kw' is followed by a setting name and value(s) of that settings seperated by space. <br>
+For example, <br>
+kw input_file $job.bpsm $job.control <br>
+kw iroot E:/ANSYSDev/NoBackup/views/meshgen_qa/python_suite <br>
+kw threads 8 <br>
+</p>
+
+<p>
+	<h2> 1. vtune </h2>
+		This setting is used to modify the job command line to "vtune -collect hotspots <commandLine>". It basically adds "vtune -collect hotspots " to the existing commmandLine of the job <br>
+		Ex. kw vtune
+	
+	<h2> 2. prog </h2>
+		This setting is used to specify path of the g3Dmesher executable file to run the job.  <br>
+		USAGE: kw prog <executableFilePath> <br>
+		Ex. kw prog E:/ANSYSDev/NoBackup/TestSuiteRuns/bin/20190605_MTSV2Build0068/G3dMesher.exe <br>
+		
+	<h2> 3. iroot </h2>
+		This setting is used to specify path of the root folder of input source files/folder and jobtable files/folder used for the testsuite <br>
+		USAGE: kw iroot <irootFolderPath> <br>
+		Ex. kw iroot E:/ANSYSDev/NoBackup/views/meshgen_qa/python_suite <br>
+		
+	<h2> 4. output </h2>
+		This setting is used to specify path of the output folder to which output files are exported after running a job <br>
+		USAGE: kw output <outputFolderPath> <br>
+		Ex. kw output E:/ANSYSDev/NoBackup/TestSuiteRuns/run/testrun <br> 
+		output folder is usually placed in $srcroot. Refer below for $srcroot. <br>
+	
+	<h2> 5. refoutput </h2>
+		This setting is used to specify path of the reference output folder which contains output files of jobs ran using previous version of g3Dmesher.  <br>
+		These outputs can be compared with outputs exported by current version of g3Dmesher to analyze previous vs current builds. <br>
+		USAGE: kw refoutput <refoutputFolderPath> <br>
+		Ex. kw refoutput E:/ANSYSDev/NoBackup/TestSuiteRuns/dummy <br>
+		refoutput folder is usually placed in $srcroot. Refer below for $srcroot. <br>
+		
+	<h2> 6. scrroot </h2>
+		This setting is used to specify path of the root folder which contains output, refoutput and scratch folders. <br>
+		USAGE: kw srcroot <srcFolderPath> <br>
+		Ex. kw scrroot E:/ANSYSDev/NoBackup/TestSuiteRuns <br>
+		
+	<h2> 7. threads </h2>
+		This setting is used to set the number of processes/jobs that should be run in parallel <br>
+		USAGE: kw threads &lt;value&gt; <br>
+		Ex. kw threads 8 <br>
+		
+	<h2> 8. timeout </h2>
+		This setting is used to set the timeout for each job. A job will be killed automatically if it runs for more than the timeout value. <br>
+		USAGE: kw timeout <HH:MM:SS> <br>
+		Ex. kw timeout 00:05:00 <br>
+		
+	<h2> 9. jobtable </h2>
+		This setting is used to set the path of the jobtable file, which contains the list of jobnames and relative path (wrt iroot) of respective input files <br>
+		USAGE: kw jobtable <jobtableFilePath> <br>
+		Ex. kw jobtable E:/ANSYSDev/NoBackup/TestSuiteRuns/Settings/jt_current_ecad_1hr_cls.pjtable <br>
+		
+   <h2> 10. input_file </h2>
+		This setting is used to set the type of input files to be used before each job execution. These files will be copied from the input folder to the scratch folder before execution. <br>
+		USAGE: kw input_file <$job.extension1> <$job.extension2> ... <br>
+		"$job" is replaced by the job name while parsing <br>
+		Ex. kw input_file $job.bpsm $job.control <br>
+		
+   <h2> 11. output_file </h2>
+		This setting is used to set the type of output files to be exported after each job execution. These files will be copied from the scratch folder to the output folder after execution. <br>
+		USAGE: kw output_file <$job.extension1> <extension2> <extension3> ... <br>
+		"$job" is replaced by the job name while parsing. If there is no $job for ex, debug.runlog in the below example, the job name will be automatically added before the extension. It becomes <jobname>.debug.runlog <br>
+		Ex. kw output_file debug.runlog $job.testres <br>
+		
+   <h2> 12. optional_input_file </h2>
+		This setting is used to set the type of optional input files to be used if available before each job execution. These files will be copied from the input folder to the scratch folder before execution. <br>
+		USAGE: kw optional_input_file <$job.extension1> <$job.extension2> ... <br>
+			   kw optional_input_file <br>
+		The keyword value can be left blank <br>
+		Ex. kw optional_input_file $job.cfg $job.sat <br>
+		
+   <h2> 13. optional_output_file </h2>
+		This setting is used to set the type of optional output files to be exported if available after each job execution. These files will be copied from the scratch folder to the output folder after execution. <br>
+		USAGE: kw optional_output_file <$job.extension1> <$job.extension2> ... <br>
+			   kw optional_output_file <br>
+		The keyword value can be left blank
+	<h2> 14. note </h2>
+		This setting is used to set test notes. It can be any sting and is goting to print on the first line of test result <br>
+		USAGE: kw note This place is for notes  <br>
+		
+</p>	 
+
+<h1> "xml" </h1>
+
+</body>
+</html>

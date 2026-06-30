@@ -1,0 +1,22 @@
+#total_Bryan_benchmarks:  19
+$iroot/13_bpsm_models_bend    001_pinephone_breakout_board
+$iroot/13_bpsm_models_bend    002_multistackup_constraints
+$iroot/13_bpsm_models_bend    003_s5k4h7_8m
+$iroot/13_bpsm_models_bend    004_Superflex_Starfish_EVT
+$iroot/13_bpsm_models_bend    005_multizone_pcb_Cadence_Demo
+$iroot/13_bpsm_models_bend    006_MSFT_rigid_flex_with_EMI
+$iroot/13_bpsm_models_bend    007_ODB_fromDenis
+$iroot/13_bpsm_models_bend    008_B536876
+$iroot/13_bpsm_models_bend    009_FLEX_Flat_Layout20p1
+$iroot/13_bpsm_models_bend    010_testcase11-rgdflx-RevC
+$iroot/13_bpsm_models_bend    011_2t7_s5k2t7sp
+$iroot/13_bpsm_models_bend    012_Jagadish
+$iroot/13_bpsm_models_bend    013_Multizone_Stripped
+$iroot/13_bpsm_models_bend    014_CORNER_FLEX
+$iroot/13_bpsm_models_bend    015_templeArmRight
+$iroot/13_bpsm_models_bend    016_bending
+$iroot/13_bpsm_models_bend    017_C14_reva
+$iroot/13_bpsm_models_bend    018_Wi_NoShield_stripped
+$iroot/13_bpsm_models_bend    019_SF_WithShield_stripped
+
+

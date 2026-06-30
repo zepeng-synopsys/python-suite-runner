@@ -1,0 +1,82 @@
+
+#number of models: 70
+ 
+
+
+$iroot/10RMXprt_models_examples_v2024/   3hp
+$iroot/10RMXprt_models_examples_v2024/   assm_1
+$iroot/10RMXprt_models_examples_v2024/   assm_2
+$iroot/10RMXprt_models_examples_v2024/   assm_3
+$iroot/10RMXprt_models_examples_v2024/   assm_4
+$iroot/10RMXprt_models_examples_v2024/   ASSM_4p50Hz550W
+$iroot/10RMXprt_models_examples_v2024/   assm_5
+$iroot/10RMXprt_models_examples_v2024/   assm_6
+$iroot/10RMXprt_models_examples_v2024/   bjs10_61      
+$iroot/10RMXprt_models_examples_v2024/   bjs7_6_1
+$iroot/10RMXprt_models_examples_v2024/   Bjs7_mot
+$iroot/10RMXprt_models_examples_v2024/   BLDC_4p1500rpm550W
+$iroot/10RMXprt_models_examples_v2024/   bsm
+$iroot/10RMXprt_models_examples_v2024/   CageRotor_InnerRotor
+$iroot/10RMXprt_models_examples_v2024/   CageRotor_OuterRotor
+$iroot/10RMXprt_models_examples_v2024/   cpsg_1
+$iroot/10RMXprt_models_examples_v2024/   CPSG_4p50Hz550VA
+$iroot/10RMXprt_models_examples_v2024/   DCM_4p1100rpm500kW
+$iroot/10RMXprt_models_examples_v2024/   DCM_4p3000rpm500kW
+$iroot/10RMXprt_models_examples_v2024/   dfig_1
+$iroot/10RMXprt_models_examples_v2024/   dfig_2
+$iroot/10RMXprt_models_examples_v2024/   g2_5
+$iroot/10RMXprt_models_examples_v2024/   IndM1_2p60Hz3hp
+$iroot/10RMXprt_models_examples_v2024/   IndM3_6p50Hz11kW
+$iroot/10RMXprt_models_examples_v2024/   ipm_1
+$iroot/10RMXprt_models_examples_v2024/   ipm_2
+$iroot/10RMXprt_models_examples_v2024/   ipm_3
+$iroot/10RMXprt_models_examples_v2024/   ipm_5
+$iroot/10RMXprt_models_examples_v2024/   ipm_6
+$iroot/10RMXprt_models_examples_v2024/   ipm_HysRotor
+$iroot/10RMXprt_models_examples_v2024/   ipm_SolidRotor
+$iroot/10RMXprt_models_examples_v2024/   LSSM_4p50Hz550W
+$iroot/10RMXprt_models_examples_v2024/   nssm_1
+$iroot/10RMXprt_models_examples_v2024/   NSSM_2p3000rpm125MVA
+$iroot/10RMXprt_models_examples_v2024/   pmsg_1
+$iroot/10RMXprt_models_examples_v2024/   PMSG_4p50Hz550W
+$iroot/10RMXprt_models_examples_v2024/   QuickStart_bldc
+$iroot/10RMXprt_models_examples_v2024/   QuickStart_manual
+$iroot/10RMXprt_models_examples_v2024/   SalientPole_Rotor
+$iroot/10RMXprt_models_examples_v2024/   SalientPole_Stator
+$iroot/10RMXprt_models_examples_v2024/   sm_1
+$iroot/10RMXprt_models_examples_v2024/   sm_2
+$iroot/10RMXprt_models_examples_v2024/   sm_3
+$iroot/10RMXprt_models_examples_v2024/   sm_4
+$iroot/10RMXprt_models_examples_v2024/   sm_5
+$iroot/10RMXprt_models_examples_v2024/   sm_6
+$iroot/10RMXprt_models_examples_v2024/   sm_7
+$iroot/10RMXprt_models_examples_v2024/   sm_8
+$iroot/10RMXprt_models_examples_v2024/   srm_1
+$iroot/10RMXprt_models_examples_v2024/   SRM_8_6p1500rpm550W
+$iroot/10RMXprt_models_examples_v2024/   StepMotor_Design1_Hybrid
+$iroot/10RMXprt_models_examples_v2024/   StepMotor_Design2_VR
+$iroot/10RMXprt_models_examples_v2024/   StepMotor_Design3_SRM
+$iroot/10RMXprt_models_examples_v2024/   StepMotor_Design4_OutRot
+$iroot/10RMXprt_models_examples_v2024/   SynM3_6p50Hz538kW 
+$iroot/10RMXprt_models_examples_v2024/   SynRRotor 
+$iroot/10RMXprt_models_examples_v2024/   ws_1
+$iroot/10RMXprt_models_examples_v2024/   ws_2
+$iroot/10RMXprt_models_examples_v2024/   ws_3
+$iroot/10RMXprt_models_examples_v2024/   ws_4
+$iroot/10RMXprt_models_examples_v2024/   ws_5
+$iroot/10RMXprt_models_examples_v2024/   ws_6
+$iroot/10RMXprt_models_examples_v2024/   ylew_95
+$iroot/10RMXprt_models_examples_v2024/   yz200_24
+$iroot/10RMXprt_models_examples_v2024/   yz200_6
+$iroot/10RMXprt_models_examples_v2024/   yzd132_4
+$iroot/10RMXprt_models_examples_v2024/   yzd132_4G
+$iroot/10RMXprt_models_examples_v2024/   yzd132_8
+$iroot/10RMXprt_models_examples_v2024/   z_500
+$iroot/10RMXprt_models_examples_v2024/   zf_500
+
+
+
+
+
+
+                                            

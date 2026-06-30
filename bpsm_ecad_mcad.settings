@@ -1,0 +1,80 @@
+kw prog       e:/64_executable/mdm_mesher.exe
+kw iroot      e:/test_suite
+kw scrroot    d:/test_suite_mdm_mesher_only
+
+kw output      d:/test_suite_mdm_mesher_only/test_results/bpsm_models_all/ecad_mcad_models/2026_05_17(para)(fallback)(Solid)(70_14)(2_hour)
+kw refoutput   d:/test_suite_mdm_mesher_only/test_results/bpsm_models_all/ecad_mcad_models/2026_05_05(para)(fallback)(Solid)(70_14)(2_hour)
+kw jobtable   d:/test_suite_mdm_mesher_only/test_suite_bpsm_ecad_mcad_models_84.pjtable
+#kw jobtable   d:/test_suite_mdm_mesher_only/test_suite_bpsm_ecad_mcad_side_crossing_8.pjtable
+#kw jobtable   d:/test_suite_mdm_mesher_only/failed.pjtable
+
+kw threads 12
+kw timeout 2:00:00
+
+env   SUITE_COPY_FORMATS=ngmesh
+
+env   TAU_MESHER_CHOICE_FLAG=3
+env   TAU_DO_PARALLEL_MESHINGaa=1
+env   TAU_ForceFallBack=1
+env   TAU_USE_NEW_SOLID_ID=1
+env   TAU_COUNT_SOLID_ID_TIME=1
+env   PHI_PLUS_USE_NATIVE_MCAD_COMPONENTS=1
+
+#####6-nodes,8-decompose, p-stage1,10-assembling, 12-volume
+env   TAU_SET_STOP_FLAGaa=1
+env   TAU_PARALLEL_ADAPTIVE_MESHINGaa=1
+env   TAU_MESH_GAP_SIZEaa=0.02 0.02
+env   TAU_BASE_MESH_METHODaa=2
+env   TAU_DO_REFINEMENT_FLAGaa=2
+env   nbyxfmm=12
+env   TAU_ACTIVE_ASPECT_RATIOaa=1
+env   ANSYSEM_FEATURE_F231148_classic_parallel_recovery_ENABLEaa=1
+env   mdm_global_mesh_refinement_factoraa=0.3
+env   TAU_PROFILE_MESHING_TIME=1
+env   USE_TAU_BINARY_OUTPUT=1
+env   TAU_USE_BVM_OUTPUTaa=1
+env   TAU_BVM_VERIFYaa=1
+#env  MDM_TEST_MESH_TYPE_OUTPUT=-1
+env   TAU_MODEL_UNION_FLAGaa=0
+#MDM_TEST_MESH_TYPE_OUTPUT   volume mesh(1), surface mesh(-1)
+
+#env  EnableTolerantClassic=1
+#env  MDM_USE_OLD_FACETER=1
+#env  mdm_skip_edge_faceter=1
+env   TAUReferenceOutput=$refoutput
+env   RefernceMeshRepository=$refoutput
+#env  DoNotFallBack=1
+#env  UseAnsoftClassicMesher=1
+#env  DontUsePhiMesher=1
+#env  IgnoreObliqueBodies=1
+#env  VerifySurfTriAssignments=1
+#env  SaveErrorsUnderConstruction=1
+#env  XSR_SaveG3dFile=1
+#env  PreserveFaceIds=1
+env   DoNotEchoStderr=1
+env   SupressStdErr=1
+env   DontPullPointsToTrueSurface=1
+env   G3D_GEOMPROC=1
+
+#env  mdm_mesh_coarsening_target_cell_number=-1
+env   MDM_REF_COMPARE_FACTOR=0.05
+env   MDM_REF_COMPARE_MESH_SIZE=100
+env   MDM_REF_COMPARE_MESH_TIME=10.
+env   ForgiveMissingFaceIds=1
+#env  ForceSurfMesh=1
+env   SaveMeshDataRepository="./"
+env   ForgiveDuplicateIds=1
+env   ANSOFT_DEBUG_MODE=2
+env   ANSOFT_DEBUG_LOG=debug.runlog
+
+#when call G3dmesher, if phi only, just set DoNotFallBack=1
+
+env  TAU_DO_MESH_COMPAREaa=1
+env  TAU_work_mesh_folder=d:\test_suite_mdm_mesher_only\test_results\bpsm_models_all\ecad_mcad_models\2025_11_04_2(tau01)(Para)(fallback)(oldSolid)(77_7)(3_hours)
+env   TAU_ref_mesh_folder=d:\test_suite_mdm_mesher_only\test_results\bpsm_models_all\ecad_mcad_models\2025_10_27_2(tau01)(Para)(fallback)(oldSolid)(77_7)(3_hours)
+
+
+
+
+
+

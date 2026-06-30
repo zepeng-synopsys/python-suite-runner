@@ -1,0 +1,36 @@
+
+#total_models:  22
+
+
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/   CadFem_band_to_center
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/   chuan_test1
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/   chuan_test_band_touch_outer
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/   D751872_Axial_CadFem
+
+
+$iroot/10RMXprt_models_examples_v2025/   afassm_1
+$iroot/10RMXprt_models_examples_v2025/   afassm_2
+$iroot/10RMXprt_models_examples_v2025/   afbldc_1
+$iroot/10RMXprt_models_examples_v2025/   afbldc_2
+$iroot/10RMXprt_models_examples_v2025/   afbldc_3
+$iroot/10RMXprt_models_examples_v2025/   afbldc_4
+$iroot/10RMXprt_models_examples_v2025/   AxialCageRotor
+
+
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/axial_enhancement/   D506445_6mm_chamfer
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/axial_enhancement/   D506457_1_Zylindermagnet
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/axial_enhancement/   D506457_2_Segmentmagnet
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/axial_enhancement/   D506457_3_Skewed_Magnet
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/axial_enhancement/   D751872_03_Geschraegter_Magnet_CADFEM9
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/axial_enhancement/   D827997_05_AFM_2Dkompatibel_ABGLEICH
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/axial_enhancement/   D827997_05_AFM_2Dkompatibel_CloneMesh
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/axial_enhancement/   D850317_axial_CadFem_band_to_center_linear
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/axial_enhancement/   D863929_Daniel_axial_ClickingMesh_144segm
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/axial_enhancement/   D921833_Olivier_axial_confidential
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/axial_enhancement/   D922123_axial_confidential_Olivier
+
+
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/axial_enhancement/   D1049778_segmentmagnetcopy
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/axial_enhancement/   D1078513_Setup1
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/axial_enhancement/   D610240_AxialFlux001_2021R2
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/axial_enhancement/   D799845_Setup1

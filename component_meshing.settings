@@ -1,0 +1,42 @@
+
+kw prog       e:/64_executable/mdm_mesher.exe
+kw iroot      e:/test_suite
+kw scrroot    d:/test_suite_mdm_mesher_only
+
+kw output     d:/test_suite_mdm_mesher_only/test_results/component_meshing/2025_09_11(tau01)
+kw refoutput  d:/test_suite_mdm_mesher_only/test_results/component_meshing/000_2025_09_10_1(tau01)(reading)(nonConformal)(3_min)
+kw jobtable   d:/test_suite_mdm_mesher_only/test_suite_component_models.pjtable
+
+kw threads 12
+kw timeout 01:00:00
+
+env  MDM_RUN_PARASOLID=1
+#1-auto 2-legacy 3-PhiPlus  4-TAU Wrapper
+env  TAU_MESHER_CHOICE_FLAG=2
+env  TAU_EDGE_CONFORMAL_FLAG=1 
+
+env _DO_PARALLEL_MESHINGaa=1
+env  TAU_SET_STOP_FLAGaa=1
+env  TAU_BVM_VERIFYaa=1
+env  TAU_USE_NEW_SOLID_IDaa=1
+env  TAU_UNION_FREE_MESHaa=1
+env   USE_TAU_BINARY_OUTPUT=1 # verified
+env   nbyxfmm=12
+env   TAU_PROFILE_MESHING_TIME=1
+env   TAUReferenceOutput=$refoutput
+env   RefernceMeshRepository=$refoutput
+env   DoNotEchoStderr=1
+env   SupressStdErr=1
+env   DontPullPointsToTrueSurface=1
+env   G3D_GEOMPROC=1
+
+env   MDM_REF_COMPARE_FACTOR=0.05
+env   MDM_REF_COMPARE_MESH_SIZE=10
+env   MDM_REF_COMPARE_MESH_TIME=10.
+env   ForgiveMissingFaceIds=1
+env   SaveMeshDataRepository="./"
+env   ForgiveDuplicateIds=1
+env   ANSOFT_DEBUG_MODE=2
+env   ANSOFT_DEBUG_LOG=debug.runlog
+
+#when call G3dmesher, if phi only, just set DoNotFallBack=1

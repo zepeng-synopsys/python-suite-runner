@@ -1,0 +1,747 @@
+        #total 493 models
+
+		      $iroot/emi_init/     776BGA_traces_vdd7
+		       $iroot/qp_init/     rf_3tr_gnd_mm
+               $iroot/qp_init/     bill_mc_apr
+              $iroot/emi_init/     combiner2
+         $iroot/9_bogdan_case/     prius_3D_mag_centrif_8000
+              $iroot/emi_init/     cpw_short_model
+              $iroot/emi_init/     orchid_1w_steve2
+              $iroot/emi_init/     RFBGA_traces
+              $iroot/emi_init/     gm02
+              $iroot/emi_init/     776BGA_traces
+               $iroot/qp_init/     vdd_mm
+              $iroot/emi_init/     vhdm_cond_only
+              $iroot/emi_init/     776BGA_vdd7
+               $iroot/qp_init/     traces8
+               $iroot/qp_init/     bracken2
+               $iroot/qp_init/     8traces_vdd_mm
+               $iroot/qp_init/     RFBGA_gnd
+               $iroot/qp_init/     rfbga
+              $iroot/emi_init/     mesh_dies_85
+              $iroot/emi_init/     testcase1_cp_34739
+               $iroot/mf_init/     nomesh
+               $iroot/mf_init/     choke
+ 
+		  $iroot/3_bardi_case/     14magict_matrixconvergence
+          $iroot/3_bardi_case/     1cornerreflector
+          $iroot/3_bardi_case/     4cav
+          $iroot/3_bardi_case/     dro3
+          $iroot/3_bardi_case/     floatingdipole
+          $iroot/3_bardi_case/     gapdipole_pml
+          $iroot/3_bardi_case/     horn_abc_1
+          $iroot/3_bardi_case/     ibm_15um_1
+          $iroot/3_bardi_case/     ibm_25um_1
+          $iroot/3_bardi_case/     lpf_1
+          $iroot/3_bardi_case/     patch_antenna_pml
+          $iroot/3_bardi_case/     rad_effic_1
+          $iroot/3_bardi_case/     rad_effic_cylinder_1
+          $iroot/3_bardi_case/     slot
+          $iroot/3_bardi_case/     wr90
+          $iroot/3_bardi_case/     wrg1_PML
+          $iroot/3_bardi_case/     wrg_abc
+             $iroot/4_mi_case/     05_1_HFSS_UHF_PPOBE
+             $iroot/4_mi_case/     05_2_HFSS_CHORN
+             $iroot/4_mi_case/     05_3_HFSS_PROBEPATCH
+             $iroot/4_mi_case/     05_6_HFSS_CPWBOWTIE
+             $iroot/4_mi_case/     05_7_HFSS_PMLARRAY
+             $iroot/4_mi_case/     06_1_HFSS_MAGIC_T
+             $iroot/4_mi_case/     06_2_HFSS_COAX
+             $iroot/4_mi_case/     06_3_HFSS_RingHybrid
+             $iroot/4_mi_case/     06_4_HFSS_STUB_RESONATOR
+             $iroot/4_mi_case/     06_5_HFSS_WAVEPORTS
+             $iroot/4_mi_case/     06_6_HFSS_DIELRES
+             $iroot/4_mi_case/     07_1_HFSS_BPF
+             $iroot/4_mi_case/     08_1_HFSS_LVDS_DIFFPAIR
+             $iroot/4_mi_case/     08_2_HFSS_SEG_GPLANE
+             $iroot/4_mi_case/     08_3_HFSS_NON_IDEAL_GND
+             $iroot/4_mi_case/     10_1_spiral_inductor
+           $iroot/5_peng_case/     05patchc
+           $iroot/5_peng_case/     1Vivaldi_H2O_simple
+           $iroot/5_peng_case/     29arrpmlV10
+           $iroot/5_peng_case/     BowTie_antenna
+           $iroot/5_peng_case/     connector
+           $iroot/5_peng_case/     connector_simple
+           $iroot/5_peng_case/     coupleur_modes2
+           $iroot/5_peng_case/     dblr_v8p5
+           $iroot/5_peng_case/     dipole_peng
+           $iroot/5_peng_case/     ems_unif
+           $iroot/5_peng_case/     filter
+           $iroot/5_peng_case/     filter_testV11
+           $iroot/5_peng_case/     helix_v11
+           $iroot/5_peng_case/     hplane_circulator2
+           $iroot/5_peng_case/     implicitLumpedPort
+           $iroot/5_peng_case/     launch_cable_side_low_freq_error_V10
+           $iroot/5_peng_case/     mediumpecsphereV11_notruesurfanywhere
+           $iroot/5_peng_case/     ML_1
+           $iroot/5_peng_case/     ms_filter2
+           $iroot/5_peng_case/     msphere
+           $iroot/5_peng_case/     mstrip2
+           $iroot/5_peng_case/     New_FCI
+           $iroot/5_peng_case/     pbg_guide
+           $iroot/5_peng_case/     Rotman_F_9
+           $iroot/5_peng_case/     slit
+           $iroot/5_peng_case/     terminal2
+           $iroot/5_peng_case/     two_pole_filter_for_test
+           $iroot/5_peng_case/     verifyLossLess_11
+           $iroot/5_peng_case/     watfix
+           $iroot/5_peng_case/     6063_whole
+      $iroot/6_bardi_case_new/     4andy
+      $iroot/6_bardi_case_new/     500C2sided
+      $iroot/6_bardi_case_new/     94GHz_slot_array
+      $iroot/6_bardi_case_new/     APPBR-W-E-C-SA
+      $iroot/6_bardi_case_new/     BGA_trytobreaksweep_my_1
+      $iroot/6_bardi_case_new/     bluetooth_antenna_emi_molex
+      $iroot/6_bardi_case_new/     BowTie_antenna_1
+      $iroot/6_bardi_case_new/     Chassis_source
+      $iroot/6_bardi_case_new/     CircularFeed_w_Grooves_110305_pml
+      $iroot/6_bardi_case_new/     coax
+      $iroot/6_bardi_case_new/     dcTest
+      $iroot/6_bardi_case_new/     elliptic_matrixconvergence
+      $iroot/6_bardi_case_new/     floquet_AGW524E
+      $iroot/6_bardi_case_new/     Hertzian_Dominant_Mode_rev1_1
+      $iroot/6_bardi_case_new/     HornFromMatt_my
+      $iroot/6_bardi_case_new/     HornFromMatt_my_complex
+      $iroot/6_bardi_case_new/     ibm_15um_finitethickness_new
+      $iroot/6_bardi_case_new/     jerry_test_1
+      $iroot/6_bardi_case_new/     jerusalem_cross_1
+      $iroot/6_bardi_case_new/     mstrip_thick
+      $iroot/6_bardi_case_new/     newmodel_1
+      $iroot/6_bardi_case_new/     optichanal_1
+      $iroot/6_bardi_case_new/     package_bardi
+      $iroot/6_bardi_case_new/     package_2
+      $iroot/6_bardi_case_new/     parabolic_reflector_with_horn_LINKED_1
+      $iroot/6_bardi_case_new/     parabolic_reflector_with_horn_LINKED_2
+      $iroot/6_bardi_case_new/     pecsphereV10_1
+      $iroot/6_bardi_case_new/     Project1_SRR2D
+      $iroot/6_bardi_case_new/     Project2_SRR3D
+      $iroot/6_bardi_case_new/     reflector_XGD_1
+      $iroot/6_bardi_case_new/     reflector_XGD_2
+      $iroot/6_bardi_case_new/     ReflectorAnt_LowDir_01may06
+      $iroot/6_bardi_case_new/     ring
+      $iroot/6_bardi_case_new/     Sample_WGArray05
+      $iroot/6_bardi_case_new/     SI2_Array_test
+      $iroot/6_bardi_case_new/     simpl_sphere
+      $iroot/6_bardi_case_new/     simple_project
+      $iroot/6_bardi_case_new/     spiral_inside
+      $iroot/6_bardi_case_new/     spiraltest
+      $iroot/6_bardi_case_new/     sweep_bug
+      $iroot/6_bardi_case_new/     TerrStar_DirectCP2_ANSOFT
+      $iroot/6_bardi_case_new/     Test050908
+      $iroot/6_bardi_case_new/     Test060110
+      $iroot/6_bardi_case_new/     test_interpol_1
+      $iroot/6_bardi_case_new/     testloss_metal
+      $iroot/6_bardi_case_new/     TwoWireTline_Conductor_Study
+      $iroot/6_bardi_case_new/     ArmyUAV_dip4_ver12_mixed_martin_test
+      $iroot/6_bardi_case_new/     89376_solve_inside_Bug_HFSS12
+              $iroot/7_martin/     5_3_model_accurate
+              $iroot/7_martin/     AGW524E_V11_Floquet
+              $iroot/7_martin/     AGW524E_V11_PML
+              $iroot/7_martin/     alee
+              $iroot/7_martin/     balun_HFSS10_notrenormalized
+              $iroot/7_martin/     cauer_V11
+              $iroot/7_martin/     cavity_new
+              $iroot/7_martin/     chebychev_V11
+              $iroot/7_martin/     circulator_v11
+              $iroot/7_martin/     co_and_cross_pol
+              $iroot/7_martin/     coax_v11
+              $iroot/7_martin/     coax_wg_ver10
+              $iroot/7_martin/     cpw_slotline
+              $iroot/7_martin/     dib
+              $iroot/7_martin/     ebg_v11
+              $iroot/7_martin/     edgecard_hfss11
+              $iroot/7_martin/     generic_V11
+              $iroot/7_martin/     helix_solv
+              $iroot/7_martin/     horn_v11
+              $iroot/7_martin/     ibm_15um
+              $iroot/7_martin/     ibm_25um
+              $iroot/7_martin/     IEEE_SAR
+              $iroot/7_martin/     jrm_HplaneRCS_V11_PML
+              $iroot/7_martin/     JRMHplaneRCS_Floquet
+              $iroot/7_martin/     LNA
+              $iroot/7_martin/     lpf
+              $iroot/7_martin/     microstrip_to_CPW
+              $iroot/7_martin/     ms_filter_v10
+              $iroot/7_martin/     nineturns
+              $iroot/7_martin/     omj_v11
+              $iroot/7_martin/     PhaseShifter_alternate
+              $iroot/7_martin/     PhaseShifter_V11
+              $iroot/7_martin/     powerdivider_v11
+              $iroot/7_martin/     quarter
+              $iroot/7_martin/     quadrifilar_accurate_d1s1
+              $iroot/7_martin/     rcs2
+              $iroot/7_martin/     rcs_10_PML
+              $iroot/7_martin/     rcs_16
+              $iroot/7_martin/     ring_FSS_totfieldform
+              $iroot/7_martin/     SMA_V11
+              $iroot/7_martin/     submit
+              $iroot/7_martin/     sunday_terminals
+              $iroot/7_martin/     swanson_cavity
+              $iroot/7_martin/     swpi_basic
+              $iroot/7_martin/     testboard
+              $iroot/7_martin/     tundra_acc_insertion
+              $iroot/7_martin/     VPA_V11
+           $iroot/8_ping_case/     band
+ #too_large$iroot/8_ping_case/     bus_1030
+           $iroot/8_ping_case/     claw_final
+           $iroot/8_ping_case/     Electric_Machinery
+           $iroot/8_ping_case/     example_motion_bldc_3d
+           $iroot/8_ping_case/     ind05kw_half_region_no_sheet
+           $iroot/8_ping_case/     ind05kw_half_region
+           $iroot/8_ping_case/     jee_3_no_sheet
+           $iroot/8_ping_case/     rotor
+           $iroot/8_ping_case/     rotor_stator
+           $iroot/8_ping_case/     stator
+           $iroot/8_ping_case/     Team10n_no_sheet
+         $iroot/9_bogdan_case/     breaker_ABB
+         $iroot/9_bogdan_case/     Rotational_Act_TR
+         $iroot/9_bogdan_case/     example_DC_cond
+         $iroot/9_bogdan_case/     example_eddy
+         $iroot/9_bogdan_case/     example_electrostatic
+         $iroot/9_bogdan_case/     example_magnetostatic
+         $iroot/9_bogdan_case/     example_transient
+         $iroot/9_bogdan_case/     bus_ex_1
+         $iroot/9_bogdan_case/     bus_thermal_copy
+         $iroot/9_bogdan_case/     New_Motor_DC
+         $iroot/9_bogdan_case/     ship1
+         $iroot/9_bogdan_case/     stryker_solid
+         $iroot/9_bogdan_case/     vr_gen3d_1
+         $iroot/9_bogdan_case/     bus_siemens1_DC
+         $iroot/9_bogdan_case/     bus_siemens2_DC
+     $iroot/matching_boundary/     ESA_TEST
+     $iroot/matching_boundary/     HelixB
+     $iroot/matching_boundary/     match_wedge
+     $iroot/matching_boundary/     match_wg
+     $iroot/matching_boundary/     plane_wave
+     $iroot/matching_boundary/     s129
+     $iroot/matching_boundary/     s18
+     $iroot/matching_boundary/     test1
+     $iroot/matching_boundary/     wg_post
+     $iroot/matching_boundary/     wt1
+     $iroot/matching_boundary/     wt2
+     $iroot/matching_boundary/     apigetty_v10
+     $iroot/matching_boundary/     skew3d
+     $iroot/matching_boundary/     babyalpha_force_v10
+	          $iroot/emi_init/     julie1
+              $iroot/emi_init/     v6
+               $iroot/qp_init/     12traces_mm
+              $iroot/emi_init/     9_turns_leak_fix_try2_bin
+              $iroot/emi_init/     Loop01_36934
+              $iroot/emi_init/     getty
+               $iroot/qp_init/     hea1_microns
+               $iroot/qp_init/     hea1
+              $iroot/emi_init/     lecroypkg1_a_mo
+              $iroot/emi_init/     probe_steve_35928
+               $iroot/mf_init/     38934_jhstellar3dmeshtest8_model
+              $iroot/emi_init/     dspher3d
+              $iroot/emi_init/     torus
+              $iroot/emi_init/     cone
+              $iroot/emi_init/     sphere
+              $iroot/emi_init/     dblcone
+              $iroot/emi_init/     di_spher
+              $iroot/emi_init/     gilly
+              $iroot/emi_init/     points2
+              $iroot/emi_init/     capsule
+              $iroot/emi_init/     today
+              $iroot/emi_init/     newtoday
+              $iroot/emi_init/     points
+              $iroot/emi_init/     gum
+              $iroot/emi_init/     self_intersect
+              $iroot/emi_init/     9torii
+              $iroot/emi_init/     3rect
+              $iroot/emi_init/     rotbox
+              $iroot/emi_init/     dblgilly
+              $iroot/emi_init/     test9
+              $iroot/emi_init/     test3
+              $iroot/emi_init/     test10
+              $iroot/emi_init/     1plus
+              $iroot/emi_init/     axial3d
+              $iroot/emi_init/     p6_29
+              $iroot/emi_init/     two
+              $iroot/emi_init/     subsmal
+              $iroot/emi_init/     1plane
+              $iroot/emi_init/     6rect
+              $iroot/emi_init/     2plus
+              $iroot/emi_init/     bar3
+              $iroot/emi_init/     looplate
+              $iroot/emi_init/     touch2
+              $iroot/emi_init/     touch3
+              $iroot/emi_init/     circ1
+              $iroot/emi_init/     dipfiner2
+              $iroot/emi_init/     dipfiner
+              $iroot/emi_init/     7lpf
+              $iroot/emi_init/     eleven_via
+              $iroot/emi_init/     patch
+              $iroot/emi_init/     eleven_via2
+              $iroot/emi_init/     losline
+              $iroot/emi_init/     eleven_via1
+              $iroot/emi_init/     eleven_via3
+              $iroot/emi_init/     junk
+              $iroot/emi_init/     via2dthk
+              $iroot/emi_init/     bracken1
+              $iroot/emi_init/     jay_lpf
+              $iroot/emi_init/     touch1
+              $iroot/emi_init/     patchTFR
+              $iroot/emi_init/     lpf_pec
+              $iroot/emi_init/     16_via
+              $iroot/emi_init/     4plane
+              $iroot/emi_init/     12w_old_cut
+              $iroot/emi_init/     msgapthk
+              $iroot/emi_init/     check
+              $iroot/emi_init/     mca_new
+              $iroot/emi_init/     22_via
+              $iroot/emi_init/     22_via_rot1
+              $iroot/emi_init/     proj_13
+              $iroot/emi_init/     cyl_02
+              $iroot/emi_init/     2cyl
+              $iroot/emi_init/     cyl_box
+              $iroot/emi_init/     24_circ
+              $iroot/emi_init/     arc_sweep
+              $iroot/emi_init/     inland
+              $iroot/emi_init/     sgnd1
+              $iroot/emi_init/     cyl2
+              $iroot/emi_init/     cyl_03
+               $iroot/mf_init/     35899_trial_scratch
+              $iroot/emi_init/     relay
+               $iroot/mf_init/     rznoid
+              $iroot/emi_init/     horng1
+              $iroot/emi_init/     back
+              $iroot/emi_init/     6p_3D
+              $iroot/emi_init/     16plus
+              $iroot/emi_init/     rfsim
+              $iroot/emi_init/     10plane
+              $iroot/emi_init/     avx1
+              $iroot/emi_init/     44_via1
+              $iroot/emi_init/     pcguard
+              $iroot/emi_init/     horng2
+              $iroot/emi_init/     44_via2
+              $iroot/emi_init/     mcgc1_2
+              $iroot/emi_init/     3micro
+              $iroot/emi_init/     2cyl_c2
+              $iroot/emi_init/     sti
+              $iroot/emi_init/     pcdesign
+              $iroot/emi_init/     justtwo
+              $iroot/emi_init/     pcgard2
+              $iroot/emi_init/     meshtest
+              $iroot/emi_init/     cyl_04
+              $iroot/emi_init/     cyl_2box
+              $iroot/emi_init/     ramsey
+              $iroot/emi_init/     pc_DAC
+              $iroot/emi_init/     comp1
+              $iroot/emi_init/     kelvin
+              $iroot/emi_init/     4way
+              $iroot/emi_init/     dipole
+              $iroot/emi_init/     subtract
+              $iroot/emi_init/     stan
+              $iroot/emi_init/     mmpa
+              $iroot/emi_init/     acis1
+              $iroot/emi_init/     birdcage
+              $iroot/emi_init/     edgefilt
+              $iroot/emi_init/     dip
+              $iroot/emi_init/     dip2
+              $iroot/emi_init/     gm
+              $iroot/emi_init/     ring3d
+              $iroot/emi_init/     20plane
+              $iroot/emi_init/     problem
+              $iroot/emi_init/     thngy
+              $iroot/emi_init/     zol01
+              $iroot/emi_init/     mesh_crash
+              $iroot/emi_init/     25circ_box
+              $iroot/emi_init/     altera0
+              $iroot/emi_init/     split_sierpdum
+              $iroot/emi_init/     tester3
+              $iroot/emi_init/     wcd85m
+              $iroot/emi_init/     machine_part
+               $iroot/mf_init/     38023_emaltran2
+              $iroot/emi_init/     john_sim
+              $iroot/emi_init/     hoov
+              $iroot/emi_init/     balance_expt
+              $iroot/emi_init/     td14_old
+              $iroot/emi_init/     liz_3d
+              $iroot/emi_init/     model_check_air_cut
+              $iroot/emi_init/     td14_new
+              $iroot/emi_init/     widad_ind
+              $iroot/emi_init/     td14_2
+              $iroot/emi_init/     slnd3d
+              $iroot/emi_init/     19orttrd
+              $iroot/emi_init/     40plane
+               $iroot/mf_init/     auto
+               $iroot/mf_init/     mech
+              $iroot/emi_init/     150913d
+              $iroot/emi_init/     Trial_1
+              $iroot/emi_init/     alex_mot
+              $iroot/emi_init/     QmotC
+              $iroot/emi_init/     imlach
+              $iroot/emi_init/     model_check_left
+              $iroot/emi_init/     spd
+              $iroot/emi_init/     core_dumps
+              $iroot/emi_init/     cutler3
+              $iroot/emi_init/     srl_rexlated
+              $iroot/emi_init/     srl
+              $iroot/emi_init/     split_36645
+               $iroot/qp_init/     jan_apr
+              $iroot/emi_init/     sw13_bin
+               $iroot/mf_init/     compress
+              $iroot/emi_init/     mkopp_mar29
+              $iroot/emi_init/     cpdip6
+              $iroot/emi_init/     47cw_l3a
+              $iroot/emi_init/     rich3
+              $iroot/emi_init/     poletip3
+              $iroot/emi_init/     circlp16
+              $iroot/emi_init/     cablepec
+              $iroot/emi_init/     wagner
+              $iroot/emi_init/     potter
+              $iroot/emi_init/     potter01
+               $iroot/qp_init/     van
+              $iroot/emi_init/     potter05
+              $iroot/emi_init/     potter03
+              $iroot/emi_init/     potter07
+              $iroot/emi_init/     potter04
+              $iroot/emi_init/     potter02
+              $iroot/emi_init/     potter06
+              $iroot/emi_init/     bmfvgsaf
+               $iroot/mf_init/     37362_planar33
+              $iroot/emi_init/     pratt10
+              $iroot/emi_init/     pratt9
+              $iroot/emi_init/     pratt5
+              $iroot/emi_init/     pratt6
+              $iroot/emi_init/     pratt4
+              $iroot/emi_init/     pratt7
+              $iroot/emi_init/     pratt3
+              $iroot/emi_init/     pratt1
+              $iroot/emi_init/     pratt2
+              $iroot/emi_init/     genicom
+              $iroot/emi_init/     micro
+              $iroot/emi_init/     clutch3d
+              $iroot/emi_init/     micron
+               $iroot/qp_init/     jan_acis
+              $iroot/emi_init/     breaker
+              $iroot/emi_init/     ewnov14
+              $iroot/emi_init/     model_check_air
+              $iroot/emi_init/     hm120
+               $iroot/qp_init/     qamkor5
+              $iroot/emi_init/     wenhua
+              $iroot/emi_init/     knight
+              $iroot/emi_init/     frclcvr
+              $iroot/emi_init/     newaero
+              $iroot/emi_init/     jeff1
+              $iroot/emi_init/     pam_w_01
+              $iroot/emi_init/     ameslab
+              $iroot/emi_init/     hdr44
+              $iroot/emi_init/     ames
+              $iroot/emi_init/     saddle
+              $iroot/emi_init/     amk4
+              $iroot/emi_init/     model_check_barrel
+              $iroot/emi_init/     amk5
+              $iroot/emi_init/     12w_old
+              $iroot/emi_init/     zol02
+              $iroot/emi_init/     Induct
+              $iroot/emi_init/     a75
+              $iroot/emi_init/     12w_new_temp
+              $iroot/emi_init/     12w_new
+              $iroot/emi_init/     circloop
+              $iroot/emi_init/     test22
+              $iroot/emi_init/     16w_base
+              $iroot/emi_init/     55s_c1
+               $iroot/mf_init/     39651_iges3_refine_failure
+#very_bad_model$iroot/emi_init/     ames_split
+               $iroot/mf_init/     region2
+              $iroot/emi_init/     LCD2
+              $iroot/emi_init/     17w_base
+              $iroot/emi_init/     magpow
+              $iroot/emi_init/     model_check_right
+              $iroot/emi_init/     96_016
+               $iroot/qp_init/     vlsi1
+              $iroot/emi_init/     vin3d01
+              $iroot/emi_init/     package
+              $iroot/emi_init/     bill
+              $iroot/emi_init/     bcc64c1_0808
+              $iroot/emi_init/     retrans
+              $iroot/emi_init/     dyna
+              $iroot/emi_init/     SQ2
+               $iroot/mf_init/     model
+              $iroot/emi_init/     model_check_cut
+              $iroot/emi_init/     sunet101
+              $iroot/emi_init/     micromtr
+              $iroot/emi_init/     vin
+              $iroot/emi_init/     SteveDel2003Nov19
+              $iroot/emi_init/     headcoil_proj_only
+              $iroot/emi_init/     bad_q3d
+              $iroot/emi_init/     oc48_192hfss
+               $iroot/qp_init/     3traces_gnd_mm
+              $iroot/emi_init/     balance
+               $iroot/qp_init/     3traces_mm
+              $iroot/emi_init/     aero
+              $iroot/emi_init/     connect2_tx_simp
+              $iroot/emi_init/     filt_old
+              $iroot/emi_init/     bad_q3d_boxes
+              $iroot/emi_init/     full_model_34599
+               $iroot/qp_init/     MikeB
+              $iroot/emi_init/     sweetmerge
+              $iroot/emi_init/     pont5_36030
+              $iroot/emi_init/     n_coil84_torque_r_nominal
+              $iroot/emi_init/     vin3d02
+              $iroot/emi_init/     46_c1
+              $iroot/emi_init/     model_check
+               $iroot/mf_init/     bal01
+               $iroot/qp_init/     traces5
+              $iroot/emi_init/     32_slot_tilt_70_85_com13v1
+              $iroot/emi_init/     half_pm_dc
+               $iroot/qp_init/     MBGA
+               $iroot/qp_init/     5traces_mm
+              $iroot/emi_init/     head
+              $iroot/emi_init/     pam_f_01
+               $iroot/mf_init/     nosoln
+               $iroot/qp_init/     8leas
+               $iroot/qp_init/     gnd_pln
+			   
+    
+#total_245_models_in_the_list
+
+$iroot/9_mxwl_qa_models/     03_symm_1_8
+$iroot/9_mxwl_qa_models/     03_symm_ed_1_8
+$iroot/9_mxwl_qa_models/     03_symm_ed_full
+$iroot/9_mxwl_qa_models/     03_symm_full
+$iroot/9_mxwl_qa_models/     3deqs
+$iroot/9_mxwl_qa_models/     3DMlinkEdd_Comparison
+$iroot/9_mxwl_qa_models/     3DMlinkEdd_Source
+$iroot/9_mxwl_qa_models/     3DMlinkEdd_Target
+$iroot/9_mxwl_qa_models/     3D_Applied
+$iroot/9_mxwl_qa_models/     3D_impedance_boundary_case_7
+$iroot/9_mxwl_qa_models/     3D_impedan_MaxwellDesign1
+$iroot/9_mxwl_qa_models/     acbenchm_force
+$iroot/9_mxwl_qa_models/     Aniso_Eddy
+$iroot/9_mxwl_qa_models/     BH_curve_Generic
+$iroot/9_mxwl_qa_models/     BH_curve_static
+$iroot/9_mxwl_qa_models/     BH_sr2_GenericDesign
+$iroot/9_mxwl_qa_models/     BH_sr2_static
+$iroot/9_mxwl_qa_models/     boundary
+$iroot/9_mxwl_qa_models/     busbars
+$iroot/9_mxwl_qa_models/     coax_bug2
+$iroot/9_mxwl_qa_models/     Core_TapeW_Maxwell3DDesign1a_
+$iroot/9_mxwl_qa_models/     Core_TapeW_Maxwell3DDesign1b_
+$iroot/9_mxwl_qa_models/     Core_TapeW_Maxwell3DDesign2_S
+$iroot/9_mxwl_qa_models/     Core_TapeW_Maxwell3DDesign3_S
+$iroot/9_mxwl_qa_models/     Coupling_k_BH_curve_LinearIBC
+$iroot/9_mxwl_qa_models/     Coupling_k_BH_curve_NonliIBC
+$iroot/9_mxwl_qa_models/     CurrentDen
+$iroot/9_mxwl_qa_models/     CurrentDen1_Eddy_Insu
+$iroot/9_mxwl_qa_models/     CurrentDen_cmplx
+$iroot/9_mxwl_qa_models/     CurrentDen_cmplx_aniso
+$iroot/9_mxwl_qa_models/     CurrentDen_Eddy
+$iroot/9_mxwl_qa_models/     CurrentDen_Multi
+$iroot/9_mxwl_qa_models/     CurrentDen_sym
+$iroot/9_mxwl_qa_models/     demag3DMag_ObjectNoMeshLink
+$iroot/9_mxwl_qa_models/     demag3DMag_ObjectNoMeshLinkTr
+$iroot/9_mxwl_qa_models/     demag3DMag_source
+$iroot/9_mxwl_qa_models/     demag3DMag_TargetDesignBased
+$iroot/9_mxwl_qa_models/     demag3DMag_TargetObjectBasedM
+$iroot/9_mxwl_qa_models/     demag3D_Td_static_src_122
+$iroot/9_mxwl_qa_models/     demag3D_Td_static_src_22
+$iroot/9_mxwl_qa_models/     demag3D_Td_static_target_122
+$iroot/9_mxwl_qa_models/     demag3D_Td_static_target_22
+$iroot/9_mxwl_qa_models/     demag3D_UI_mu_nopm_static_src
+$iroot/9_mxwl_qa_models/     demag3D_UI_mu_static_src
+$iroot/9_mxwl_qa_models/     demag3D_UI_mu_static_target
+$iroot/9_mxwl_qa_models/     demag3D_UI_static_src
+$iroot/9_mxwl_qa_models/     demag3D_UI_static_target
+$iroot/9_mxwl_qa_models/     demag3D_UI_static_target_nopm
+$iroot/9_mxwl_qa_models/     Dipole_Antenna
+$iroot/9_mxwl_qa_models/     eddy_2pec_cylinder
+$iroot/9_mxwl_qa_models/     eddy_2pec_cylinder2
+$iroot/9_mxwl_qa_models/     Ex_9_14_BasicElectricTransient
+$iroot/9_mxwl_qa_models/     Force_Thermal
+$iroot/9_mxwl_qa_models/     Force_Thermal_func
+$iroot/9_mxwl_qa_models/     forMagneti_Maxwell3DDesign1
+$iroot/9_mxwl_qa_models/     forMagneti_Maxwell3DDesign2
+$iroot/9_mxwl_qa_models/     High_Res_B_GenericDesign
+$iroot/9_mxwl_qa_models/     High_Res_B_static
+$iroot/9_mxwl_qa_models/     Hole_stranded3
+$iroot/9_mxwl_qa_models/     HtEddyZero
+$iroot/9_mxwl_qa_models/     HtEddy_1B
+$iroot/9_mxwl_qa_models/     HtEddy_1B2
+$iroot/9_mxwl_qa_models/     HtEddy_NoHt
+$iroot/9_mxwl_qa_models/     HtZero
+$iroot/9_mxwl_qa_models/     Impedance
+$iroot/9_mxwl_qa_models/     Impedance_iccg
+$iroot/9_mxwl_qa_models/     Impedance_sim
+$iroot/9_mxwl_qa_models/     Impedance_solid
+$iroot/9_mxwl_qa_models/     Imped_check
+$iroot/9_mxwl_qa_models/     impe_test3D
+$iroot/9_mxwl_qa_models/     imp_bnd_mo_perm_cond_bnd
+$iroot/9_mxwl_qa_models/     imp_bnd_mo_perm_cond_nobnd
+$iroot/9_mxwl_qa_models/     Induction
+$iroot/9_mxwl_qa_models/     inifinity_ext
+$iroot/9_mxwl_qa_models/     Insulation
+$iroot/9_mxwl_qa_models/     Insulation_terminal
+$iroot/9_mxwl_qa_models/     Iphase_1_Both_Pri_and_Sec_0_d
+$iroot/9_mxwl_qa_models/     Iphase_2_Pri_0_Sec_90
+$iroot/9_mxwl_qa_models/     Ite
+$iroot/9_mxwl_qa_models/     JCV
+$iroot/9_mxwl_qa_models/     J_2
+$iroot/9_mxwl_qa_models/     J_2_2object
+$iroot/9_mxwl_qa_models/     J_2_nl
+$iroot/9_mxwl_qa_models/     J_2_nl_aniso
+$iroot/9_mxwl_qa_models/     J_2_pm_yes
+$iroot/9_mxwl_qa_models/     LWD_master_slave
+$iroot/9_mxwl_qa_models/     Master_slave_both
+$iroot/9_mxwl_qa_models/     Master_Slave_rotation
+$iroot/9_mxwl_qa_models/     Master_Slave_rotation_nl_MScha
+$iroot/9_mxwl_qa_models/     Master_Sla_2reg_Imped_Quarte_2
+$iroot/9_mxwl_qa_models/     Master_Sla_2reg_Imped_Quarte_3
+$iroot/9_mxwl_qa_models/     Master_Sla_2reg_odd_Quarte_2
+$iroot/9_mxwl_qa_models/     Master_Sla_2reg_odd_Quarte_3
+$iroot/9_mxwl_qa_models/     Master_Sla_Full_Model_1
+$iroot/9_mxwl_qa_models/     Master_Sla_Quarter_Model_1
+$iroot/9_mxwl_qa_models/     Master_Sla_Quarter_Model_2
+$iroot/9_mxwl_qa_models/     Master_Sla_Quarter_Model_3
+$iroot/9_mxwl_qa_models/     Material_test_cond
+$iroot/9_mxwl_qa_models/     maxwell_asymcond
+$iroot/9_mxwl_qa_models/     maxwell_asymcond_2reg
+$iroot/9_mxwl_qa_models/     maxwell_asymcond_disp
+$iroot/9_mxwl_qa_models/     maxwell_ms_magforce
+$iroot/9_mxwl_qa_models/     maxwell_ms_magforce2
+$iroot/9_mxwl_qa_models/     maxwell_ms_magforce_cmplx
+$iroot/9_mxwl_qa_models/     maxwell_ms_magforce_iterative
+$iroot/9_mxwl_qa_models/     maxwell_ms_magforce_magdir
+$iroot/9_mxwl_qa_models/     maxwell_ms_magforce_muThemal
+$iroot/9_mxwl_qa_models/     maxwell_ms_magforce_muThemal_a
+$iroot/9_mxwl_qa_models/     maxwell_ms_magforce_nonani
+$iroot/9_mxwl_qa_models/     maxwell_ms_magforce_nosource
+$iroot/9_mxwl_qa_models/     maxwell_ms_magforce_solid
+$iroot/9_mxwl_qa_models/     maxwell_ms_magforce_vf
+$iroot/9_mxwl_qa_models/     maxwell_ms_Maxwell3DDesign1
+$iroot/9_mxwl_qa_models/     maxwell_ms_Maxwell3DDesign2
+$iroot/9_mxwl_qa_models/     Messring_ring_without_eddy
+$iroot/9_mxwl_qa_models/     Messring_ring_with_eddy
+$iroot/9_mxwl_qa_models/     MultiVol
+$iroot/9_mxwl_qa_models/     N52_demag_0_original
+$iroot/9_mxwl_qa_models/     N52_demag_1_left
+$iroot/9_mxwl_qa_models/     N52_demag_2_middle
+$iroot/9_mxwl_qa_models/     N52_demag_3_right
+$iroot/9_mxwl_qa_models/     N52_demag_4_separately_demagn
+$iroot/9_mxwl_qa_models/     nonlinear__case_7
+$iroot/9_mxwl_qa_models/     nonlinear__case_8
+$iroot/9_mxwl_qa_models/     normal_symmetry_question13
+$iroot/9_mxwl_qa_models/     oddsym
+$iroot/9_mxwl_qa_models/     One_Term
+$iroot/9_mxwl_qa_models/     PEC
+$iroot/9_mxwl_qa_models/     PEC_Insulation
+$iroot/9_mxwl_qa_models/     PMDC_Maxwell3DDesign1
+$iroot/9_mxwl_qa_models/     PM_magneti_iso_source
+$iroot/9_mxwl_qa_models/     PM_magneti_iso_target
+$iroot/9_mxwl_qa_models/     PM_magnet_ani_source
+$iroot/9_mxwl_qa_models/     PM_magnet_ani_target
+$iroot/9_mxwl_qa_models/     PowerLoss
+$iroot/9_mxwl_qa_models/     PriusMotorV2014
+$iroot/9_mxwl_qa_models/     problem21_v13_edge
+$iroot/9_mxwl_qa_models/     QuadroPole_V15P42
+$iroot/9_mxwl_qa_models/     Rac3_1_no_ext_field
+$iroot/9_mxwl_qa_models/     Rac3_2_ext_field
+$iroot/9_mxwl_qa_models/     Rac3_2_ext_field1
+$iroot/9_mxwl_qa_models/     Rac3_3_DC
+$iroot/9_mxwl_qa_models/     Radiation
+$iroot/9_mxwl_qa_models/     Real_2bars_eddy
+$iroot/9_mxwl_qa_models/     Real_2bars_MaxwellDesign3
+$iroot/9_mxwl_qa_models/     Real_2bars_MaxwellDesign6
+$iroot/9_mxwl_qa_models/     Real_3D_cy_Full_Sigma00
+$iroot/9_mxwl_qa_models/     Real_3D_cy_Full_Sigma10
+$iroot/9_mxwl_qa_models/     Real_3D_cy_Original
+$iroot/9_mxwl_qa_models/     Real_3D_Impedance
+$iroot/9_mxwl_qa_models/     Real_91135_MaxwellDesign1
+$iroot/9_mxwl_qa_models/     Real_91135_MaxwellDesign2
+$iroot/9_mxwl_qa_models/     Real_bus_ex
+$iroot/9_mxwl_qa_models/     Real_coil6_ani
+$iroot/9_mxwl_qa_models/     Real_Dipole_Antenna_13_1
+$iroot/9_mxwl_qa_models/     Real_Dipole_Antenna_13_2
+$iroot/9_mxwl_qa_models/     Real_Dipole_Antenna_13_3
+$iroot/9_mxwl_qa_models/     Real_Dipole_Antenna_13_4
+$iroot/9_mxwl_qa_models/     Real_Dipole_Antenna_13_5
+$iroot/9_mxwl_qa_models/     Real_Error_using_Symmetry_Boun
+$iroot/9_mxwl_qa_models/     Real_example_eddy
+$iroot/9_mxwl_qa_models/     Real_example_magnetostatic
+$iroot/9_mxwl_qa_models/     Real_E_Core_17Feb09
+$iroot/9_mxwl_qa_models/     Real_E_Core_V13_1_B
+$iroot/9_mxwl_qa_models/     Real_E_Core_V13_1_C
+$iroot/9_mxwl_qa_models/     Real_E_Core_V13_B
+$iroot/9_mxwl_qa_models/     Real_E_Core_V13_C
+$iroot/9_mxwl_qa_models/     Real_E_Cor_A_Original
+$iroot/9_mxwl_qa_models/     Real_E_Cor_B_Demag
+$iroot/9_mxwl_qa_models/     Real_E_Cor_C_Recoil
+$iroot/9_mxwl_qa_models/     Real_functionalMagnetDirection
+$iroot/9_mxwl_qa_models/     Real_functional_magnetizing_di
+$iroot/9_mxwl_qa_models/     Real_imped_3D
+$iroot/9_mxwl_qa_models/     Real_imped_3D_no_loss
+$iroot/9_mxwl_qa_models/     Real_inductor_stranded_symnonl
+$iroot/9_mxwl_qa_models/     Real_induc_stranded_1over8
+$iroot/9_mxwl_qa_models/     Real_induc_stranded_full
+$iroot/9_mxwl_qa_models/     Real_induc_stranded_half
+$iroot/9_mxwl_qa_models/     Real_maxwell_coil_1
+$iroot/9_mxwl_qa_models/     Real_maxwell_coil_2
+$iroot/9_mxwl_qa_models/     Real_maxwell_coil_3
+$iroot/9_mxwl_qa_models/     Real_maxwell_coil_4
+$iroot/9_mxwl_qa_models/     Real_maxwell_coil_5
+$iroot/9_mxwl_qa_models/     Real_maxwell_coil_6
+$iroot/9_mxwl_qa_models/     Real_maxwell_coil_7
+$iroot/9_mxwl_qa_models/     Real_model_A
+$iroot/9_mxwl_qa_models/     Real_Multi_current
+$iroot/9_mxwl_qa_models/     Real_Multi_current_Coax_rotate
+$iroot/9_mxwl_qa_models/     Real_Multi_current_Coax_Voltag
+$iroot/9_mxwl_qa_models/     Real_Project159_src
+$iroot/9_mxwl_qa_models/     Real_Project159_target
+$iroot/9_mxwl_qa_models/     Real_Proje_Maxwell3DDesign1
+$iroot/9_mxwl_qa_models/     Real_Proje_Maxwell3DDesign2
+$iroot/9_mxwl_qa_models/     Real_Proje_Y_src
+$iroot/9_mxwl_qa_models/     Real_Proje_Y_target
+$iroot/9_mxwl_qa_models/     Real_Proje_Z_src
+$iroot/9_mxwl_qa_models/     Real_Proje_Z_target
+$iroot/9_mxwl_qa_models/     Real_Qua13test_100k
+$iroot/9_mxwl_qa_models/     Real_Qua13test_60
+$iroot/9_mxwl_qa_models/     Real_Rotational_actuator
+$iroot/9_mxwl_qa_models/     Real_Rotat_Maxwell3DDesign1
+$iroot/9_mxwl_qa_models/     Real_Rotat_Maxwell3DDesign2_w
+$iroot/9_mxwl_qa_models/     Real_rot_act
+$iroot/9_mxwl_qa_models/     Real_team20_4processor
+$iroot/9_mxwl_qa_models/     Real_Team8_Initial_Design
+$iroot/9_mxwl_qa_models/     Real_Team8_Non_Meshed_Flaw
+$iroot/9_mxwl_qa_models/     Real_test3_h100um_090730
+$iroot/9_mxwl_qa_models/     Real_test3_value_bnd
+$iroot/9_mxwl_qa_models/     Real_torqtest
+$iroot/9_mxwl_qa_models/     Real_to_ping
+$iroot/9_mxwl_qa_models/     Real_transformer_3Deddycurrent
+$iroot/9_mxwl_qa_models/     Real_V13Beta_Test_Nonlinear_Ma
+$iroot/9_mxwl_qa_models/     Real_woolsey
+$iroot/9_mxwl_qa_models/     Ring01_new
+$iroot/9_mxwl_qa_models/     Ring01_Ring01
+$iroot/9_mxwl_qa_models/     Ring01_Ring2
+$iroot/9_mxwl_qa_models/     Rotational_actuator
+$iroot/9_mxwl_qa_models/     Rotational_actuator5NewSolver
+$iroot/9_mxwl_qa_models/     Setup
+$iroot/9_mxwl_qa_models/     Setup1
+$iroot/9_mxwl_qa_models/     Setup_direct
+$iroot/9_mxwl_qa_models/     SIMPLE_AC__1_SHIELD_imped_w_h
+$iroot/9_mxwl_qa_models/     SIMPLE_AC__2_SHIELD_imped_no_
+$iroot/9_mxwl_qa_models/     SIMPLE_AC__4_SOLID_reference_
+$iroot/9_mxwl_qa_models/     Solenoid
+$iroot/9_mxwl_qa_models/     Stranded
+$iroot/9_mxwl_qa_models/     sublade_Maxwell3DDesign1
+$iroot/9_mxwl_qa_models/     sublade_Maxwell3DDesign2
+$iroot/9_mxwl_qa_models/     test_loss__Maxwell3DDesign1
+$iroot/9_mxwl_qa_models/     TFExtelV_L_V_ED_HPC_twowind1
+$iroot/9_mxwl_qa_models/     TFExtelV_L_V_ED_HPC_twowind2
+$iroot/9_mxwl_qa_models/     Thermal
+$iroot/9_mxwl_qa_models/     Transforme_L_V_ED_HPC1
+$iroot/9_mxwl_qa_models/     Transforme_L_V_ED_HPC2
+$iroot/9_mxwl_qa_models/     UDPLinR150_Maxwell3DDesign2
+$iroot/9_mxwl_qa_models/     UDPWinR150_Maxwell3DDesign2
+$iroot/9_mxwl_qa_models/     US69110
+$iroot/9_mxwl_qa_models/     Vol
+$iroot/9_mxwl_qa_models/     VolDrop2
+$iroot/9_mxwl_qa_models/     Voltage
+$iroot/9_mxwl_qa_models/     Volt_oddsymm
+$iroot/9_mxwl_qa_models/     Vol_aniso
+$iroot/9_mxwl_qa_models/     Vol_nonani
+$iroot/9_mxwl_qa_models/     V_Multi
+$iroot/9_mxwl_qa_models/     X_axis
+
+

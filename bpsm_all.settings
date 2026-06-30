@@ -1,0 +1,85 @@
+#242 models,         Phi: 8aathreads(06:19:01R196 19-09-10 97failed) 6threads(08:19:44R196 19-09-10 97failed) 
+#242 models, TAU Plus+Flex: 2threads(44:35:04R197 19-11-25)
+#137 models, Phi+Classic: 4aathreads(00:41:06R196 19-09-16)
+#80  models, Phi+Classic: 8aathreads(03:08:05R195 19-01-10) 4threads(11:07:04R196 19-09-16) Phi:6threads(00:41:06R196 19-09-10) 
+#80  models,    TAU Flex:   8threads(10:34:51R196 19-10-16 03:08:05R195 19-01-10) 4threads(11:29:47R196 19-10-02) 
+
+#######       All models: 246
+#kw note      local mesher in one pool
+#kw jobtable  d:/test_suite_mdm_mesher_only/test1.pjtable
+
+kw prog       e:/64_executable/mdm_mesher.exe
+kw iroot      e:/test_suite
+kw scrroot    d:/test_suite_mdm_mesher_only
+
+kw output     d:/test_suite_mdm_mesher_only/test_results/bpsm_models_all/all_bpsm_models/Phi_V2_PRISM_2020_04_08_0_Refine_08_05_PLUS_Flex_Stage1
+kw refoutput  d:/test_suite_mdm_mesher_only/test_results/bpsm_models_all/all_bpsm_models/2020_03_01_2020R2_Phi_Classic_failed_47
+kw jobtable   d:/test_suite_mdm_mesher_only/test_suite_bpsm_all_246.pjtable
+
+
+#######137 Ravi models
+#kw output     d:/test_suite_mdm_mesher_only/test_results/bpsm_models_all/ravi_bpsm_models/2019_10_23_test_nodes
+#kw refoutput  d:/test_suite_mdm_mesher_only/test_results/bpsm_models_all/ravi_bpsm_models/2019_10_22_test_nodes
+#kw jobtable   d:/test_suite_mdm_mesher_only/test_suite_bpsm_ravi_models_173.pjtable
+
+#######80 my models
+#kw output     d:/test_suite_mdm_mesher_only/test_results/bpsm_models_all/my_bpsm_models/2020_02_01_2020R2_TAU_Flex
+#kw refoutput  d:/test_suite_mdm_mesher_only/test_results/bpsm_models_all/my_bpsm_models/2019_10_16_R196_final_Flex
+#kw jobtable   d:/test_suite_mdm_mesher_only/test_suite_bpsm_my_models_95.pjtable
+
+#######45 new models
+#kw output     d:/test_suite_mdm_mesher_only/test_results/bpsm_models_all/latest_bpsm_models/V1_2020_02_07_RED_NoRefine_08_04_2020R2_TAU Plus_Flex
+#kw refoutput  d:/test_suite_mdm_mesher_only/test_results/bpsm_models_all/latest_bpsm_models/2020_02_01_2020R2_Classic
+#kw jobtable   d:/test_suite_mdm_mesher_only/test_suite_bpsm_regenerate_models_51.pjtable
+
+kw threads 12
+kw timeout 03:00:00
+
+env   TAU_MESHER_CHOICE_FLAG=3
+
+env   TAU_SET_STOP_FLAGaa=6
+env   TAU_MESH_GAP_SIZEaa=0.08 0.05
+
+env   NUM_PROCESSES_4_TAU_MESHER=12
+env   TAU_PROFILE_MESHING_TIME=1
+#env  MDM_TEST_MESH_TYPE_OUTPUT=-1
+#MDM_TEST_MESH_TYPE_OUTPUT   volume mesh(1), surface mesh(-1)
+
+#env  EnableTolerantClassic=1
+#env  MDM_USE_OLD_FACETER=1
+#env  mdm_skip_edge_faceter=1
+env   TAUReferenceOutput=$refoutput
+env   RefernceMeshRepository=$refoutput
+#env  DoNotFallBack=1
+#env  UseAnsoftClassicMesher=1
+#env  DontUsePhiMesher=1
+#env  IgnoreObliqueBodies=1
+#env  VerifySurfTriAssignments=1
+#env  SaveErrorsUnderConstruction=1
+#env  XSR_SaveG3dFile=1
+#env  PreserveFaceIds=1
+env   DoNotEchoStderr=1
+env   SupressStdErr=1
+env   DontPullPointsToTrueSurface=1
+env   G3D_GEOMPROC=1
+
+env   mdm_global_mesh_refinement_factoraa=0.2
+#env  mdm_mesh_coarsening_target_cell_number=-1
+env   MDM_REF_COMPARE_FACTOR=0.2
+env   MDM_REF_COMPARE_MESH_SIZE=500
+env   MDM_REF_COMPARE_MESH_TIME=20.
+env   ForgiveMissingFaceIds=1
+#env  ForceSurfMesh=1
+env   SaveMeshDataRepository="./"
+env   ForgiveDuplicateIds=1
+env   ANSOFT_DEBUG_MODE=2
+env   ANSOFT_DEBUG_LOG=debug.runlog
+
+#when call G3dmesher, if phi only, just set DoNotFallBack=1
+
+
+
+
+
+
+

@@ -1,0 +1,81 @@
+
+kw prog        e:/64_executable/mdm_mesher.exe
+kw iroot       e:/test_suite
+kw scrroot     d:/test_suite_mdm_mesher_only
+
+kw output      d:/test_suite_mdm_mesher_only/test_results/phi_suitable_mcad/2026_05_05(tau01)(auto)(Solid)(609_11)(Phi+390)(10_hour)
+kw refoutput   d:/test_suite_mdm_mesher_only/test_results/phi_suitable_mcad/2026_04_08_2(tau01)(TAU)(Solid)(602_18)(12_hour)
+kw jobtable    d:/test_suite_mdm_mesher_only/test_suite_mcad_phi_suitable_00_ALL_632.pjtable
+#kw jobtable    d:/test_suite_mdm_mesher_only/test_suite_mcad_phi_suitable_03_planar_models_376.pjtable
+#kw jobtable   d:/test_suite_mdm_mesher_only/failed.pjtable
+
+kw threads 12
+kw timeout 10:00:00
+
+env  MDM_RUN_PARASOLID=1
+#env MDM_WRITE_OUT_WYMODEL=1
+#env MDM_RUN_WYMODEL=1
+//1-auto 2-legacy 3-Phi+
+env   TAU_MESHER_CHOICE_FLAG=1
+env   TAU_ForceFallBack=1
+env   TAU_USE_NEW_SOLID_ID=1
+env   TAU_COUNT_SOLID_ID_TIME=1
+
+env   TAU_SET_STOP_FLAGaa=1
+env   nbyxfmm=12
+env   TAU_UNION_FREE_MESHaa=1
+env   TAU_DO_PARALLEL_MESHINGaa=14
+env   TAU_GEOMETRY_FREE_MESHINGaa=1
+env   GL_MESHING_HEALING_LEAKSaa=1
+
+env  TAU_BASE_MESH_METHODaa=2
+env  TAU_DO_REFINEMENT_FLAGaa=2
+env  USE_TAU_BINARY_OUTPUT=1
+env  TAU_BVM_VERIFYaa=1
+env  nbyxfmm=8
+env  TAU_ACTIVE_ASPECT_RATIOaa=1
+env  TAU_PROFILE_MESHING_TIME=1
+env  TAU_USE_AUTO_MESHER_FLAGaa=1
+
+env  USE_TAU_PORT_MESHERaa=1
+#env MDM_TEST_MESH_TYPE_OUTPUT=-1
+#MDM_TEST_MESH_TYPE_OUTPUT   volume mesh(1), surface mesh(-1)
+
+env  EnableTolerantClassicaa=1
+env  mdm_global_mesh_refinement_factoraa=1.0
+#env mdm_mesh_coarsening_target_cell_number=-1
+env  TAUReferenceOutput=$refoutput
+env  RefernceMeshRepository=$refoutput
+env  SimulateMeshFacetingProcessaa=dump
+###env  DoNotFallBack=1
+#env DontUsePhiMesher=1
+env  ForgiveMissingFaceIds=1
+#env ForceSurfMesh=1
+#env ModelMeshRefinements=11.25 0.001 2
+env  SaveMeshDataRepository="./"
+env  ForgiveDuplicateIds=1
+
+env  MDM_REF_COMPARE_FACTOR=0.05
+env  MDM_REF_COMPARE_MESH_SIZE=500
+env  MDM_REF_COMPARE_MESH_TIME=20.
+#env UseAnsoftClassicMesher=1
+#env IgnoreObliqueBodies=1
+#env VerifySurfTriAssignments=1
+#env SaveErrorsUnderConstruction=1
+#env XSR_SaveG3dFile=1
+#env PreserveFaceIds=1
+env  DoNotEchoStderr=1
+env  SupressStdErr=1
+env  DontPullPointsToTrueSurface=1
+env  G3D_GEOMPROC=1
+env  ANSOFT_DEBUG_MODE=2
+env  ANSOFT_DEBUG_LOG=debug.runlog
+
+###TAU_DO_MESH_COMPARE:-1(ignore volume, area diff); 1-normal(0.01), 2-strict(1.e-5)
+env  TAU_DO_MESH_COMPAREaa=1
+env  TAU_work_mesh_folder=d:\test_suite_mdm_mesher_only\test_results\basic_simple_models\2020_08_28_2021R1_final
+env   TAU_ref_mesh_folder=d:\test_suite_mdm_mesher_only\test_results\basic_simple_models\2020_08_04_acis
+
+
+
+

@@ -1,0 +1,60 @@
+
+kw prog       e:/64_executable/mdm_mesher
+kw iroot      e:/test_suite
+kw scrroot    d:/test_suite_mdm_mesher_only
+
+kw output     d:/test_suite_mdm_mesher_only/test_results/bpsm_models_all/IC_models/2026_03_21_3(tau01)(FastSplitFacetfaces)(7_min)
+kw refoutput  d:/test_suite_mdm_mesher_only/test_results/bpsm_models_all/IC_models/2026_03_21_2(tau01)(FastSplitFacetfaces)(7_min)
+kw jobtable   d:/test_suite_mdm_mesher_only/test_suite_bpsm_IC_models_28.pjtable
+#kw jobtable  d:/test_suite_mdm_mesher_only/failed.pjtable
+
+kw threads 6
+kw timeout 1:00:00
+
+env   TAU_MESHER_CHOICE_FLAG=3
+env   TAU_DO_PARALLEL_MESHING=14
+env   TAU_GEOMETRY_FREE_MESHING=1
+env   TAU_USE_NEW_SOLID_ID=1
+env   GL_MESHING_HEALING_LEAKSaa=1
+
+env   TAU_SET_STOP_FLAG=2
+env   TAU_COUNT_SOLID_ID_TIMEaa=1
+env   TAU_DO_FACETS_in_M14aa=1
+env   TAU_ForceFallBackaa=1
+env   TAU_BINARY_OUTPUT_FLAGaa=1
+env   nbyxfmm=12
+env   TAU_MESH_GAP_SIZEaa=0.02 0.05
+env   TAU_PROFILE_MESHING_TIME=1
+#env  MDM_TEST_MESH_TYPE_OUTPUT=-1
+#MDM_TEST_MESH_TYPE_OUTPUT   volume mesh(1), surface mesh(-1)
+env   mdm_global_mesh_refinement_factoraa=0.2
+env   ANSYSEM_FEATURE_F231148_classic_parallel_recovery_ENABLEaa=1
+#env  EnableTolerantClassic=1
+#env  MDM_USE_OLD_FACETER=1
+#env  mdm_skip_edge_faceter=1
+env   TAUReferenceOutput=$refoutput
+env   RefernceMeshRepository=$refoutput
+#env  DoNotFallBack=1
+#env  UseAnsoftClassicMesher=1
+#env  DontUsePhiMesher=1
+#env  IgnoreObliqueBodies=1
+#env  VerifySurfTriAssignments=1
+#env  SaveErrorsUnderConstruction=1
+#env  XSR_SaveG3dFile=1
+#env  PreserveFaceIds=1
+env   DoNotEchoStderr=1
+env   SupressStdErr=1
+env   DontPullPointsToTrueSurface=1
+env   G3D_GEOMPROC=1
+
+env   mdm_global_mesh_refinement_factoraa=0.3
+#env  mdm_mesh_coarsening_target_cell_number=-1
+env   MDM_REF_COMPARE_FACTOR=0.05
+env   MDM_REF_COMPARE_MESH_SIZE=10
+env   MDM_REF_COMPARE_MESH_TIME=10.
+env   ForgiveMissingFaceIds=1
+#env  ForceSurfMesh=1
+env   SaveMeshDataRepository="./"
+env   ForgiveDuplicateIds=1
+env   ANSOFT_DEBUG_MODE=2
+env   ANSOFT_DEBUG_LOG=debug.runlog

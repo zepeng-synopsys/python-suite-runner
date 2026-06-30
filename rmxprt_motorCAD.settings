@@ -1,0 +1,53 @@
+
+kw prog      e:/64_executable/mdm_mesher
+kw iroot     e:/test_suite/10MotorCAD_new
+kw scrroot   d:/test_suite_mdm_mesher_only
+
+kw output    d:/test_suite_mdm_mesher_only/test_results/rmxprt_models/motorCAD/2023_10_05(wyuan)(Clone)(Domains)(13_failed)
+kw refoutput d:/test_suite_mdm_mesher_only/test_results/rmxprt_models/motorCAD/2023_09_04_0_R241_final(wyuan)(Clone)(Domains)(13_failed)
+kw jobtable  d:/test_suite_mdm_mesher_only/test_suite_rmxprt_motorCAD_224.pjtable
+#kw jobtable  d:/test_suite_mdm_mesher_only/test_suite_rmxprt_motorCAD_229.pjtable
+#kw jobtable d:/test_suite_mdm_mesher_only/failed.pjtable
+
+kw threads 24
+kw timeout 00:30:00
+
+#env  MDM_RUN_WYMODEL=1
+#env  MDM_WRITE_OUT_WYMODEL=1
+env   MDM_RUN_PARASOLID=1
+env   TAU_CLONE_MESH_TEST=1
+env   TAU_USE_TAU_PLUSaa=1
+env   TAU_ForceFallBackaa=1
+
+env   TAU_DO_PARALLEL_MESHING=1
+#3-imprint, 4-base_mesh, 5-features, 9-phase1, 10-band+assembling
+env   TAU_SET_STOP_FLAGaa=3
+env   USE_TAU_BINARY_OUTPUT=1
+env   nbyxfmm=12
+env   TAU_BAND_MAPPING_ANGLEaa=0.05
+env   TAU_2D_CLONE_MESH_TESTaa=1
+env   TAU_PROFILE_MESHING_TIME=1
+env   DoNotFallBack=1
+env   ForgiveMissingFaceIds=1
+env   mdm_global_mesh_refinement_factoraa=0.3
+env   TAUReferenceOutput=$refoutput
+env   RefernceMeshRepository=$refoutput
+env   SimulateMeshFacetingProcessaa=dump
+env   SaveMeshDataRepository="./"
+env   ForgiveDuplicateIds=1
+#env  UseAnsoftClassicMesher=1
+#env  DontUsePhiMesher=1
+#env  IgnoreObliqueBodies=1
+#env  VerifySurfTriAssignments=1
+#env  SaveErrorsUnderConstruction=1
+#env  XSR_SaveG3dFile=1
+#env  PreserveFaceIds=1
+env   DoNotEchoStderr=1
+env   SupressStdErr=1
+env   DontPullPointsToTrueSurface=1
+env   G3D_GEOMPROC=1
+env   MDM_REF_COMPARE_FACTOR=0.2
+env   MDM_REF_COMPARE_MESH_SIZE=1000
+env   MDM_REF_COMPARE_MESH_TIME=60.
+env   ANSOFT_DEBUG_MODE=2
+env   ANSOFT_DEBUG_LOG=debug.runlog

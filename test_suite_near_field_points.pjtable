@@ -1,0 +1,50 @@
+
+  $iroot/near_farfield_points/     box
+  $iroot/near_farfield_points/     cylindrical_cartesian_close_along_x
+  $iroot/near_farfield_points/     cylindrical_cartesian_close_along_y
+  $iroot/near_farfield_points/     cylindrical_cartesian_close_along_z
+  $iroot/near_farfield_points/     plane_at_xy
+  $iroot/near_farfield_points/     plane_at_yz
+  $iroot/near_farfield_points/     sphere_center_x_normal
+  $iroot/near_farfield_points/     sphere_close
+  $iroot/near_farfield_points/     fine_spherical_close
+  $iroot/near_farfield_points/     near_field_user_data_cylinder_close
+  $iroot/near_farfield_points/     near_field_user_data_planar
+  $iroot/near_farfield_points/     near_field_user_data_planar_duplicate_points
+  $iroot/near_farfield_points/     Sphere2
+  $iroot/near_farfield_points/     sphere_bad_mesh
+  $iroot/near_farfield_points/     problem_spherical_data
+  $iroot/near_farfield_points/     LongerCylinderWithoutCaps
+  $iroot/near_farfield_points/     extfield_userfile_cylinder_top_bottom
+  $iroot/near_farfield_points/     DE81830
+  $iroot/near_farfield_points/     issaic_extfield_userfile_cylinder_top_bottom
+  $iroot/near_farfield_points/     issaic_LongerCylinderWithoutCaps
+  $iroot/near_farfield_points/     issaic_near_field_user_data_cylinder_close
+  $iroot/near_farfield_points/     issaic_near_field_user_data_planar
+  $iroot/near_farfield_points/     issaic_near_field_user_data_planar_duplicate_points
+  $iroot/near_farfield_points/     issaic_problem_spherical_data
+  $iroot/near_farfield_points/     issaic_sphere_bad_mesh
+  $iroot/near_farfield_points/     extfield_userfile_09_15_2014_Plane
+  $iroot/near_farfield_points/     box_test_my_2016_05_18_bardi
+  $iroot/near_farfield_points/     DE128124_box_test_2016_05_18
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+

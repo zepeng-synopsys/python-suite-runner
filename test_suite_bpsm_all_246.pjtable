@@ -1,0 +1,337 @@
+    
+
+#total_95_models_in_the_list
+
+$iroot/13_bpsm_models/     Sergey_QSFP_7_HFregion_TX7_scottrun_HFR0
+$iroot/13_bpsm_models/     Sergey_QSFP_7_HFregion_TX7_scottrun_HFR1
+$iroot/13_bpsm_models/     DE121258_designer
+$iroot/13_bpsm_models/     DE134912_designer
+$iroot/13_bpsm_models/     DE140573_designer
+$iroot/13_bpsm_models/     DE141771_Qorvo_designer
+$iroot/13_bpsm_models/     DE126473_Phi_huawei_work_model
+$iroot/13_bpsm_models/     DE126473_Phi_huawei
+$iroot/13_bpsm_models/     DE125639_phi_8minutes
+$iroot/13_bpsm_models/     DE125385_phi_45minutes
+$iroot/13_bpsm_models/     a_95204
+$iroot/13_bpsm_models/     bcom_cpw_bb
+$iroot/13_bpsm_models/     bga_93074
+$iroot/13_bpsm_models/     bga_93801
+$iroot/13_bpsm_models/     bga_bb
+$iroot/13_bpsm_models/     bga_wb_DQ
+$iroot/13_bpsm_models/     bgawb_94867
+$iroot/13_bpsm_models/     BPF_Gap_Coupled_Overlap
+$iroot/13_bpsm_models/     BPF_Microstrip_Coupled_Line_4_Pole
+$iroot/13_bpsm_models/     BPF_Microstrip_Interdigitated
+$iroot/13_bpsm_models/     bsand2_bb_defeatured
+$iroot/13_bpsm_models/     Bug_116582
+$iroot/13_bpsm_models/     DE102731_Phi
+$iroot/13_bpsm_models/     DE102884_designer
+$iroot/13_bpsm_models/     DE105624_designer
+$iroot/13_bpsm_models/     DE107755_designer
+$iroot/13_bpsm_models/     DE108836_designer_simple
+$iroot/13_bpsm_models/     DE109459_layout_mesh_slow
+$iroot/13_bpsm_models/     DE112571_designer_phi_28seconds
+$iroot/13_bpsm_models/     DE113965_designer
+$iroot/13_bpsm_models/     DE115342_designer
+$iroot/13_bpsm_models/     DE115800_designer
+$iroot/13_bpsm_models/     Transition_Microstrip_Stripline
+$iroot/13_bpsm_models/     DE118825_designer_bond_wires
+$iroot/13_bpsm_models/     DE118866_designer
+$iroot/13_bpsm_models/     DE119231_designer
+$iroot/13_bpsm_models/     DE119476_designer
+$iroot/13_bpsm_models/     DE120068_designer
+$iroot/13_bpsm_models/     DE120139_designer
+$iroot/13_bpsm_models/     DE120454_designer
+$iroot/13_bpsm_models/     DE120477_designer
+$iroot/13_bpsm_models/     DE120477_scenario_5_v2016
+$iroot/13_bpsm_models/     DE121099_designer
+$iroot/13_bpsm_models/     DE121786_phi
+$iroot/13_bpsm_models/     DE122297_designer
+$iroot/13_bpsm_models/     DE123465_designer_intel
+$iroot/13_bpsm_models/     DE123792_designer
+$iroot/13_bpsm_models/     DE41829_ANSft00114628_forandrew
+$iroot/13_bpsm_models/     DE49247_designer
+$iroot/13_bpsm_models/     DE49644_designer
+$iroot/13_bpsm_models/     DE55262_designer_phi_74sec
+$iroot/13_bpsm_models/     DE55743_designer
+$iroot/13_bpsm_models/     DE59367_designer_Phi_4sec
+$iroot/13_bpsm_models/     Qualcomm_93069
+$iroot/13_bpsm_models/     DE80831_InfineonPKG
+$iroot/13_bpsm_models/     DE81402_designer_PCB
+$iroot/13_bpsm_models/     DE82886_designer
+$iroot/13_bpsm_models/     DE84157_designer
+$iroot/13_bpsm_models/     DE85238_designer
+$iroot/13_bpsm_models/     DE88120_designer
+$iroot/13_bpsm_models/     ThruHFSS_93799
+$iroot/13_bpsm_models/     DE89073_designer
+$iroot/13_bpsm_models/     DE92803_bond_wires
+$iroot/13_bpsm_models/     DE92854_designer
+$iroot/13_bpsm_models/     DE96408_Infineon_PKG
+$iroot/13_bpsm_models/     DE96896_designer
+$iroot/13_bpsm_models/     DE96947_TC14_046_test_dp0
+$iroot/13_bpsm_models/     DE97428_designer
+$iroot/13_bpsm_models/     RFPKG_93331
+$iroot/13_bpsm_models/     DE98442_designer
+$iroot/13_bpsm_models/     DE98885_apple_designer_72sec_180000tets
+$iroot/13_bpsm_models/     Diff_Via
+$iroot/13_bpsm_models/     E95069_designer
+$iroot/13_bpsm_models/     intel_bb2
+$iroot/13_bpsm_models/     ManyBondwires
+$iroot/13_bpsm_models/     PCB_Pkg_Merge
+$iroot/13_bpsm_models/     Pkg_On_Brd
+$iroot/13_bpsm_models/     QCM_96153
+$iroot/13_bpsm_models/     DE61404_designer_classic_20hours_3million_tets
+$iroot/13_bpsm_models/     DE97790_designer
+
+#######$iroot/13_bpsm_models_meshgen_qa/    scenario_15
+#######$iroot/13_bpsm_models/     DE142553_Ericsson_phi
+$iroot/13_bpsm_models/     Sergey_Samsung
+$iroot/13_bpsm_models/     bryan_mobile_r03__model
+$iroot/13_bpsm_models/     bryan_galaxy_tv2_conversion
+$iroot/13_bpsm_models/     DE88733_designer_scenario11_phi_2hours_8millions
+$iroot/13_bpsm_models/     DE116995_designer_classic_2days_32000body_36milliontri
+$iroot/13_bpsm_models/     DE142656_designer
+$iroot/13_bpsm_models/     DE143246_phi
+$iroot/13_bpsm_models/     DE146141_designer
+$iroot/13_bpsm_models/     DE147700_phi
+$iroot/13_bpsm_models/     DE159147_phi
+$iroot/13_bpsm_models/     DE163274
+
+################Ravi model####################
+#2016 March 24 Batch being added. 
+$iroot/13_bpsm_models_meshgen_qa/         6435_10L_EVB_DE95069
+$iroot/13_bpsm_models_meshgen_qa/         A3_D1_MB_polycut_DE119321
+$iroot/13_bpsm_models_meshgen_qa/         Ararat-Rev2_brd_pkg_click21
+$iroot/13_bpsm_models_meshgen_qa/         boreal_DE76112
+$iroot/13_bpsm_models_meshgen_qa/         DE43422_HFSS_Conformal_Error
+$iroot/13_bpsm_models_meshgen_qa/         fpc55311_DE119476
+$iroot/13_bpsm_models_meshgen_qa/         GoPro_PCB_Full
+$iroot/13_bpsm_models_meshgen_qa/         HFSS_Solver_on_Demand_Split
+$iroot/13_bpsm_models_meshgen_qa/         MeshQual_DE121786
+$iroot/13_bpsm_models_meshgen_qa/         ms_ddi_DE116995
+$iroot/13_bpsm_models_meshgen_qa/         p2331_a_lda_r_DE122642
+$iroot/13_bpsm_models_meshgen_qa/         postproc_fail_DE122919
+$iroot/13_bpsm_models_meshgen_qa/         QM76046_Lam_ArvVias_DE120670
+$iroot/13_bpsm_models_meshgen_qa/         same_inflation_DE120302
+$iroot/13_bpsm_models_meshgen_qa/         SP_RD_NGFF_PCIE_4L_E2_CAD_G9478001
+$iroot/13_bpsm_models_meshgen_qa/         test9_r5_DE121099
+$iroot/13_bpsm_models_meshgen_qa/         Transition_WG_SL1_DE120068
+                            
+#2015 Oct 14 Batch being added. 
+$iroot/13_bpsm_models_meshgen_qa/         AtmelPBA10673_DE100887
+$iroot/13_bpsm_models_meshgen_qa/         Avago_Rx_TestClassic_DE98442
+$iroot/13_bpsm_models_meshgen_qa/         1798_DQ16_DE115800
+$iroot/13_bpsm_models_meshgen_qa/         8822_UD822B00_DE116309
+$iroot/13_bpsm_models_meshgen_qa/         GP104_GB4_NVHS_DE113965
+$iroot/13_bpsm_models_meshgen_qa/         SW_PE_SWO_5percent_DE112571
+$iroot/13_bpsm_models_meshgen_qa/         TGA4960_all_DE102884
+$iroot/13_bpsm_models_meshgen_qa/         Microstrip_only_10L_DE108836
+$iroot/13_bpsm_models_meshgen_qa/         DakotaFinalGroup3_DE98542
+$iroot/13_bpsm_models_meshgen_qa/         exp_from_siw_DE65621
+$iroot/13_bpsm_models_meshgen_qa/         TpaPartitionDE92803
+#$iroot/13_bpsm_models_meshgen_qa/         blaun_LB_HB_DPLX_integr_DE89073 Mesherporc endless loop 2016 Mar
+$iroot/13_bpsm_models_meshgen_qa/         PI_PSI_DE88120
+
+
+#Jul 28 Full retest of all the bugs in the story and updated
+#the suite. Created bpsm with non zero padding for all bugs. 
+
+$iroot/13_bpsm_models_meshgen_qa/  BCG_Test_DE97503
+$iroot/13_bpsm_models_meshgen_qa/  Dans700-2652-DE95644
+$iroot/13_bpsm_models_meshgen_qa/  HRCPD_MS_L_MKE_wie_DE105624
+$iroot/13_bpsm_models_meshgen_qa/  TraceTest4Hfss_DE82866
+
+#June 23 2015. Adding five more defect projects to the test suite. 
+$iroot/13_bpsm_models_meshgen_qa/  Broadcom_DE107257
+$iroot/13_bpsm_models_meshgen_qa/  SIM_2b_Sissy_DE107755
+#$iroot/13_bpsm_models_meshgen_qa/  BraodCom_DE106394     Model wrong, cant create bpsm files 2016 March
+$iroot/13_bpsm_models_meshgen_qa/  mesh_errphi_DE99089
+$iroot/13_bpsm_models_meshgen_qa/  1506eed_DE103542
+
+
+#May 18 2015. Adding models from DE97790, DE96896, DE88733,
+# DE103915 DE97248 DE103829
+#phi fails, classic succeeds. 
+
+$iroot/13_bpsm_models_meshgen_qa/  forRiaz2_DE97790
+$iroot/13_bpsm_models_meshgen_qa/  10L4L_DE96896
+$iroot/13_bpsm_models_meshgen_qa/  scenario11_srr_linux_DE88733
+$iroot/13_bpsm_models_meshgen_qa/  out_ewlb_G_DE103915
+$iroot/13_bpsm_models_meshgen_qa/  out_ewlb_G_DE97428
+$iroot/13_bpsm_models_meshgen_qa/  841-forparam_DE103829
+
+#Oct 14 2014. Added model from bug DE94464.
+#phi fails, classic succeeds. 
+
+$iroot/13_bpsm_models_meshgen_qa/  HSX_MCC3_jw1_DE94464
+
+
+#Some nine projects resolved as enhancement did not have their
+#models in the suite. Tracked them. one was already in without DEXXXX
+#One was duplicate or not correctly submitted.
+#trying to find the temp folder for one last model: 80934
+#Got six for the suite. 2014 Jul 23
+#
+#four more on jul 30
+$iroot/13_bpsm_models_meshgen_qa/  1st_2nd_con_DE61404
+$iroot/13_bpsm_models_meshgen_qa/  7445CO_3subs_lab_corr_DE80934
+
+$iroot/13_bpsm_models_meshgen_qa/  VREG_1V15_wo_PinGrp_DE79538
+$iroot/13_bpsm_models_meshgen_qa/  TestTrace_DE82866
+$iroot/13_bpsm_models_meshgen_qa/  LG_PCB_PI_DE79571
+$iroot/13_bpsm_models_meshgen_qa/  LG_PCB_PI_DE79765
+$iroot/13_bpsm_models_meshgen_qa/  CSR_2_Layer_DE80061
+$iroot/13_bpsm_models_meshgen_qa/  infineon_pkg_DE80831
+
+#Set of 3 models added on jul 20 2014
+#bondwires intersected, (bad model, wei 2019-12-12) $iroot/13_bpsm_models_meshgen_qa/  bv_fs_bgs15_DE86854
+$iroot/13_bpsm_models_meshgen_qa/  bgs15_win01_DE86125
+$iroot/13_bpsm_models_meshgen_qa/  215h22aga11_DE85551
+
+
+#Another set of models added on Jul 03 2014
+$iroot/13_bpsm_models_meshgen_qa/  Montblanc_24_holecap_DE85234                                                       
+$iroot/13_bpsm_models_meshgen_qa/  Icebreaker_NDA_DE85600                                                             
+$iroot/13_bpsm_models_meshgen_qa/  Impedanz_VDE_TC1766_DE85072                                                                
+$iroot/13_bpsm_models_meshgen_qa/  stitchvias_des8_DE84157                                                            
+$iroot/13_bpsm_models_meshgen_qa/  trace_test_DE82866                                                                 
+$iroot/13_bpsm_models_meshgen_qa/  OMR_e301_DE78508                                                                   
+$iroot/13_bpsm_models_meshgen_qa/  broken_terminal_DE69298                                          
+$iroot/13_bpsm_models_meshgen_qa/  TSMC_Spiral_DE78021                                              
+$iroot/13_bpsm_models_meshgen_qa/  brd_DDR_D2_caps_DE85602                                          
+$iroot/13_bpsm_models_meshgen_qa/  nirp2_s_4_DE85454                                                
+$iroot/13_bpsm_models_meshgen_qa/  215h22aga11_DE85238                                              
+$iroot/13_bpsm_models_meshgen_qa/  Infineon_NDA_DE85819                                             
+$iroot/13_bpsm_models_meshgen_qa/  Config_C2_full_DE85790                                           
+		 
+#Another set of 11 models added non Jan 22
+		 
+$iroot/13_bpsm_models_meshgen_qa/  wilkinson_example_DE43250                                                          
+$iroot/13_bpsm_models_meshgen_qa/  test_v3_fixed_srrv8_DE37139                                      
+$iroot/13_bpsm_models_meshgen_qa/  poly_8ports_crossing_DE48377                                     
+$iroot/13_bpsm_models_meshgen_qa/  jwlt_40_72030_DE48419                                            
+$iroot/13_bpsm_models_meshgen_qa/  gaga_footprint_alu_tec_DE55262                                   
+$iroot/13_bpsm_models_meshgen_qa/  fga448_12nets_DE57402                                            
+$iroot/13_bpsm_models_meshgen_qa/  bsand2_bbv8_DE37139                                              
+$iroot/13_bpsm_models_meshgen_qa/  antarray_4_andrew_DE41829                                        
+$iroot/13_bpsm_models_meshgen_qa/  GapSolvedAsCircuitPort_DE55963                                   
+$iroot/13_bpsm_models_meshgen_qa/  CT01_12aug31_DE53908                                             
+$iroot/13_bpsm_models_meshgen_qa/  AFT_virtex6_clip_DE46853                                         
+$iroot/13_bpsm_models_meshgen_qa/  FMRR_Ymir_DE76311                                                
+		 
+#Another set of 12 models on Jan 19, 2014
+$iroot/13_bpsm_models_meshgen_qa/  B1_TQQ1258S_ES1_DE68827		              
+$iroot/13_bpsm_models_meshgen_qa/  ADM_LAM3_V02_B1B2B3_DE68827		      
+$iroot/13_bpsm_models_meshgen_qa/  A02790_DE74567				      
+$iroot/13_bpsm_models_meshgen_qa/  scenario_9_DE71860			      
+$iroot/13_bpsm_models_meshgen_qa/  scenario_3_DE69313			      
+$iroot/13_bpsm_models_meshgen_qa/  microsoft_test_DE72624			      
+$iroot/13_bpsm_models_meshgen_qa/  cap_ser_710f_DE69711			      
+$iroot/13_bpsm_models_meshgen_qa/  Pkg_on_Board_from_intel_DE69851	              
+$iroot/13_bpsm_models_meshgen_qa/  HYBRID_DE69809				      
+$iroot/13_bpsm_models_meshgen_qa/  HDD_Milk_DE69179			      
+$iroot/13_bpsm_models_meshgen_qa/  FCBGA_DE70488				      
+$iroot/13_bpsm_models_meshgen_qa/  Config_C2_Full_DE71947			      
+# 
+#######NEW MODELS 2013 last quarter
+
+$iroot/13_bpsm_models_meshgen_qa/  test2_v2_small_DE66868                                           
+$iroot/13_bpsm_models_meshgen_qa/  PKG_Sample_DE66531                                               
+$iroot/13_bpsm_models_meshgen_qa/  Project1_DE66288                                                 
+$iroot/13_bpsm_models_meshgen_qa/  MLCV_Aki_AD6_DE65976                                             
+$iroot/13_bpsm_models_meshgen_qa/  Pkg_on_Board_DE65701		                                 
+$iroot/13_bpsm_models_meshgen_qa/  medtronic_selnets_DE65559                                        
+$iroot/13_bpsm_models_meshgen_qa/  s2gx_eval_sc7_DE65558                                            
+$iroot/13_bpsm_models_meshgen_qa/  s2gx_eval_DE65558                                                
+$iroot/13_bpsm_models_meshgen_qa/  l3_lowerfix2_DE65558                                             
+$iroot/13_bpsm_models_meshgen_qa/  I3_upperrightfix_DE65558                                         
+$iroot/13_bpsm_models_meshgen_qa/  eband_300_DE65558                                                
+$iroot/13_bpsm_models_meshgen_qa/  serdes_fixed_DE65531                                             
+$iroot/13_bpsm_models_meshgen_qa/  ibm_flip_chip_pkg_DE65531                                        
+$iroot/13_bpsm_models_meshgen_qa/  BAMS_srr_DE65424                                                 
+$iroot/13_bpsm_models_meshgen_qa/  2_centaur_lay18_DE65302                                          
+$iroot/13_bpsm_models_meshgen_qa/  2_centaur_lay18_ver2_DE65302                                     
+$iroot/13_bpsm_models_meshgen_qa/  8inch_difftrace_DE65282                                          
+$iroot/13_bpsm_models_meshgen_qa/  cmos_momcap_DE64401                                              
+$iroot/13_bpsm_models_meshgen_qa/  rdl_pkg_cutout_DE64152                                           
+$iroot/13_bpsm_models_meshgen_qa/  2b_DE64089                                                       
+$iroot/13_bpsm_models_meshgen_qa/  pcb_4siw_DE61842                                                 
+$iroot/13_bpsm_models_meshgen_qa/  1st_and_2nd_con_DE61404                                          
+$iroot/13_bpsm_models_meshgen_qa/  RF_PKG_cutout_DE60021                                            
+$iroot/13_bpsm_models_meshgen_qa/  HFSS_coax_port9_DE60016                                          
+$iroot/13_bpsm_models_meshgen_qa/  Circuit9_sqrgap_DE58025_DE60016                                  
+$iroot/13_bpsm_models_meshgen_qa/  ucb_trench_simp_flat_DE59802                                     
+
+
+################# original set of ecad models Designer 5 or 6                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+#$iroot/13_bpsm_models_meshgen_qa/  bsand2_bb_defeatured  retired in Mar 2016                                                                                                                                                                                                                     
+$iroot/13_bpsm_models_meshgen_qa/   scenario_5                                                      
+$iroot/13_bpsm_models_meshgen_qa/   scenario_7                                                      
+$iroot/13_bpsm_models_meshgen_qa/   scenario_8                                                      
+$iroot/13_bpsm_models_meshgen_qa/   scenario_10                                                     
+
+# Extended set 2012 Aug 12 
+# All known adsn files in Padmini, Zoltan are gathered here. 
+
+#$iroot/13_bpsm_models_meshgen_qa/    2L_PCB_v2_Converged   Retired Mar 2016   
+$iroot/13_bpsm_models_meshgen_qa/    Apple_PoP				             
+$iroot/13_bpsm_models_meshgen_qa/    bga_wb_final				             
+$iroot/13_bpsm_models_meshgen_qa/    bumblebee_071609_short_100ohm_DE26512                     
+$iroot/13_bpsm_models_meshgen_qa/    Clipped_High_Speed_Lines_b_v2_clean_StvPyt        
+$iroot/13_bpsm_models_meshgen_qa/    DE33678_lga_meg6_hdi			             
+$iroot/13_bpsm_models_meshgen_qa/    EM_Designs_MR102747			             
+$iroot/13_bpsm_models_meshgen_qa/    etching				                     
+$iroot/13_bpsm_models_meshgen_qa/    inf_v2_srr				             
+$iroot/13_bpsm_models_meshgen_qa/    may1-ne3210804-00-b_p1_v2_cutout2	             
+$iroot/13_bpsm_models_meshgen_qa/    not_conformal_cisco			             
+$iroot/13_bpsm_models_meshgen_qa/    ProbPart				             
+$iroot/13_bpsm_models_meshgen_qa/    Project105_v8			                     
+$iroot/13_bpsm_models_meshgen_qa/    snick_project116			             
+$iroot/13_bpsm_models_meshgen_qa/    Symmetric_non_unif_line		                     
+$iroot/13_bpsm_models_meshgen_qa/    spiralInd1_PGS_flat			             
+$iroot/13_bpsm_models_meshgen_qa/    test_very_thin_cond_0_01um		             
+$iroot/13_bpsm_models_meshgen_qa/    test_verythin2			                     
+$iroot/13_bpsm_models_meshgen_qa/    TestPorts				             
+$iroot/13_bpsm_models_meshgen_qa/    whole_assy_simpl_no_dig2_D8		             
+$iroot/13_bpsm_models_meshgen_qa/    works_in_preview2			             
+#$iroot/13_bpsm_models_meshgen_qa/    xcede_top_vs_b8_DE28279	  retired in mar 2016 
+$iroot/13_bpsm_models_meshgen_qa/    xcede_top_vs_l6_DE28279		                     
+$iroot/13_bpsm_models_meshgen_qa/    VC7203_revD_pcb_111220		                     
+		   
+#
+# Seven of the eight models  created by Shantanu and Bryan Boots to stress test
+# the phi mesher. 
+#
+
+$iroot/13_bpsm_models_meshgen_qa/  Hfss_CAD_Flow_Test                                        
+$iroot/13_bpsm_models_meshgen_qa/  FGP_clip_bytelane                                         
+$iroot/13_bpsm_models_meshgen_qa/  ML640_Brd_clip                                            
+$iroot/13_bpsm_models_meshgen_qa/  235_sim                                                   
+		 
+
+#These two models choke a machine with less than 48 GB memory
+#They will be kept in a separate joblist		
+$iroot/13_bpsm_models_meshgen_qa/    scenario_11                                                          
+$iroot/13_bpsm_models_meshgen_qa/  StraticII                                                 
+#$iroot/13_bpsm_models_meshgen_qa/  Pkg_Full     Retired. Mar 2016                                      
+$iroot/13_bpsm_models_meshgen_qa/  st_elec_cpu_dvdd1v0_DE65261                                      
+
+#duplicate of bgawb_94867 ; bga_wb_DQ                                                $iroot/13_bpsm_models_meshgen_qa/           
+#duplicate of DE71860 ; scenario_9			                             $iroot/13_bpsm_models_meshgen_qa/           
+#duplicate of DE37139 ; test_v3_fixed_srr		             	             $iroot/13_bpsm_models_meshgen_qa/           
+#duplicate og DE65531 ; sertes_fixed                                                 $iroot/13_bpsm_models_meshgen_qa/           
+#duplicate of antarray_4_andre_DE41829 ; ANSft00114628_forandrew	             $iroot/13_bpsm_models_meshgen_qa/           
+#$iroot/13_bpsm_models_meshgen_qa/  boreal_DE76112    updated with Boreal_DE76112 on 24 Mar 2016
+#$iroot/13_bpsm_models_meshgen_qa/  Hfss_SoD_split    updated in mar 2016
+
+
+$iroot/13_bpsm_models/     matt_model
+$iroot/13_bpsm_models/     canon_pcb
+$iroot/13_bpsm_models_meshgen_qa/  planes_only_e41038_DE57652 
+
+$iroot/13_bpsm_models/     Sergey_Seattle
+
+
+
+	
+

@@ -1,0 +1,167 @@
+    
+#####################################Layout models
+#9models from sergey
+$iroot/15_Q3D_layout_models/     mcp_060708V4_single_MCAD
+$iroot/15_Q3D_layout_models/     TDR_15GHZ_MCAD	
+$iroot/15_Q3D_layout_models/     Version_3_new_traces_10GHz_MCAD
+$iroot/15_Q3D_layout_models/     QM76046_02_011_Layout_R180_3D
+$iroot/15_Q3D_layout_models/     serdes_fixed_MCAD
+$iroot/15_Q3D_layout_models/     DE52165__Config_C2-full-v06__v9_MCAD
+$iroot/15_Q3D_layout_models/     PHIMesherTest_MCAD
+$iroot/15_Q3D_layout_models/     HFSSECADFLOWTEST_MCAD
+$iroot/15_Q3D_layout_models/     FGB_clip_for_bytelane_robert_CLIP__bb_MCAD
+$iroot/15_Q3D_layout_models/     QM76046_FullMod_T0902_sEVB_v4_srr_R18
+
+#6models DE138989
+$iroot/15_Q3D_layout_models/     DE138989_Q3D_pkg22
+$iroot/15_Q3D_layout_models/     DE138989_Q3D_pkg22_surface 
+$iroot/15_Q3D_layout_models/     DE138989_Q3D_pkg14
+$iroot/15_Q3D_layout_models/     DE138989_Q3D_pkg12
+$iroot/15_Q3D_layout_models/     DE138989_Q3D_pkg9
+$iroot/15_Q3D_layout_models/     DE138989_Q3D_pkg13
+
+#newly added models at 12/14/2017
+$iroot/15_Q3D_layout_models/     DE161925_Qorvo_full_model
+$iroot/15_Q3D_layout_models/     DE151140_Qorvo_QM76018_FullMod
+$iroot/15_Q3D_layout_models/     DE148789_Q3D
+$iroot/15_Q3D_layout_models/     DE147877_QORVO
+$iroot/15_Q3D_layout_models/     DE137779_Q3D_DC
+$iroot/15_Q3D_layout_models/     DE129773_Q3D_surface
+$iroot/15_Q3D_layout_models/     DE129575_manay_layers
+$iroot/15_Q3D_layout_models/     DE127092_q3d_surface_mesh
+$iroot/15_Q3D_layout_models/     DE125151_board
+$iroot/15_Q3D_layout_models/     DE117475_Q3D_thin_structures
+$iroot/15_Q3D_layout_models/     DE113900_Q3D_AC
+$iroot/15_Q3D_layout_models/     DE113900_Q3D_DC
+$iroot/15_Q3D_layout_models/     DE112646_DoubleDiamond_XYG0125_DCRL
+$iroot/15_Q3D_layout_models/     FIDM_NoCG_XY025_8In_32x1_NTouch
+$iroot/15_Q3D_layout_models/     DE103412_q3d_thin
+$iroot/15_Q3D_layout_models/     Q3d-large_sergey
+
+##########################total_30_package_models
+$iroot/15_Q3D_package_models/   DE163624_package_surface_mesh
+$iroot/15_Q3D_package_models/   DE163624_package_volume_mesh
+
+$iroot/15_Q3D_package_models/   1net_VDD_APC
+$iroot/15_Q3D_package_models/   1net_VDD_APC_low
+$iroot/15_Q3D_package_models/   2240_05_48104A_L84A_TSOP_QDP_d
+$iroot/15_Q3D_package_models/   2nets_Vdd_nets
+$iroot/15_Q3D_package_models/   3INmodel
+$iroot/15_Q3D_package_models/   3INmodel_finger
+$iroot/15_Q3D_package_models/   3nets_merged_18
+$iroot/15_Q3D_package_models/   3nets_merged_18_small
+$iroot/15_Q3D_package_models/   5_GalaxyS_1um
+$iroot/15_Q3D_package_models/   5_GalaxyS_1um_facet
+$iroot/15_Q3D_package_models/   5INmodel
+$iroot/15_Q3D_package_models/   5INmodel_facet
+###too long  $iroot/15_Q3D_package_models/   7IN2D
+$iroot/15_Q3D_package_models/   D_8
+$iroot/15_Q3D_package_models/   Design3
+$iroot/15_Q3D_package_models/   Design3_facet
+$iroot/15_Q3D_package_models/   Design83_infill
+$iroot/15_Q3D_package_models/   Diamond_para_model_stylus_2d_v
+$iroot/15_Q3D_package_models/   MT6573_sensor
+$iroot/15_Q3D_package_models/   MT6573_sensor_facet
+###too long  $iroot/15_Q3D_package_models/   P2
+$iroot/15_Q3D_package_models/   Q3Dv10_marlin_vdd_qdsp6
+$iroot/15_Q3D_package_models/   Q3Dv10_marlin_vdd_qdsp6_low
+$iroot/15_Q3D_package_models/   Reveal_INC_1_5_Update_v11_clea
+$iroot/15_Q3D_package_models/   sidious_041309_11nets_v10
+$iroot/15_Q3D_package_models/   top_right_domain_v9
+$iroot/15_Q3D_package_models/   tp_16x9_fu_mesh_full
+$iroot/15_Q3D_package_models/   tp_16x9_fu_mesh_metal_X
+$iroot/15_Q3D_package_models/   tp_16x9_fu_mesh_metal_Y
+$iroot/15_Q3D_package_models/   tp_16x9_fu_mesn_panelonly
+
+#####################################total_74_touchscreen_models
+ #these models may have problems
+   $iroot/15_Q3D_touch_screen/    10INmodel_2DTHIN_V2017
+   ###$iroot/15_Q3D_touch_screen/    15INmodel_ELO_clean_XY_V2017
+   ###$iroot/15_Q3D_touch_screen/    15INmodel_ELO_noDIelec_no_solid_body
+   ###$iroot/15_Q3D_touch_screen/    ELO_clean_XY_R16_full_BAD_from_sergey
+   #skewed_true 
+   $iroot/15_Q3D_touch_screen/    BGA_Full_v2017_mp1_d1_s1 
+   $iroot/15_Q3D_touch_screen/    aragorn1p98_fixed_d1_s1
+   ###skewed_true 
+   $iroot/15_Q3D_touch_screen/    In-cell_3x3_pixel_v12_d1_s1
+   #expected to fail, large box intersects with others
+   $iroot/15_Q3D_touch_screen/    holey_diamond_unitcell_v2_d3_s1
+   
+   $iroot/15_Q3D_touch_screen/    03INmodel_2DTHIN_V2017
+   $iroot/15_Q3D_touch_screen/    05INmodel_2DTHIN_V2017
+   $iroot/15_Q3D_touch_screen/    07INmodel_2DTHIN_V2017
+   $iroot/15_Q3D_touch_screen/    20110629_type2_C_d1_s1
+   $iroot/15_Q3D_touch_screen/    8210_4_G10_S1_part1_d1_s1_rotate_X
+   $iroot/15_Q3D_touch_screen/    TouchPanel_d1_s1_rotate_X
+   $iroot/15_Q3D_touch_screen/    20110629_type2_C_d1_s1_rotate_Y_positive
+   $iroot/15_Q3D_touch_screen/    20110629_type2_C_d1_s1_rotate_Y_negative
+   $iroot/15_Q3D_touch_screen/    2nets_ACRL
+   $iroot/15_Q3D_touch_screen/    5_GalaxyS_v11_3D_1um_d1_s1
+   $iroot/15_Q3D_touch_screen/    5INmodel_2DTHIN_d1_s1
+   $iroot/15_Q3D_touch_screen/    5x5arry_size_copy_d1_s1
+   $iroot/15_Q3D_touch_screen/    7IN2D_d1_s1
+   $iroot/15_Q3D_touch_screen/    8210_4_G10_S1_part1_d1_s1
+   $iroot/15_Q3D_touch_screen/    Atmel_3in
+   $iroot/15_Q3D_touch_screen/    AtmelProject12_d1_s1
+   $iroot/15_Q3D_touch_screen/    AtmelProject12_d2_s1  
+   $iroot/15_Q3D_touch_screen/    DE132020_Phi_diff
+   $iroot/15_Q3D_touch_screen/    DE132020_Phi_diff_rotate_Z
+   $iroot/15_Q3D_touch_screen/    DE132021_phi_wrong
+   $iroot/15_Q3D_touch_screen/    DE132691_phi_surface_US43923_mixed_AC
+   $iroot/15_Q3D_touch_screen/    DE132745_phi_surface_design3
+   $iroot/15_Q3D_touch_screen/    DE133018_atmel_D_8
+   $iroot/15_Q3D_touch_screen/    DE133018_hughes
+   $iroot/15_Q3D_touch_screen/    DE133018_ITO_thin_conduct1_lossy
+   $iroot/15_Q3D_touch_screen/    DE133018_short3d
+   $iroot/15_Q3D_touch_screen/    DE133344_3nets_merged_Q3D_phi_
+   $iroot/15_Q3D_touch_screen/    Design1_d1_s1
+   $iroot/15_Q3D_touch_screen/    Design2_d1_s1
+   $iroot/15_Q3D_touch_screen/    Design3_d1_s1
+   $iroot/15_Q3D_touch_screen/    Design83_infill_d1_s1
+   $iroot/15_Q3D_touch_screen/    diamond_7by7_model_2fingers_v3_d1_s1
+   $iroot/15_Q3D_touch_screen/    diamond_7by7_model_2fingers_v3_d2_s1
+   $iroot/15_Q3D_touch_screen/    diamond_7by7_model_2fingers_v3_d3_s1
+   $iroot/15_Q3D_touch_screen/    FloodX_unit_d10_s2
+   $iroot/15_Q3D_touch_screen/    FloodX_unit_d11_s2
+   $iroot/15_Q3D_touch_screen/    FloodX_unit_d12_s2
+   $iroot/15_Q3D_touch_screen/    FloodX_unit_d13_s2
+   $iroot/15_Q3D_touch_screen/    FloodX_unit_d14_s2
+   $iroot/15_Q3D_touch_screen/    FloodX_unit_d15_s2
+   $iroot/15_Q3D_touch_screen/    FloodX_unit_d16_s2
+   $iroot/15_Q3D_touch_screen/    FloodX_unit_d1_s2
+   $iroot/15_Q3D_touch_screen/    FloodX_unit_d1_s3
+   $iroot/15_Q3D_touch_screen/    FloodX_unit_d2_s2
+   $iroot/15_Q3D_touch_screen/    FloodX_unit_d2_s3
+   $iroot/15_Q3D_touch_screen/    FloodX_unit_d3_s2
+   $iroot/15_Q3D_touch_screen/    FloodX_unit_d3_s3
+   $iroot/15_Q3D_touch_screen/    FloodX_unit_d4_s2
+   $iroot/15_Q3D_touch_screen/    FloodX_unit_d5_s2
+   $iroot/15_Q3D_touch_screen/    FloodX_unit_d6_s2
+   $iroot/15_Q3D_touch_screen/    FloodX_unit_d7_s2
+   $iroot/15_Q3D_touch_screen/    FloodX_unit_d8_s2
+   $iroot/15_Q3D_touch_screen/    FloodX_unit_d9_s2
+   $iroot/15_Q3D_touch_screen/    holey_diamond_unitcell_v2_d1_s1
+   $iroot/15_Q3D_touch_screen/    holey_diamond_unitcell_v2_d2_s1
+   $iroot/15_Q3D_touch_screen/    holey_diamond_unitcell_v2_d4_s1  
+   
+   $iroot/15_Q3D_touch_screen/    ITO_0p1_SIO_0p1_v7_d1_s1
+   $iroot/15_Q3D_touch_screen/    ITO_1_SIO_0p1_v7_d1_s1
+   $iroot/15_Q3D_touch_screen/    layout_part1_c_d1_s1
+   $iroot/15_Q3D_touch_screen/    MT6573_ITO_DITO_sensor_with_modify_ITO_THK_100X_f1_V11_d1_s1
+   $iroot/15_Q3D_touch_screen/    TouchPanel_d1_s1
+   $iroot/15_Q3D_touch_screen/    tp_16x9_fullpanel_d1_s1
+   $iroot/15_Q3D_touch_screen/    tp_16x9_fullpanel_d4_s1
+   $iroot/15_Q3D_touch_screen/    tp_q3d_seminar_d1_s1
+   $iroot/15_Q3D_touch_screen/    tp_q3d_seminar_d2_s1
+   $iroot/15_Q3D_touch_screen/    tp_q3d_seminar_d3_s1
+   $iroot/15_Q3D_touch_screen/    twn_tablet_v2_d1_s1
+
+
+
+
+
+
+
+
+	
+

@@ -1,0 +1,17 @@
+
+        #$iroot/molex_models_mxwl/      Molex_Connector_Phase3_New_test
+		#$iroot/molex_models_mxwl/      Molex_Connector_Phase3_New4
+		#$iroot/molex_models_mxwl/     DE127744_molex_mxwl_full_model
+		#$iroot/molex_models_mxwl/     DE127744_molex_mxwl_full_model_hfss_import_good
+					
+		$iroot/molex_models_mxwl/      step_file_hfss_total_tubes_lower_parts
+		$iroot/molex_models_mxwl/      step_file_hfss_total_tubes_middle_parts
+		$iroot/molex_models_mxwl/      step_file_hfss_total_tubes_middle_parts_lower
+		$iroot/molex_models_mxwl/      step_file_hfss_total_tubes_middle_parts_single_one
+		$iroot/molex_models_mxwl/      step_file_hfss_total_tubes_middle_parts_single_pair
+		$iroot/molex_models_mxwl/      step_file_hfss_total_tubes_middle_parts_single_row
+		$iroot/molex_models_mxwl/      step_file_hfss_total_tubes_middle_parts_upper
+		$iroot/molex_models_mxwl/      step_file_hfss_total_tubes_upper_parts
+        $iroot/molex_models_mxwl/      step_file_hfss_total_tubes
+                    
+                    

@@ -1,0 +1,15 @@
+#number of models: 13
+
+$iroot/10RMXprt_Clone_Models_Customer/all_defects/test_from_field/ D1009321_skew_rotor 
+$iroot/10RMXprt_Clone_Models_Customer/all_defects/test_from_field/ D1009321_small_MS_angle_partiall_mesh1 
+$iroot/10RMXprt_Clone_Models_Customer/all_defects/test_from_field/ D1009321_small_MS_angle_partiall_mesh2 
+$iroot/10RMXprt_Clone_Models_Customer/all_defects/test_from_field/ D1009321_small_MS_angle_partiall_mesh3 
+$iroot/10RMXprt_Clone_Models_Customer/all_defects/test_from_field/ D1009744_small_MS_angle_mesh1 
+$iroot/10RMXprt_Clone_Models_Customer/all_defects/test_from_field/ D1009744_small_MS_angle_mesh1_no_sheet 
+$iroot/10RMXprt_Clone_Models_Customer/all_defects/test_from_field/ D1009744_small_MS_angle_mesh2 
+$iroot/10RMXprt_Clone_Models_Customer/all_defects/test_from_field/ D1009744_small_MS_angle_sheet_free 
+$iroot/10RMXprt_Clone_Models_Customer/all_defects/test_from_field/ D1010004_stepskew 
+$iroot/10RMXprt_Clone_Models_Customer/all_defects/test_from_field/ D1010099_LFe1_stepskew 
+$iroot/10RMXprt_Clone_Models_Customer/all_defects/test_from_field/ D1015213_step_skew_band_extended 
+$iroot/10RMXprt_Clone_Models_Customer/all_defects/test_from_field/ D1015213_stepskew_band_extend_del_sheet 
+$iroot/10RMXprt_Clone_Models_Customer/all_defects/test_from_field/ D1030717_stepskew 

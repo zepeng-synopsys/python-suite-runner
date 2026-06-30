@@ -1,0 +1,63 @@
+
+kw prog      e:/64_executable/mdm_mesher.exe
+kw iroot     e:/test_suite
+kw scrroot   d:/test_suite_mdm_mesher_only
+
+kw output    d:/test_suite_mdm_mesher_only/test_results/rmxprt_models/examples/2025_01_23_tau01_clone_dev_new_model
+kw refoutput d:/test_suite_mdm_mesher_only/test_results/rmxprt_models/examples/2025_01_23_tau01_clone_dev
+kw jobtable  d:/test_suite_mdm_mesher_only/test_suite_rmxprt_examples_83.pjtable
+#kw jobtable  d:/test_suite_mdm_mesher_only/test_suite_rmxprt_examples_rotation_76.pjtable
+#kw jobtable  d:/test_suite_mdm_mesher_only/test_suite_rmxprt_examples_rotation_matching_boundary_70.pjtable
+#kw jobtable d:/test_suite_mdm_mesher_only/failed.pjtable
+
+kw threads 12
+kw timeout 01:10:00
+
+env   MDM_RUN_WYMODEL=1
+#env  MDM_WRITE_OUT_WYMODEL=1
+env   MDM_RUN_PARASOLID=1
+env   TAU_CLONE_MESH_TEST=1
+
+env   TAU_DO_PARALLEL_MESHINGaa=1
+#3-imprint, 4-base_mesh, 9-phase1, 10-band+assembling
+env   TAU_SET_STOP_FLAGaa=4
+env   TAU_BAND_MAPPING_ANGLEaa=1.0
+env   TAU_REMESH_FLAGaa=1
+env   nbyxfmm=12
+env   TAU_2D_CLONE_MESH_TESTaa=1
+env   TAU_PROFILE_MESHING_TIME=1
+env   USE_TAU_BINARY_OUTPUT=1
+env   DoNotFallBack=1
+env   ForgiveMissingFaceIds=1
+env   mdm_global_mesh_refinement_factoraa=0.3
+env   TAUReferenceOutput=$refoutput
+env   RefernceMeshRepository=$refoutput
+env   SaveMeshDataRepository="./"
+env   ForgiveDuplicateIds=1
+#env  UseAnsoftClassicMesher=1
+#env  DontUsePhiMesher=1
+#env  IgnoreObliqueBodies=1
+#env  VerifySurfTriAssignments=1
+#env  SaveErrorsUnderConstruction=1
+#env  XSR_SaveG3dFile=1
+#env  PreserveFaceIds=1
+env   DoNotEchoStderr=1
+env   SupressStdErr=1
+env   DontPullPointsToTrueSurface=1
+env   G3D_GEOMPROC=1
+env   MDM_REF_COMPARE_FACTOR=0.2
+env   MDM_REF_COMPARE_MESH_SIZE=1000
+env   MDM_REF_COMPARE_MESH_TIME=60.
+env   ANSOFT_DEBUG_MODE=2
+env   ANSOFT_DEBUG_LOG=debug.runlog
+########dump file for core group to debug
+env   SimulateMeshFacetingProcess_aa=dump
+
+env  TAU_DO_MESH_COMPAREaa=1
+env  TAU_work_mesh_folder=d:\test_suite_mdm_mesher_only\test_results\rmxprt_models\examples\2020_08_03_parasolid_16_failed
+env   TAU_ref_mesh_folder=d:\test_suite_mdm_mesher_only\test_results\rmxprt_models\examples\2020_08_03_acis
+
+
+
+
+

@@ -1,0 +1,70 @@
+#
+# The code to be run
+#
+
+#to build mdm_mesher, need to set 8
+kw prog e:/64_executable/mdm_mesher.exe
+kw scrroot d:/test_suite_mdm_mesher_only
+#kw iroot e:/test_suite
+#kw jobtable D:/test_suite_mdm_mesher_only/test_me.pjtable
+
+
+
+####################################  BASIC SIMPLE MODELS   ##############################################
+#kw output d:/test_suite_mdm_mesher_only/test_results/classic_mesh_data/basic_simple_models_2016_09_16_classic
+#kw refoutput d:/test_suite_mdm_mesher_only/test_results/classic_mesh_data/basic_simple_models_2016_09_15_tau_12cores
+#kw jobtable D:/test_suite_mdm_mesher_only/test_suite_basic_simple_all_models_491.pjtable
+
+####################################  MIDDLE HARD MODELS  ##############################################
+#kw output d:/test_suite_mdm_mesher_only/test_results/classic_mesh_data/middle_hard_models_2016_09_19_classic
+#kw refoutput d:/test_suite_mdm_mesher_only/test_results/classic_mesh_data/basic_simple_models_2016_09_15_tau_12cores
+#kw jobtable D:/test_suite_mdm_mesher_only/test_suite_basic_simple_all_models_491.pjtable
+
+####################################   Ravi TEST SUITE  ##############################################
+kw iroot D:/meshgen_qa/python_suite
+kw output d:/test_suite_mdm_mesher_only/test_results/classic_mesh_data/ravi_test_suite_models_2016_09_19_classic
+kw refoutput d:/test_suite_mdm_mesher_only/test_results/mcad_all_ravi_suites/2016_09_15_TAU_mainbranch_now_12cores
+kw jobtable D:/test_suite_mdm_mesher_only/jt_current_mcad_all.pjtable
+
+kw threads 16
+kw timeout 05:00:00
+
+
+env MDM_REF_COMPARE_FACTOR=0.2
+env MDM_REF_COMPARE_MESH_SIZE=100
+env MDM_REF_COMPARE_MESH_TIME=2.
+#env UseTauTolerantMesher=1
+#env MDM_USE_OLD_FACETER=1
+#env mdm_mesh_coarsening_target_cell_number=1
+#env NUM_PROCESSES_4_TAU_MESHER=12
+env TAUReferenceOutput=$refoutput
+env UseAnsoftClassicMesher=1
+env DoNotFallBack=1
+
+
+env ForgiveMissingFaceIds=1
+#env ForceSurfMesh=1
+#env ModelMeshRefinements=11.25 0.001 2
+env RefernceMeshRepository=$refoutput
+env SaveMeshDataRepository="./"
+env ANSOFT_DEBUG_MODE=2
+env ANSOFT_DEBUG_LOG=debug.runlog
+env ANSOFT_DEBUG_MODE=2
+env ForgiveDuplicateIds=1
+
+#env DontUsePhiMesher=1
+#env IgnoreObliqueBodies=1
+#env VerifySurfTriAssignments=1
+#env SaveErrorsUnderConstruction=1
+#env XSR_SaveG3dFile=1
+#env PreserveFaceIds=1
+env DoNotEchoStderr=1
+env SupressStdErr=1
+env DontPullPointsToTrueSurface=1
+env G3D_GEOMPROC=1
+
+
+
+
+
+

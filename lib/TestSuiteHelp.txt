@@ -1,0 +1,57 @@
+
+************* THIS DOCUMENT CONTAINS DESCRIPTION OF THE TEST SUITE RUNNER USER INTERFACE *************
+
+At each time the test suite is opened and started. It tries to open a file "completedjobs.txt" in the output folder. If the file doesn't exists then it creates one. 
+This file contains all the jobs that are finished in previous runs. During every run, the test suits enters finished job names in this file. If the testsuite is stopped and opened
+at a later time, it will not run the jobs that are in the "completedjobs.txt" since they were already done during the previous runs.
+
+1. Settings Path:- To load or change the .runset settings file you want to use for the testing
+
+2. Settings:- This section shows the basic settings that are loaded from the above settings file:
+
+			1. Output  :  This is the path of the output folder where all the output files are exported
+			2. RefOut  :  This is the path of the reference folder to compare the logs of the current output and reference output
+			3. Exec    :  Name of the executable
+			4. Build   :  Path ot the executable
+			5. Jobs    :  This is the .pjtable file which contains jobname and path of all jobs to be tested
+			6. Input   :  Input path
+			7. Threads :  Number of threads to be run in parallel
+			8. Timeout :  Maximum time to be alloted for each job. A job will be forecefully stopped if it reaches this timeout
+			  
+3. Summary:- This section describes the summary of total number of jobs. Each line contains number of jobs in each folder followed by path of that folder
+
+4. Controls:- This section shows the controls of the test suite runner:
+
+			1. Run 			  			  : Starts the test suite runner (In class:Application::__runCallback() in /lib/gui.py)
+			2. Clear Prev Run 			  : Clears the entries of the completed jobs in the "completedjobs.txt" and also updates on the Status section (In class:Application::__clearPrevRunCallback() in /lib/gui.py)
+			3. Clean Stop	  			  : Waits till the running jobs finish and stops test suite runner (In class:Application::__cleanStopCallback() in /lib/gui.py)
+			4. Stop			  			  : Stops the test suite runner by forcefully killing the running jobs. It will "kill" the running jobs NOT "skip". For more info refer to Section 6. Running Jobs 
+											(In class:Application::__stopCallback() in /lib/gui.py)
+			5. Open Results	  			  : Opens the HTML file which contains the results of the finished jobs (In class:Application::__openSuiteResultsCallback() in /lib/gui.py)
+			6. Create Test Bench XML file : Creates an XML file of the current test bench and saves it in the output folder (In class:Application::__testBenchCallback() in /lib/gui.py)
+			
+5. Status:- This section shows the details of running, pending and finished jobs
+
+			1. Total Number of Jobs		: Total number of jobs in the testsuite
+			2. Previously Run			: Number of jobs that were finished during previous runs. These are also entered in the "completedjobs.txt".
+										  By pressing the Clear Prev Run in the above section this resets to zero
+			3. Completed Now			: Number of jobs finished during this current testsuite run. By pressing the Clear Prev Run in the above section this resets to zero
+			4. Running					: Number of jobs that are currently running
+			5. Pending					: Number of jobs that are pending. By pressing the Clear Prev Run in the above section this resets to "Total Number of Jobs"
+			6. Suite Runtime			: Time elapsed since starting the test suite
+			
+6. Running Jobs:- This section shows the details of running jobs. The number of running jobs is equal to the "Threads" in the settings section.
+				  Each line contains "Kill" button, "Skip" button, jobname and time elapsed since starting that job
+
+			1. Kill 							: By pressing this, it forcefully kills that running job. It WILL NOT add that job to the "completedjobs.txt" (In class:Application::__killButtonCallback() in /lib/gui.py)
+												  It WILL NOT export any files to the output folder. It is as if the job was never run
+			2. Skip								: By pressing this, it forcefully kills that running job. It WILL add that job to the "completedjobs.txt". It WILL export any output/log files to the output folder
+												  (In class:Application::__skipButtonCallback() in /lib/gui.py)
+			3. Kill current jobs and continue	: By pressing this, it forcefully kills all running jobs and continue with the pending jobs next in line (In class:Application::__killCurrentCallback() in /lib/gui.py)
+			
+7. Up Next:- This section shows next 5 pending jobs
+
+8. Last Few Completed:- This section shows last 5 completed jobs
+			  
+			  
+			  

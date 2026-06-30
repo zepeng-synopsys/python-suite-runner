@@ -1,0 +1,47 @@
+kw prog        e:/64_executable/mdm_mesher.exe
+kw iroot       e:/test_suite
+kw scrroot     d:/test_suite_mdm_mesher_only
+
+kw output      d:/test_suite_mdm_mesher_only/test_results/rmxprt_models/axial_motor/2023_09_12_R241_final(test)(clone)
+kw refoutput   d:/test_suite_mdm_mesher_only/test_results/rmxprt_models/axial_motor/2023_09_06_R241_final(test)(clone)
+kw jobtable    d:/test_suite_mdm_mesher_only/test_suite_rmxprt_axial_models_32.pjtable
+#kw jobtable   d:/test_suite_mdm_mesher_only/failed.pjtable
+
+kw threads 16
+kw timeout 00:30:00
+
+#env  MDM_RUN_WYMODEL=1
+#env  MDM_WRITE_OUT_WYMODEL=1
+env   MDM_RUN_PARASOLID=1
+env   TAU_CLONE_MESH_TEST=1
+
+env   TAU_SET_STOP_FLAGaa=1
+env   TAU_REMESH_FLAGaa=4
+env   TAU_USE_TAU_PLUSaa=1
+env   NUM_PROCESSES_4_TAU_MESHER=12
+env   TAU_PROFILE_MESHING_TIME=1
+env   USE_TAU_BINARY_OUTPUT=1
+env   DoNotFallBack=1
+env   ForgiveMissingFaceIds=1
+#env  ForceSurfMesh=1
+env   TAUReferenceOutput=$refoutput
+env   RefernceMeshRepository=$refoutput
+env   SimulateMeshFacetingProcessaa=dump
+env   SaveMeshDataRepository="./"
+env   ForgiveDuplicateIds=1
+#env  UseAnsoftClassicMesher=1
+#env  DontUsePhiMesher=1
+#env  IgnoreObliqueBodies=1
+#env  VerifySurfTriAssignments=1
+#env  SaveErrorsUnderConstruction=1
+#env  XSR_SaveG3dFile=1
+#env  PreserveFaceIds=1
+env   DoNotEchoStderr=1
+env   SupressStdErr=1
+env   DontPullPointsToTrueSurface=1
+env   G3D_GEOMPROC=1
+env   MDM_REF_COMPARE_FACTOR=0.2
+env   MDM_REF_COMPARE_MESH_SIZE=1000
+env   MDM_REF_COMPARE_MESH_TIME=60.
+env   ANSOFT_DEBUG_MODE=2
+env   ANSOFT_DEBUG_LOG=debug.runlog

@@ -1,0 +1,951 @@
+
+
+#total_models:  78
+
+$iroot/2d_RMxprt_examples_V2025/     		3hp
+$iroot/2d_RMxprt_examples_V2025/     		ASSM_4p50Hz550W
+$iroot/2d_RMxprt_examples_V2025/     		AssymetricWinding
+$iroot/2d_RMxprt_examples_V2025/     		AxialCageRotor
+$iroot/2d_RMxprt_examples_V2025/     		BLDC_4p1500rpm550W
+$iroot/2d_RMxprt_examples_V2025/     		Bjs7_mot
+$iroot/2d_RMxprt_examples_V2025/     		CageRotor
+$iroot/2d_RMxprt_examples_V2025/     		DCM_4p1100rpm500kW
+$iroot/2d_RMxprt_examples_V2025/     		DCM_4p3000rpm500kW
+$iroot/2d_RMxprt_examples_V2025/     		IndM1_2p60Hz3hp
+$iroot/2d_RMxprt_examples_V2025/     		IndM3_6p50Hz11kW
+$iroot/2d_RMxprt_examples_V2025/     		LSSM_4p50Hz550W
+$iroot/2d_RMxprt_examples_V2025/     		NSSM_2p3000rpm125MVA
+$iroot/2d_RMxprt_examples_V2025/     		PMDC_2p2400rpm75W
+$iroot/2d_RMxprt_examples_V2025/     		PMSG_4p50Hz550W
+$iroot/2d_RMxprt_examples_V2025/     		QuickStart
+$iroot/2d_RMxprt_examples_V2025/     		SRM_8_6p1500rpm550W
+$iroot/2d_RMxprt_examples_V2025/     		SalientPoleRotor
+$iroot/2d_RMxprt_examples_V2025/     		SalientPoleStator
+$iroot/2d_RMxprt_examples_V2025/     		StepMotor_OutRot
+$iroot/2d_RMxprt_examples_V2025/     		StepMotor_SRM
+$iroot/2d_RMxprt_examples_V2025/     		StepMotor_VR
+$iroot/2d_RMxprt_examples_V2025/     		SynM3_6p50Hz538kW
+$iroot/2d_RMxprt_examples_V2025/     		SynRRotor
+$iroot/2d_RMxprt_examples_V2025/     		UniM_2p12500rpm100W
+$iroot/2d_RMxprt_examples_V2025/     		ac120_i
+$iroot/2d_RMxprt_examples_V2025/     		afassm_1
+$iroot/2d_RMxprt_examples_V2025/     		afassm_2
+$iroot/2d_RMxprt_examples_V2025/     		afbldc_1
+$iroot/2d_RMxprt_examples_V2025/     		afbldc_2
+$iroot/2d_RMxprt_examples_V2025/     		afbldc_3
+$iroot/2d_RMxprt_examples_V2025/     		afbldc_4
+$iroot/2d_RMxprt_examples_V2025/       		assm_1
+$iroot/2d_RMxprt_examples_V2025/     		assm_2
+$iroot/2d_RMxprt_examples_V2025/     		assm_3
+$iroot/2d_RMxprt_examples_V2025/     		assm_4
+$iroot/2d_RMxprt_examples_V2025/     		assm_5
+$iroot/2d_RMxprt_examples_V2025/     		assm_6
+$iroot/2d_RMxprt_examples_V2025/     		bjs10_61
+$iroot/2d_RMxprt_examples_V2025/     		bjs7_6_1
+$iroot/2d_RMxprt_examples_V2025/     		bsm
+$iroot/2d_RMxprt_examples_V2025/     		dfig_1
+$iroot/2d_RMxprt_examples_V2025/     		dfig_2
+$iroot/2d_RMxprt_examples_V2025/     		g2_5
+$iroot/2d_RMxprt_examples_V2025/     		ipm_1
+$iroot/2d_RMxprt_examples_V2025/     		ipm_2
+$iroot/2d_RMxprt_examples_V2025/     		ipm_3
+$iroot/2d_RMxprt_examples_V2025/     		ipm_5
+$iroot/2d_RMxprt_examples_V2025/     		ipm_6
+$iroot/2d_RMxprt_examples_V2025/     		ipm_HysRotor
+$iroot/2d_RMxprt_examples_V2025/     		ipm_SolidRotor
+$iroot/2d_RMxprt_examples_V2025/     		nssm_1
+$iroot/2d_RMxprt_examples_V2025/     		pmsg_1
+$iroot/2d_RMxprt_examples_V2025/     		sm_1
+$iroot/2d_RMxprt_examples_V2025/     		sm_2
+$iroot/2d_RMxprt_examples_V2025/     		sm_3
+$iroot/2d_RMxprt_examples_V2025/     		sm_4
+$iroot/2d_RMxprt_examples_V2025/     		sm_5
+$iroot/2d_RMxprt_examples_V2025/     		sm_6
+$iroot/2d_RMxprt_examples_V2025/     		sm_7
+$iroot/2d_RMxprt_examples_V2025/     		sm_8
+$iroot/2d_RMxprt_examples_V2025/     		srm_1
+$iroot/2d_RMxprt_examples_V2025/     		stndj_1
+$iroot/2d_RMxprt_examples_V2025/     		tsyde_22
+$iroot/2d_RMxprt_examples_V2025/     		ws_1
+$iroot/2d_RMxprt_examples_V2025/     		ws_2
+$iroot/2d_RMxprt_examples_V2025/     		ws_3
+$iroot/2d_RMxprt_examples_V2025/     		ws_4
+$iroot/2d_RMxprt_examples_V2025/     		ws_5
+$iroot/2d_RMxprt_examples_V2025/     		ws_6
+$iroot/2d_RMxprt_examples_V2025/     		ylew_95
+$iroot/2d_RMxprt_examples_V2025/     		yz200_24
+$iroot/2d_RMxprt_examples_V2025/     		yz200_6
+$iroot/2d_RMxprt_examples_V2025/     		yzd132_4
+$iroot/2d_RMxprt_examples_V2025/     		yzd132_4G
+$iroot/2d_RMxprt_examples_V2025/     		yzd132_8
+$iroot/2d_RMxprt_examples_V2025/     		z_500
+$iroot/2d_RMxprt_examples_V2025/     		zf_500
+
+#total_59_models_in_the_list
+
+$iroot/2d_models/     5000_circles_with_box
+$iroot/2d_models/     01_long_x_1
+$iroot/2d_models/     01_long_x_repeat
+$iroot/2d_models/     01_long_x_repeat_with_box
+$iroot/2d_models/     01_two_circles
+$iroot/2d_models/     1000_circles
+$iroot/2d_models/     10_layers
+$iroot/2d_models/     10_layers_rotate
+$iroot/2d_models/     10_layers_short
+$iroot/2d_models/     10_layers_short_rotate
+$iroot/2d_models/     20_circles
+$iroot/2d_models/     2_circle_classic_3D
+$iroot/2d_models/     2_circles_2D
+$iroot/2d_models/     3_poly_on_circle_XY
+$iroot/2d_models/     3_poly_on_circle_XZ
+$iroot/2d_models/     3_poly_on_circle_YZ
+$iroot/2d_models/     3ph_sync_gen
+$iroot/2d_models/     4_holes_on_rec
+$iroot/2d_models/     4_poly_on_circle
+$iroot/2d_models/     7_circles_2D
+$iroot/2d_models/     ashish22_KCI
+$iroot/2d_models/     doublecage_kickoff
+$iroot/2d_models/     doublecage_modeler1
+$iroot/2d_models/     doublecage_y_connection
+$iroot/2d_models/     four_polygons
+$iroot/2d_models/     mirror_4_copy
+$iroot/2d_models/     mirror_at_x=0_holes
+$iroot/2d_models/     mirror_at_y=0
+$iroot/2d_models/     mirror_at_y=0_holes
+$iroot/2d_models/     mirror_contact
+$iroot/2d_models/     mirror_y=0_skewed
+$iroot/2d_models/     multi_faces_overlapping
+#not_on_plane$iroot/2d_models/     multi_faces_overlapping_rotated_arbitary
+$iroot/2d_models/     multi_faces_overlapping_x_direct
+$iroot/2d_models/     multi_sheet_overlapping
+$iroot/2d_models/     non_manifold_surface
+$iroot/2d_models/     ring
+$iroot/2d_models/     rockwell_circuit_box_only_sheet_gap
+$iroot/2d_models/     rockwell_circuit_box_only_sheet_gap_added_region_good
+$iroot/2d_models/     rotate_36_copy_10
+$iroot/2d_models/     rotate_45_at_z_contact
+$iroot/2d_models/     rotate_45_at_z_contact_holes
+$iroot/2d_models/     rotate_45_at_z_contact_holes_overlapping
+$iroot/2d_models/     rotate_45_at_z_no_contact
+$iroot/2d_models/     skewed
+$iroot/2d_models/     SRMotor
+$iroot/2d_models/     three_polygons
+$iroot/2d_models/     three_rects
+$iroot/2d_models/     ws_2
+$iroot/2d_models/     y5_1
+
+#total 113 models
+$iroot/2d_q2d_QA_suite/    10p_20ml_bin
+$iroot/2d_q2d_QA_suite/    3micro
+$iroot/2d_q2d_QA_suite/    8_cable0
+$iroot/2d_q2d_QA_suite/    am_ms_2d_freq_new_ansoft
+$iroot/2d_q2d_QA_suite/    bnr3
+$iroot/2d_q2d_QA_suite/    bnr3_2
+$iroot/2d_q2d_QA_suite/    broadside
+$iroot/2d_q2d_QA_suite/    cap_rad_1x
+$iroot/2d_q2d_QA_suite/    cap_rad_2x
+$iroot/2d_q2d_QA_suite/    coax
+$iroot/2d_q2d_QA_suite/    coax_ani
+$iroot/2d_q2d_QA_suite/    coax_ani_hj
+$iroot/2d_q2d_QA_suite/    coax_ani_huray
+$iroot/2d_q2d_QA_suite/    coax_pfc
+$iroot/2d_q2d_QA_suite/    coax_sht
+$iroot/2d_q2d_QA_suite/    coax_tb5
+$iroot/2d_q2d_QA_suite/    coplanar_close
+$iroot/2d_q2d_QA_suite/    coplanar_close_cond
+$iroot/2d_q2d_QA_suite/    coplanar_close_elt
+$iroot/2d_q2d_QA_suite/    coplanar_close_hj
+$iroot/2d_q2d_QA_suite/    coplanar_close_huray
+$iroot/2d_q2d_QA_suite/    coplanar_far
+$iroot/2d_q2d_QA_suite/    copper_PEC
+$iroot/2d_q2d_QA_suite/    cpw_gnd_gsg
+$iroot/2d_q2d_QA_suite/    cpw_ni_gnd
+$iroot/2d_q2d_QA_suite/    DC_Trace_dnd
+$iroot/2d_q2d_QA_suite/    DC_Trace_dnd_stripline_pec
+$iroot/2d_q2d_QA_suite/    DC_Trace_dnd_ustrip_pec
+$iroot/2d_q2d_QA_suite/    ec1_cxA
+$iroot/2d_q2d_QA_suite/    ew4strp2
+$iroot/2d_q2d_QA_suite/    ewstrip
+$iroot/2d_q2d_QA_suite/    floating
+$iroot/2d_q2d_QA_suite/    floating_reduce
+$iroot/2d_q2d_QA_suite/    General_cable_model
+$iroot/2d_q2d_QA_suite/    General_cable_model_explicit
+$iroot/2d_q2d_QA_suite/    GND_PEC
+$iroot/2d_q2d_QA_suite/    grounded
+$iroot/2d_q2d_QA_suite/    grounded_reduce
+$iroot/2d_q2d_QA_suite/    H_IOCard_Meg6_100_BGA_New_Trap
+$iroot/2d_q2d_QA_suite/    H_IOCard_Meg6_100_New_Trap_DS_
+$iroot/2d_q2d_QA_suite/    H_IOCard_Meg6_110_BGA_New_Trap
+$iroot/2d_q2d_QA_suite/    H_IOCard_Meg6_110_New_Trap_DS_
+$iroot/2d_q2d_QA_suite/    H_IOCard_Meg6_76_BGA_New_Trap_
+$iroot/2d_q2d_QA_suite/    H_IOCard_Meg6_76_New_Trap_DS_6
+$iroot/2d_q2d_QA_suite/    H_IOCard_Meg6_85_BGA_New_Trap_
+$iroot/2d_q2d_QA_suite/    H_IOCard_Meg6_85_New_Trap_DS_6
+$iroot/2d_q2d_QA_suite/    H_IOCard_Meg6_90_BGA_New_Trap_
+$iroot/2d_q2d_QA_suite/    H_IOCard_Meg6_90_New_Trap_DS_5
+$iroot/2d_q2d_QA_suite/    H_IOCard_Meg6_93_BGA_New_Trap_
+$iroot/2d_q2d_QA_suite/    H_IOCard_Meg6_93_New_Trap_DS_6
+$iroot/2d_q2d_QA_suite/    H_Midplane_Meg6_100_New_Trap_D
+$iroot/2d_q2d_QA_suite/    H_Midplane_Meg6_110_New_Trap_D
+$iroot/2d_q2d_QA_suite/    H_Midplane_Meg6_76_New_Trap_DS
+$iroot/2d_q2d_QA_suite/    H_Midplane_Meg6_85_New_Trap_DS
+$iroot/2d_q2d_QA_suite/    H_Midplane_Meg6_90_New_Trap_DS
+$iroot/2d_q2d_QA_suite/    H_Midplane_Meg6_93_New_Trap_DS
+$iroot/2d_q2d_QA_suite/    h2lidgnd
+$iroot/2d_q2d_QA_suite/    h2lsig
+$iroot/2d_q2d_QA_suite/    HiTCE_SerDes_design_rules
+$iroot/2d_q2d_QA_suite/    hurayTest
+$iroot/2d_q2d_QA_suite/    ibmCeramic
+$iroot/2d_q2d_QA_suite/    ieee75_6
+$iroot/2d_q2d_QA_suite/    jkellv
+$iroot/2d_q2d_QA_suite/    lsi_2d
+$iroot/2d_q2d_QA_suite/    microstp
+$iroot/2d_q2d_QA_suite/    microstrip
+$iroot/2d_q2d_QA_suite/    MSL_ferrite
+$iroot/2d_q2d_QA_suite/    MSL_no_ferrite
+$iroot/2d_q2d_QA_suite/    NastyBuriedMicrostrip
+$iroot/2d_q2d_QA_suite/    NastyBuriedMicrostrip_mod
+$iroot/2d_q2d_QA_suite/    no1_coax_2d
+$iroot/2d_q2d_QA_suite/    no2_lvds_2d
+$iroot/2d_q2d_QA_suite/    no3_xtalk_2d
+$iroot/2d_q2d_QA_suite/    no4_cpw_2d
+$iroot/2d_q2d_QA_suite/    no4_cpw_2d_gnd
+$iroot/2d_q2d_QA_suite/    no4_cpw_2d_ni_gnd
+$iroot/2d_q2d_QA_suite/    no5_bondwire_2d
+$iroot/2d_q2d_QA_suite/    par_res
+$iroot/2d_q2d_QA_suite/    parlel
+$iroot/2d_q2d_QA_suite/    parlel3
+$iroot/2d_q2d_QA_suite/    Q3D_Stripline_Megtron4_6milW_1
+$iroot/2d_q2d_QA_suite/    sato1
+$iroot/2d_q2d_QA_suite/    sato2
+$iroot/2d_q2d_QA_suite/    SpiceExport2D
+$iroot/2d_q2d_QA_suite/    stripline
+$iroot/2d_q2d_QA_suite/    stripline_pairs
+$iroot/2d_q2d_QA_suite/    Stripline_Switch_tx_AE
+$iroot/2d_q2d_QA_suite/    sysbrd_hitachi_3pair_85ohm
+$iroot/2d_q2d_QA_suite/    t5b_2wir
+$iroot/2d_q2d_QA_suite/    test
+$iroot/2d_q2d_QA_suite/    test_package
+$iroot/2d_q2d_QA_suite/    transmission_lines_diff_micros
+$iroot/2d_q2d_QA_suite/    twnx_par
+$iroot/2d_q2d_QA_suite/    twnx_srf
+$iroot/2d_q2d_QA_suite/    US21273_1
+$iroot/2d_q2d_QA_suite/    US21273_2
+$iroot/2d_q2d_QA_suite/    US21274
+$iroot/2d_q2d_QA_suite/    v1b_plastic
+$iroot/2d_q2d_QA_suite/    v1b_plastic_rect
+$iroot/2d_q2d_QA_suite/    v1b_vacuum
+$iroot/2d_q2d_QA_suite/    ver9
+$iroot/2d_q2d_QA_suite/    xmission_dualdiff_micro
+$iroot/2d_q2d_QA_suite/    xmission_dualdiff_strip
+$iroot/2d_q2d_QA_suite/    xmission_lines_broadside
+$iroot/2d_q2d_QA_suite/    xmission_lines_diff_micro
+$iroot/2d_q2d_QA_suite/    xmission_lines_diff_strip
+$iroot/2d_q2d_QA_suite/    xmission_lines_diff_strip_hj
+$iroot/2d_q2d_QA_suite/    xmission_lines_diff_strip_hura
+$iroot/2d_q2d_QA_suite/    xmission_lines_dual_broad
+$iroot/2d_q2d_QA_suite/    xmission_lines_microstrip
+$iroot/2d_q2d_QA_suite/    xmission_lines_stripline
+$iroot/2d_q2d_QA_suite/    z0anis_2
+$iroot/2d_q2d_QA_suite/    z0anis_3
+
+    
+#total_57_models_in_the_list
+$iroot/2d_maxwell_bugs/     Maxw_GS_2DmagTrans1
+$iroot/2d_maxwell_bugs/     PMTitan_rotate_crash
+$iroot/2d_maxwell_bugs/     PMTitanV003320160508052836615
+$iroot/2d_maxwell_bugs/     PMTitanV003320160508161037066
+$iroot/2d_maxwell_bugs/     PMTitanV003320160512024221441
+$iroot/2d_maxwell_bugs/     PMTitanV003320160512185221240
+
+$iroot/2d_maxwell_bugs/     LG2-longtest_V2016_mxwl_2D
+
+#last_20
+$iroot/2d_maxwell_bugs/     DE12670_Secondary_Coil_2_V16
+
+#last_2
+$iroot/2d_maxwell_bugs/     2D_Litz_Coil_Test_30para_48turn_V16
+
+#last_57
+$iroot/2d_maxwell_bugs/     DE64471_M7ph_many_curves_overlapping
+
+#last_56
+$iroot/2d_maxwell_bugs/     DE62161_Litz_narrow_gaps
+
+#last_55
+$iroot/2d_maxwell_bugs/     2DTauMeshCrash
+
+#last_55
+$iroot/2d_maxwell_bugs/     DE45282_Prius_TauMesh_V16
+
+#last_54
+$iroot/2d_maxwell_bugs/     DENSO_Prietary_Motor_V16_03deg_true_curves
+
+#last_53
+$iroot/2d_maxwell_bugs/     DE41641_multi_coils_v16
+
+#last_52
+$iroot/2d_maxwell_bugs/     DE28399_rotation_mesh_issue
+
+#last_51
+$iroot/2d_maxwell_bugs/     MR79761_NL_V16_true_curves
+
+#last_50
+$iroot/2d_maxwell_bugs/     DE44214_GM_mesh_V16
+
+#last_49
+$iroot/2d_maxwell_bugs/     DE44158_2D_36_Puls_Y6d_50Hz
+
+#last_48
+$iroot/2d_maxwell_bugs/     DE44045_modified_model
+
+#last_47
+$iroot/2d_maxwell_bugs/     DE44045_parasolid_import
+
+#last_46
+$iroot/2d_maxwell_bugs/     May2_parametric_stator_4_1_slot_ratio_w_wire_areas_good_model
+
+#last_45
+$iroot/2d_maxwell_bugs/     ANSYS_Step_A_Eric_Lin_V16
+
+#last_44
+$iroot/2d_maxwell_bugs/     DE40472_simple_spline_offset
+
+#last_43
+$iroot/2d_maxwell_bugs/     Siemens-Car_Section-first-V16
+
+#last_42
+$iroot/2d_maxwell_bugs/     Siemens-Car_Section-second-V16
+
+#last_41
+$iroot/2d_maxwell_bugs/     DE41641_ProtoB02_test_one_coil_v16
+
+#last_40
+$iroot/2d_maxwell_bugs/     DE41270_PFI2
+
+#last_39
+$iroot/2d_maxwell_bugs/     DE32048_mxwl_2D_VW_V14
+
+#last_38
+$iroot/2d_maxwell_bugs/     DE13049_Neuaufbau_Projekt_V16
+
+#last_37
+$iroot/2d_maxwell_bugs/     DE13049_Prius_2D_MSBnd_V16
+
+#last_36
+$iroot/2d_maxwell_bugs/     DE29216_mxwl_2d_MS_parallel
+
+#last_35
+#intersected_not_support$iroot/2d_maxwell_bugs/     DE27832_whole_model
+
+#last_34
+$iroot/2d_maxwell_bugs/     DE28399_circle_overlappings
+
+#last_33
+$iroot/2d_maxwell_bugs/     DE12752_ACIS_error_august2009
+
+#last_32
+$iroot/2d_maxwell_bugs/     DE14439_cut_from_3D
+
+#last_31
+$iroot/2d_maxwell_bugs/     DE14782_Delta_DtsSmallZ_V16
+
+#last_30
+$iroot/2d_maxwell_bugs/     DE15185_SPM8P12S_V16
+
+#last_29
+$iroot/2d_maxwell_bugs/     DE15185_SPM8P12S_modified1_V16
+
+#last_28
+$iroot/2d_maxwell_bugs/     VW_04_16_2012
+
+#last_27
+$iroot/2d_maxwell_bugs/     VW_2D_03_07
+
+#last_26
+$iroot/2d_maxwell_bugs/     yz200-6_linear_V15
+
+#last_25
+$iroot/2d_maxwell_bugs/     550kV_1440589_V15
+
+#last_24
+$iroot/2d_maxwell_bugs/     ANSYS_Rel_A_V15
+
+#last_23
+$iroot/2d_maxwell_bugs/     assm-1_2Dforcedensity_V15
+
+#last_22
+$iroot/2d_maxwell_bugs/     band_double_hal_aircore_V15
+
+#last_21
+$iroot/2d_maxwell_bugs/     BLDC_For_Peter_submit_V15
+
+#last_19
+$iroot/2d_maxwell_bugs/     DE12670_slow_V16
+
+#last_18
+$iroot/2d_maxwell_bugs/     fluxlinkage_calculation_with_advanced_flgNu_V15
+
+#last_17
+$iroot/2d_maxwell_bugs/     LatestGM_V14_mod_V15
+
+#last_16
+$iroot/2d_maxwell_bugs/     Machine4Mesh_mgs_V16
+
+#last_15
+$iroot/2d_maxwell_bugs/     magnetization_2d_motor_V15
+
+#last_14
+$iroot/2d_maxwell_bugs/     Magnet_experiments_V15
+
+#last_13
+$iroot/2d_maxwell_bugs/     Max2dTR_FLU3d_Motor_V15
+
+#last_12
+$iroot/2d_maxwell_bugs/     maxwell_2D_H_B_field_with_PM
+
+#last_11
+$iroot/2d_maxwell_bugs/     mr79761_v14Tran_Winding_v2_V15
+
+#last_10
+$iroot/2d_maxwell_bugs/     sm-3_v15
+
+#last_9
+$iroot/2d_maxwell_bugs/     SRGenerator4Meshing_mgs_V16
+
+#last_8
+$iroot/2d_maxwell_bugs/     Test_lamination_V15
+
+#last_7
+$iroot/2d_maxwell_bugs/     Transformer_V15
+
+#last_6
+$iroot/2d_maxwell_bugs/     tsyde-22_V15
+
+#last_5
+$iroot/2d_maxwell_bugs/     V13B3_BH_satu_Test_2DXY_V15
+
+#last_4
+$iroot/2d_maxwell_bugs/     y7_sinv_rotor_kc_2D_V14_coreloss_V15
+
+#last_3
+$iroot/2d_maxwell_bugs/     yi_same_design_different_results_V15
+
+#last_1
+$iroot/2d_maxwell_bugs/     DENSO_Prietary_Motor_V16_01deg
+
+#last_0
+$iroot/2d_maxwell_bugs/     Test1_solid_winding
+
+#newly_added_after_05_01_2016
+$iroot/2d_maxwell_bugs/     DE126766_rmxprt_rotor
+$iroot/2d_maxwell_bugs/     DE126700_TAU_2D_segment
+$iroot/2d_maxwell_bugs/     DE126568_TAU_2D_SRM
+$iroot/2d_maxwell_bugs/     DE121642_TAU2D_crash
+$iroot/2d_maxwell_bugs/     2D_IPM_Motor_static
+$iroot/2d_maxwell_bugs/     2D_IPM_Motor_transient
+
+$iroot/2d_maxwell_bugs/     DE110380_TAU_2D_fail_linux
+$iroot/2d_maxwell_bugs/     DE110234_mxwl_2D
+$iroot/2d_maxwell_bugs/     DE110117_TAU_2D_VPM_beta_OOD
+$iroot/2d_maxwell_bugs/     DE110117_TAU_2D
+$iroot/2d_maxwell_bugs/     DE107727_mxwl_2D
+$iroot/2d_maxwell_bugs/     REMY_HVH250_v2015_v6_js
+
+################################################################
+#added maxwell test suite 110 models here  10/06/2016
+    
+#total_110_models_in_the_list
+
+#last_110
+$iroot/2d_maxwell2d_suite/     66863_Setup1
+
+#last_109
+$iroot/2d_maxwell2d_suite/     67229_Setup1
+
+#last_108
+$iroot/2d_maxwell2d_suite/     68140_Setup1
+
+#last_107
+$iroot/2d_maxwell2d_suite/     68991_bridge
+
+#last_106
+$iroot/2d_maxwell2d_suite/     68991_outside
+
+#last_105
+$iroot/2d_maxwell2d_suite/     68991_sticking_out
+
+#last_104
+$iroot/2d_maxwell2d_suite/     69222_Setup1
+
+#last_103
+$iroot/2d_maxwell2d_suite/     69396_Setup1
+
+#last_102
+$iroot/2d_maxwell2d_suite/     69499_Setup1
+
+#last_101
+$iroot/2d_maxwell2d_suite/     69506_Setup1
+
+#last_100
+$iroot/2d_maxwell2d_suite/     69606_Setup1
+
+#last_99
+$iroot/2d_maxwell2d_suite/     69639_Setup1
+
+#last_98
+$iroot/2d_maxwell2d_suite/     69639_tulip
+
+#last_97
+$iroot/2d_maxwell2d_suite/     69735_ersz
+
+#last_96
+$iroot/2d_maxwell2d_suite/     69741_Setup1
+
+#last_95
+$iroot/2d_maxwell2d_suite/     69778_Setup1
+
+#last_94
+$iroot/2d_maxwell2d_suite/     70027_Setup1
+
+#last_93
+$iroot/2d_maxwell2d_suite/     70533_Setup1
+
+#last_92
+$iroot/2d_maxwell2d_suite/     70707_Setup1
+
+#last_91
+$iroot/2d_maxwell2d_suite/     70820_Setup1
+
+#last_90
+$iroot/2d_maxwell2d_suite/     71096_Setup1
+
+#last_89
+$iroot/2d_maxwell2d_suite/     71561_Setup1
+
+#last_88
+$iroot/2d_maxwell2d_suite/     71602_Setup1
+
+#last_87
+$iroot/2d_maxwell2d_suite/     71644_Setup1
+
+#last_86
+$iroot/2d_maxwell2d_suite/     72119_elps_05
+
+#last_85
+$iroot/2d_maxwell2d_suite/     72119_Setup1
+
+#last_84
+$iroot/2d_maxwell2d_suite/     72202_BLDC_A
+
+#last_83
+$iroot/2d_maxwell2d_suite/     72242_BLDC_4p
+
+#last_82
+$iroot/2d_maxwell2d_suite/     72343_prius
+
+#last_81
+$iroot/2d_maxwell2d_suite/     72350_notch_0RPM
+
+#last_80
+$iroot/2d_maxwell2d_suite/     72399_Setup1
+
+#last_79
+$iroot/2d_maxwell2d_suite/     72501_notch
+
+#last_78
+$iroot/2d_maxwell2d_suite/     72501_prius
+
+#last_77
+$iroot/2d_maxwell2d_suite/     72852_Setup1
+
+#last_76
+$iroot/2d_maxwell2d_suite/     73610_Setup1
+
+#last_75
+$iroot/2d_maxwell2d_suite/     73611_Setup1
+
+#last_74
+$iroot/2d_maxwell2d_suite/     73830_3hp_Setup1
+
+#last_73
+$iroot/2d_maxwell2d_suite/     73834_Setup1
+
+#last_72
+$iroot/2d_maxwell2d_suite/     74312_3hp_Setup1
+
+#last_71
+$iroot/2d_maxwell2d_suite/     74733_chop_healed
+
+#last_69
+$iroot/2d_maxwell2d_suite/     75186_gap_Setup1
+
+#last_68
+$iroot/2d_maxwell2d_suite/     75335_Setup1
+
+#last_67
+$iroot/2d_maxwell2d_suite/     75992_Setup1
+
+#last_66
+$iroot/2d_maxwell2d_suite/     76540_Setup1
+
+#last_65
+$iroot/2d_maxwell2d_suite/     76650_HDw_coldhead_2D
+
+#last_64
+$iroot/2d_maxwell2d_suite/     76786_chop_healed
+
+#last_62
+$iroot/2d_maxwell2d_suite/     76881_Setup1
+
+#last_61
+$iroot/2d_maxwell2d_suite/     77252_Setup1
+
+#last_60
+$iroot/2d_maxwell2d_suite/     77345_Setup1
+
+#last_59
+$iroot/2d_maxwell2d_suite/     77369_Setup1
+
+#last_58
+$iroot/2d_maxwell2d_suite/     77531_Setup1
+
+#last_57
+$iroot/2d_maxwell2d_suite/     77531_Setup2
+
+#last_56
+$iroot/2d_maxwell2d_suite/     77531_Setup3
+
+#last_55
+$iroot/2d_maxwell2d_suite/     77531_Setup4
+
+#last_54
+$iroot/2d_maxwell2d_suite/     77795_Setup1
+
+#last_53
+$iroot/2d_maxwell2d_suite/     77831_Setup1
+
+#last_52
+$iroot/2d_maxwell2d_suite/     78045_Setup1
+
+#last_51
+$iroot/2d_maxwell2d_suite/     78047_2d_no_box
+
+#last_50
+$iroot/2d_maxwell2d_suite/     78047_2d_with_box
+
+#last_49
+$iroot/2d_maxwell2d_suite/     78438_checkv1_Setup1
+
+#last_48
+$iroot/2d_maxwell2d_suite/     78438_checkv_Setup1
+
+#last_47
+$iroot/2d_maxwell2d_suite/     78619_Tra_Cir_Setup1
+
+#last_46
+$iroot/2d_maxwell2d_suite/     78619_Tra_Vol_Setup1
+
+#last_45
+$iroot/2d_maxwell2d_suite/     79121_Setup1
+
+#last_44
+$iroot/2d_maxwell2d_suite/     79627_Setup1
+
+#last_43
+$iroot/2d_maxwell2d_suite/     79861_Setup1
+
+#last_42
+$iroot/2d_maxwell2d_suite/     79869_meshstats_Setup1
+
+#last_41
+$iroot/2d_maxwell2d_suite/     79899_s2d3_Setup1
+
+#last_40
+$iroot/2d_maxwell2d_suite/     79899_s2d_Setup1
+
+#last_39
+$iroot/2d_maxwell2d_suite/     79959_Beauharnois_Setup1
+
+#last_38
+$iroot/2d_maxwell2d_suite/     80276_Setup1
+
+#last_37
+$iroot/2d_maxwell2d_suite/     80662_u840_Setup1
+
+#last_36
+$iroot/2d_maxwell2d_suite/     80697_Setup1
+
+#last_35
+$iroot/2d_maxwell2d_suite/     80846_match_fail_linux_Setup1
+
+#last_34
+$iroot/2d_maxwell2d_suite/     80846_mt1a_dsg1_Setup1
+
+#last_33
+$iroot/2d_maxwell2d_suite/     80846_mt1a_dsg2_Setup1
+
+#last_32
+$iroot/2d_maxwell2d_suite/     80846_mt1a_dsg3_Setup1
+
+#last_31
+$iroot/2d_maxwell2d_suite/     80846_sim_magneto_dsg2
+
+#last_30
+$iroot/2d_maxwell2d_suite/     80846_sim_magneto_dsg3
+
+#last_29
+$iroot/2d_maxwell2d_suite/     80861_dsg11_Setup1
+
+#last_28
+$iroot/2d_maxwell2d_suite/     80861_ExMobMotor2
+
+#last_27
+$iroot/2d_maxwell2d_suite/     81396_Setup2
+
+#last_26
+$iroot/2d_maxwell2d_suite/     82044_Quad_ME_Setup1
+
+#last_25
+$iroot/2d_maxwell2d_suite/     82588_magnet_loss_Setup1
+
+#last_24
+$iroot/2d_maxwell2d_suite/     82677_Prius_unclassified_objs
+
+#last_23
+$iroot/2d_maxwell2d_suite/     82858_diskcap2a
+
+#last_22
+$iroot/2d_maxwell2d_suite/     82858_diskcap2a_cleaned
+
+#last_21
+$iroot/2d_maxwell2d_suite/     82892_mesherror_Setup1
+
+#last_20
+$iroot/2d_maxwell2d_suite/     82892_meshok_Setup1
+
+#last_19
+$iroot/2d_maxwell2d_suite/     82949_dsg1_Setup1
+
+#last_18
+$iroot/2d_maxwell2d_suite/     82949_dsg2_Setup1
+
+#last_17
+$iroot/2d_maxwell2d_suite/     83885_Setup_20_2
+
+#last_16
+$iroot/2d_maxwell2d_suite/     83885_Setup_22_2
+
+#last_15
+$iroot/2d_maxwell2d_suite/     83885_Setup_22_4
+
+#last_14
+$iroot/2d_maxwell2d_suite/     83885_Setup_24_2
+
+#last_13
+$iroot/2d_maxwell2d_suite/     83885_Setup_26_4
+
+#last_12
+$iroot/2d_maxwell2d_suite/     83885_Setup_28_4
+
+#last_11
+$iroot/2d_maxwell2d_suite/     85611_Setup1
+
+#last_10
+$iroot/2d_maxwell2d_suite/     85611_Setup2
+
+#last_9
+$iroot/2d_maxwell2d_suite/     88311_wtf
+
+#last_8
+$iroot/2d_maxwell2d_suite/     88311_wtw
+
+#last_7
+$iroot/2d_maxwell2d_suite/     89977_Setup1
+
+#last_6
+$iroot/2d_maxwell2d_suite/     92348_Setup1
+
+#last_5
+$iroot/2d_maxwell2d_suite/     92540_Setup1
+
+#last_4
+$iroot/2d_maxwell2d_suite/     93003_Setup1
+
+#last_3
+$iroot/2d_maxwell2d_suite/     DE11760_Setup1
+
+#last_2
+$iroot/2d_maxwell2d_suite/     DE27832_Setup1
+
+#last_1
+$iroot/2d_maxwell2d_suite/     DE27974_Setup1
+
+
+#total_134_models_in_the_list
+$iroot/2d_Maxwell_QA_2017/    1rot
+$iroot/2d_Maxwell_QA_2017/    1TB2006
+$iroot/2d_Maxwell_QA_2017/    2D_Applied
+$iroot/2d_Maxwell_QA_2017/    2D_CL_LSM_Master_Slave
+$iroot/2d_Maxwell_QA_2017/    2D_corelos_four_curves
+$iroot/2d_Maxwell_QA_2017/    2D_corelos_one_curve
+$iroot/2d_Maxwell_QA_2017/    2D_corelos_three_curves
+$iroot/2d_Maxwell_QA_2017/    2D_Hys_MLi_1_Magnetization
+$iroot/2d_Maxwell_QA_2017/    2D_Hys_MLi_2_Demagnetization
+$iroot/2d_Maxwell_QA_2017/    2D_Hys_MLi_3_TargetDesign
+$iroot/2d_Maxwell_QA_2017/    2D_Mix_Iso_1_Magnetization
+$iroot/2d_Maxwell_QA_2017/    2D_Mix_Iso_2_Demagnetization
+$iroot/2d_Maxwell_QA_2017/    2D_Mix_Iso_3_TargetDesign
+$iroot/2d_Maxwell_QA_2017/    2D36slot
+$iroot/2d_Maxwell_QA_2017/    3hp_layer1_Maxwell2DDesign2a
+$iroot/2d_Maxwell_QA_2017/    Anisotropi_2D_1mA_0degree
+$iroot/2d_Maxwell_QA_2017/    Anisotropi_2D_1mA_90degree
+$iroot/2d_Maxwell_QA_2017/    Anisotropic_2D_V
+$iroot/2d_Maxwell_QA_2017/    assm_2D_IdIq1_Sweep
+$iroot/2d_Maxwell_QA_2017/    assm_2D_ImBet_Sweep
+$iroot/2d_Maxwell_QA_2017/    assm_6_tau_Maxwell2DDesign1
+$iroot/2d_Maxwell_QA_2017/    Cable2D
+$iroot/2d_Maxwell_QA_2017/    CapDump
+$iroot/2d_Maxwell_QA_2017/    charge_test2d
+$iroot/2d_Maxwell_QA_2017/    clone_mesh_check1
+$iroot/2d_Maxwell_QA_2017/    clone_mesh_check2
+$iroot/2d_Maxwell_QA_2017/    clone_mesh_check3
+$iroot/2d_Maxwell_QA_2017/    Core_TapeW_Maxwell2DDesign1_L
+$iroot/2d_Maxwell_QA_2017/    Core_TapeW_Maxwell2DDesign2_S
+$iroot/2d_Maxwell_QA_2017/    DE33347_1
+$iroot/2d_Maxwell_QA_2017/    DE33347_2
+$iroot/2d_Maxwell_QA_2017/    DE33347_3
+$iroot/2d_Maxwell_QA_2017/    DE33347_4
+$iroot/2d_Maxwell_QA_2017/    DE77428
+$iroot/2d_Maxwell_QA_2017/    demag2D_UI_ref
+$iroot/2d_Maxwell_QA_2017/    demag2D_UI_src
+$iroot/2d_Maxwell_QA_2017/    demag2D_UI_src1
+$iroot/2d_Maxwell_QA_2017/    demag2D_UI_trg1
+$iroot/2d_Maxwell_QA_2017/    demag2D_UI_trg2
+$iroot/2d_Maxwell_QA_2017/    demag2Dtr_2D_obj_transf
+$iroot/2d_Maxwell_QA_2017/    demag2Dtr_2D_transf
+$iroot/2d_Maxwell_QA_2017/    demag2Dtr_2D_transientsource
+$iroot/2d_Maxwell_QA_2017/    demag2Dtr_2D_transienttarget
+$iroot/2d_Maxwell_QA_2017/    dfig_1
+$iroot/2d_Maxwell_QA_2017/    diskcap2b
+$iroot/2d_Maxwell_QA_2017/    eddy_2pec_Maxwell2DDesign2
+$iroot/2d_Maxwell_QA_2017/    eddySource_source
+$iroot/2d_Maxwell_QA_2017/    eddySource_Target
+$iroot/2d_Maxwell_QA_2017/    EdgeLossDensity
+$iroot/2d_Maxwell_QA_2017/    EdRZSkinLa_NormalAdapt
+$iroot/2d_Maxwell_QA_2017/    EdRZSkinLa_SkinDepthLayer_1Pa
+$iroot/2d_Maxwell_QA_2017/    EdRZSkinLa_UseImped
+$iroot/2d_Maxwell_QA_2017/    EM_N40_dou_em_20_delta_test
+$iroot/2d_Maxwell_QA_2017/    EM_N40_dou_em_20_delta_test1
+$iroot/2d_Maxwell_QA_2017/    EM_N40_dou_em_20_delta_test2
+$iroot/2d_Maxwell_QA_2017/    External_I_single
+$iroot/2d_Maxwell_QA_2017/    External_I_single_external
+$iroot/2d_Maxwell_QA_2017/    fluke_2d
+$iroot/2d_Maxwell_QA_2017/    Force_obj_touch_band
+$iroot/2d_Maxwell_QA_2017/    furl96
+$iroot/2d_Maxwell_QA_2017/    GM_Demag_Model
+$iroot/2d_Maxwell_QA_2017/    HLamiEff_2_2D_LamiHys
+$iroot/2d_Maxwell_QA_2017/    HLamiEff_2_2D_SolidHys
+$iroot/2d_Maxwell_QA_2017/    hys_2D_submit
+$iroot/2d_Maxwell_QA_2017/    ipm_HysRot_Maxwell2DDesign1
+$iroot/2d_Maxwell_QA_2017/    Kdc
+$iroot/2d_Maxwell_QA_2017/    kW37_kW37_1pole
+$iroot/2d_Maxwell_QA_2017/    kW37_kW37_full
+$iroot/2d_Maxwell_QA_2017/    LaminStack_01_steel1008_origi
+$iroot/2d_Maxwell_QA_2017/    LaminStack_02_Steel1008_Rmxpr
+$iroot/2d_Maxwell_QA_2017/    LaminStack_03_Steel1008
+$iroot/2d_Maxwell_QA_2017/    LaminStack_04_Steel1008
+$iroot/2d_Maxwell_QA_2017/    lancio15_01
+$iroot/2d_Maxwell_QA_2017/    lancio15_02
+$iroot/2d_Maxwell_QA_2017/    lancio15_03
+$iroot/2d_Maxwell_QA_2017/    lancio15_04
+$iroot/2d_Maxwell_QA_2017/    lancio15_05
+$iroot/2d_Maxwell_QA_2017/    lancio15_06
+$iroot/2d_Maxwell_QA_2017/    Matrix_ext_Apparent_2D
+$iroot/2d_Maxwell_QA_2017/    Matrix_ext_Incremental_2D
+$iroot/2d_Maxwell_QA_2017/    motor_10KH_design_mod_1
+$iroot/2d_Maxwell_QA_2017/    motor_10KH_design_mod_2
+$iroot/2d_Maxwell_QA_2017/    motor_1KHz_design_mod_1
+$iroot/2d_Maxwell_QA_2017/    motor_1KHz_design_mod_2
+$iroot/2d_Maxwell_QA_2017/    nonlinearmagnet
+$iroot/2d_Maxwell_QA_2017/    nssm_1
+$iroot/2d_Maxwell_QA_2017/    nssm_1_Maxwell2DDesign1
+$iroot/2d_Maxwell_QA_2017/    perm_freez_eingefrorene
+$iroot/2d_Maxwell_QA_2017/    perm_freez_eingefrorene1
+$iroot/2d_Maxwell_QA_2017/    perm_freeze_BH
+$iroot/2d_Maxwell_QA_2017/    pmsg_1a_Maxwell2DDesign1
+$iroot/2d_Maxwell_QA_2017/    qrt_90
+$iroot/2d_Maxwell_QA_2017/    qsphere
+$iroot/2d_Maxwell_QA_2017/    Reduced_tr2D
+$iroot/2d_Maxwell_QA_2017/    Setup1_1em4_03deg
+$iroot/2d_Maxwell_QA_2017/    solenoid_1
+$iroot/2d_Maxwell_QA_2017/    solid_loss_1_solid_non_linear
+$iroot/2d_Maxwell_QA_2017/    solid_loss_2_solid_linear
+$iroot/2d_Maxwell_QA_2017/    solid_loss_2_solid_linear_air
+$iroot/2d_Maxwell_QA_2017/    solid_loss_3_stranded_non_lin
+$iroot/2d_Maxwell_QA_2017/    srm_1_clone_mesh
+$iroot/2d_Maxwell_QA_2017/    t01winding
+$iroot/2d_Maxwell_QA_2017/    TDM2D_3hp_Maxwell2DDesign1
+$iroot/2d_Maxwell_QA_2017/    TDM2D001_general
+$iroot/2d_Maxwell_QA_2017/    TDM2D001_periodic
+$iroot/2d_Maxwell_QA_2017/    test_for_d_00_Original_with_m
+$iroot/2d_Maxwell_QA_2017/    test_for_d_01_Modified_10mmBa
+$iroot/2d_Maxwell_QA_2017/    test_for_de47033
+$iroot/2d_Maxwell_QA_2017/    test_loss__Maxwell2DDesign1
+$iroot/2d_Maxwell_QA_2017/    test3
+$iroot/2d_Maxwell_QA_2017/    testax4_v14_verify
+$iroot/2d_Maxwell_QA_2017/    TestCapMax_Maxwell2DDesign1_b
+$iroot/2d_Maxwell_QA_2017/    TestCapMax_Maxwell2DDesign2_b
+$iroot/2d_Maxwell_QA_2017/    TestCapMax_Maxwell2DDesign3_n
+$iroot/2d_Maxwell_QA_2017/    TestCapMax_Maxwell2DDesign4_z
+$iroot/2d_Maxwell_QA_2017/    TestCase_H
+$iroot/2d_Maxwell_QA_2017/    TestCase_H_TDM
+$iroot/2d_Maxwell_QA_2017/    TherModi
+$iroot/2d_Maxwell_QA_2017/    UDPLinR150_Maxwell2DDesign2
+$iroot/2d_Maxwell_QA_2017/    UDPWinR150_Maxwell2DDesign2
+$iroot/2d_Maxwell_QA_2017/    V16_TestEdgeForceDensity
+$iroot/2d_Maxwell_QA_2017/    vdohead3
+$iroot/2d_Maxwell_QA_2017/    WeightOfMo_5to100kg_if
+$iroot/2d_Maxwell_QA_2017/    WeightOfMo_5to100kg_pwl
+$iroot/2d_Maxwell_QA_2017/    xy_transla_Maxwell2DDesign1
+$iroot/2d_Maxwell_QA_2017/    xy_transla_Maxwell2DDesign1a
+
+$iroot/2d_maxwell_bugs_2024/    D982170
+$iroot/2d_maxwell_bugs_2024/    D936052
+$iroot/2d_maxwell_bugs_2024/    D923663
+$iroot/2d_maxwell_bugs_2024/    D916565
+$iroot/2d_maxwell_bugs_2024/    D914519
+$iroot/2d_maxwell_bugs_2024/    D912218
+$iroot/2d_maxwell_bugs_2024/    D894559
+$iroot/2d_maxwell_bugs_2024/    D890275
+$iroot/2d_maxwell_bugs_2024/    D890228
+$iroot/2d_maxwell_bugs_2024/    D882431
+$iroot/2d_maxwell_bugs_2024/    D882146
+$iroot/2d_maxwell_bugs_2024/    D880498
+$iroot/2d_maxwell_bugs_2024/    D879145
+$iroot/2d_maxwell_bugs_2024/    D875543
+$iroot/2d_maxwell_bugs_2024/    D874196
+$iroot/2d_maxwell_bugs_2024/    D874196
+$iroot/2d_maxwell_bugs_2024/    D871833
+$iroot/2d_maxwell_bugs_2024/    D862792
+$iroot/2d_maxwell_bugs_2024/    D861590
+$iroot/2d_maxwell_bugs_2024/    D857966
+$iroot/2d_maxwell_bugs_2024/    D853733
+$iroot/2d_maxwell_bugs_2024/    D841999
+$iroot/2d_maxwell_bugs_2024/    D837850
+$iroot/2d_maxwell_bugs_2024/    D831707
+$iroot/2d_maxwell_bugs_2024/    D825796
+$iroot/2d_maxwell_bugs_2024/    D818002
+$iroot/2d_maxwell_bugs_2024/    D815052
+$iroot/2d_maxwell_bugs_2024/    D806125
+$iroot/2d_maxwell_bugs_2024/    D800084
+$iroot/2d_maxwell_bugs_2024/    D800000
+$iroot/2d_maxwell_bugs_2024/    D796849Customer_model
+$iroot/2d_maxwell_bugs_2024/    D792021
+$iroot/2d_maxwell_bugs_2024/    D791675
+$iroot/2d_maxwell_bugs_2024/    D780936
+$iroot/2d_maxwell_bugs_2024/    D732154
+$iroot/2d_maxwell_bugs_2024/    D725825
+$iroot/2d_maxwell_bugs_2024/    D725817
+$iroot/2d_maxwell_bugs_2024/    D714460
+$iroot/2d_maxwell_bugs_2024/    D641376

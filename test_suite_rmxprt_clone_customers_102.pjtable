@@ -1,0 +1,116 @@
+#total_models:  21
+
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/        afassm_1_full_model_simple_skew
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/        afbldc_2_no_coils
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/        afbldc_4_no_coils
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/        CadFem-non-skewed-new-band
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/        CadFem_band_larger_innerRegion
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/        CadFem_band_to_center
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/        CadFem_band_to_center_segment_1_innerRegion_small
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/        CadFem_band_to_center_segment_3
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/        CadFem_band_to_center_segment_3_innerRegion_small
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/        CadFem_band_with_hole
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/        chuan_test1
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/        chuan_test_band_inside_outer
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/        chuan_test_band_touch_outer
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/        DE143615_1_FULL_WORKING_MODEL_clone_failed
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/        DE143615_1_INIMESH_default_clone_band_mesh_leak
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/        DE143615_1_INIMESH_manual_succeed
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/        DE143615_2_HALF_default_clone_failed_static
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/        DE143615_2_HALF_WORKING_MODEL_clone_success
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/        DE143615_3_HALF_90DEG_SLICE_static_failed
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/        DE143615_3_HALF_default_clone_failed_moving_regular_has_leak
+$iroot/10RMXprt_Clone_Models_Customer/Axial_models/        DE143615_4_FULL_SKEW_clone_failed
+
+
+#total_62_models_in_the_list_for_3D_clone
+
+###    $iroot/10RMXprt_Clone_Models_Customer/     Vincent_Induction3D  #matching boundary error
+    $iroot/10RMXprt_Clone_Models_Customer/     3D_PriusMotor
+    $iroot/10RMXprt_Clone_Models_Customer/     Botch_32mm_modified_V2017
+    $iroot/10RMXprt_Clone_Models_Customer/     Botch_full_skewed_fixed3_2017_07_25
+	$iroot/10RMXprt_Clone_Models_Customer/     Botch_full_skewed_simple
+    $iroot/10RMXprt_Clone_Models_Customer/     Botch_full_model_simple_no_winding_non_skew
+	$iroot/10RMXprt_Clone_Models_Customer/     Botch_full_model_simple_no_winding_skewed_13degree
+	$iroot/10RMXprt_Clone_Models_Customer/     Botch_full_model_simple_no_winding_skewed_15degree
+	$iroot/10RMXprt_Clone_Models_Customer/     Botch_full_model_simple_no_winding_skewed_25degree
+	$iroot/10RMXprt_Clone_Models_Customer/     Botch_full_model_simple_no_winding_skewed_35degree
+	$iroot/10RMXprt_Clone_Models_Customer/     Botch_full_model_simple_no_winding_skewed_45degree
+	
+###models from customers
+$iroot/10RMXprt_Clone_Models_Customer/     tsyde_22_ful_model_simple1
+$iroot/10RMXprt_Clone_Models_Customer/     tsyde_22_ful_model
+$iroot/10RMXprt_Clone_Models_Customer/     AssymetricWinding_full_model_simple1
+$iroot/10RMXprt_Clone_Models_Customer/     AssymetricWinding_full_model
+$iroot/10RMXprt_Clone_Models_Customer/     assm_angle_neg33_to_pos_56
+$iroot/10RMXprt_Clone_Models_Customer/     assm_angle_neg33_to_pos_56_no_matching_boundary
+$iroot/10RMXprt_Clone_Models_Customer/     assm_-121_to_-31_degree
+$iroot/10RMXprt_Clone_Models_Customer/     assm_149_to_-122_degree
+$iroot/10RMXprt_Clone_Models_Customer/     assm_149_to_-122_degree_no_matching_boundary
+$iroot/10RMXprt_Clone_Models_Customer/     200W_ext_Y_design_1
+$iroot/10RMXprt_Clone_Models_Customer/     3D_GM_R15_2_Pole_400_Variations_2_800_core_v2014_case1
+$iroot/10RMXprt_Clone_Models_Customer/     3D_GM_R15_2_Pole_400_Variations_2_800_core_v2014_good_case1
+$iroot/10RMXprt_Clone_Models_Customer/     3D_GM_R15_Emad_03_26_2014
+$iroot/10RMXprt_Clone_Models_Customer/     BLDC_test_clone_mesh_failed_Olivier
+$iroot/10RMXprt_Clone_Models_Customer/     Claw17Trans4_HALF_2
+$iroot/10RMXprt_Clone_Models_Customer/     DE93712_R16P4_140916_V2015
+$iroot/10RMXprt_Clone_Models_Customer/     Nissan_Leaf_tutorialfile_3D_full_model_Marius_Rosu
+$iroot/10RMXprt_Clone_Models_Customer/     Prius_clone_mesh_failed_Olivier
+$iroot/10RMXprt_Clone_Models_Customer/     Prius_clone_mesh_failed_with_true_surface_Olivier
+$iroot/10RMXprt_Clone_Models_Customer/     SOMFY_Confidential_clone_mesh_test_Olivier
+$iroot/10RMXprt_Clone_Models_Customer/     SOMFY_Confidential_clone_mesh_test_one_static_Olivier
+$iroot/10RMXprt_Clone_Models_Customer/     TESLA_Confidential_clone_mesh_test_Olivier
+$iroot/10RMXprt_Clone_Models_Customer/     Test_home_made_failed_induction_half_failed_Olivier
+$iroot/10RMXprt_Clone_Models_Customer/     Test_home_made_failed_induction_full_failed_Olivier
+$iroot/10RMXprt_Clone_Models_Customer/     Test_home_made_failed_IPM_half_failed_Olivier
+$iroot/10RMXprt_Clone_Models_Customer/     Test_home_made_failed_IPM_full_failed_Olivier
+$iroot/10RMXprt_Clone_Models_Customer/     E12A708_1-2_quartermodel_taiwan
+
+#total_43_models_in_the_list
+
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    full1
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    full10
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    full11
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    full2
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    full3
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    full4
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    full5
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    full6_inner
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    full6_outer
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    full7
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    full8
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    full9
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    partial10
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    partial11_rotor_only
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    partial12
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    partial13
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    partial14
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    partial15
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    partial16
+###$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    partial17   #matching boundary error
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    partial18
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    partial19
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    partial1_inner
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    partial1_outer
+###$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    partial2  #matching boundary error
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    partial20
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    partial21
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    partial22
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    partial23_statoronly
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    partial24
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    partial25
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    partial26
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    partial27
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    partial28
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    partial29
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    partial3
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    partial30
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    partial4
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    partial5
+###$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    partial6  #matching boundary error
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    partial7  
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    partial8
+$iroot/10RMXprt_Clone_Models_Customer/Vincent_43_models/    partial9
+
+
+

@@ -1,0 +1,24 @@
+
+#total_20_models_in_the_list
+$iroot/hfss/init/wo_macros/                  3GHz_quad_thick_helix
+$iroot/hfss/init/wmacros/                    8thin_coils_ball_94980
+$iroot/hfss/init/wmacros/                    AccAllonge_94870
+$iroot/hfss/init/wmacros/                    BMW_door_catia_mshops
+$iroot/si/init/wmacros                       D_8_1p0_touchscrn
+$iroot/maxwell/init/wmacros/                 IndM3
+$iroot/hfss/init/wmacros/                    RFID_boxes_on_belt_92650
+$iroot/hfss/init/wmacros/                    RFID_on_boxes_on_belt
+$iroot/si/init/wmacros/                      XformerFixed_nodiel_DE15189
+$iroot/hfss/init/wmacros/                    conn_benchmark_nd
+$iroot/hfss/init/wmacros/                    f16_7G_93838
+$iroot/hfss/init/wmacros/       	         randtron_DE84250
+$iroot/hfss/init/wmacros/                    simple_MS
+$iroot/hfss/init/wo_macros/                  spit_helix_wrong_boundary
+$iroot/hfss/init/wmacros/                    water_surface
+
+#failed in old faceter
+$iroot/si/init/wmacros                       D_8_0p5_touchscrn
+$iroot/hfss/init/wo_macros/                  LargeViaOpen_100GHz_89072
+$iroot/hfss/init/wmacros/                    ant_alles_for_matt
+$iroot/hfss/init/wo_macros/                  camera_top_fails_in_solve
+$iroot/hfss/init/wo_macros/                  motorola_objects

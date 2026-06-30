@@ -1,0 +1,23 @@
+#total_models:        13
+
+$iroot/23_stride/   001_CCI_DB
+$iroot/23_stride/   002_CCI_DB.NMOS_POW_8_MDW_24_POMDS_11_IO_SVT
+
+$iroot/23_stride/   004_CCI_DB
+$iroot/23_stride/   005_CCI_DB.NMOS_POW_8_MDW_24_POMDS_11_IO_SVT
+
+$iroot/23_stride/   007_CCI_DB
+$iroot/23_stride/   008_CCI_DB.NMOS_POW_8_MDW_24_POMDS_11_IO_SVT
+
+$iroot/23_stride/   010_CCI_DB
+$iroot/23_stride/   011_CCI_DB.NMOS_POW_8_MDW_24_POMDS_11_IO_SVT
+
+$iroot/23_stride/   013_CCI_DB
+$iroot/23_stride/   014_CCI_DB.NMOS_POW_8_MDW_24_POMDS_11_IO_SVT
+
+$iroot/23_stride/   020_ICV_DB.momcap_rtm005
+$iroot/23_stride/   021_ICV_DB.momcap_rtm005
+
+$iroot/23_stride/   050_TSMC_test_nick
+
+

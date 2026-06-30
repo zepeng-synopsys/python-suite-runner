@@ -1,0 +1,64 @@
+
+kw prog      e:/64_executable/mdm_mesher.exe
+kw iroot     e:/test_suite
+kw scrroot   d:/test_suite_mdm_mesher_only
+
+kw output    d:/test_suite_mdm_mesher_only/test_results/middle_hard_models/2026_05_22(tau01)(auto)(Legacy)(199_1)(16_min)_1
+kw refoutput d:/test_suite_mdm_mesher_only/test_results/middle_hard_models/2026_05_16(tau01)(auto)(Solid)(199_1)(14_min)
+kw jobtable  d:/test_suite_mdm_mesher_only/test_suite_middle_models_hard_models_200.pjtable
+#kw jobtable  d:/test_suite_mdm_mesher_only/failed.pjtable
+
+kw threads 12
+kw timeout 00:15:00
+
+env   SUITE_COPY_FORMATS=ngmesh
+
+#env  MDM_WRITE_OUT_WYMODEL=1
+#env  MDM_RUN_WYMODEL=1
+env   MDM_RUN_PARASOLID=1
+
+#1-auto 2-legacy 3-PhiPlus  4-TAU WrapperS
+env   TAU_MESHER_CHOICE_FLAG=1
+env   TAU_ForceFallBack=1
+env   TAU_USE_NEW_SOLID_IDaaa=1
+env   TAU_COUNT_SOLID_ID_TIME=1
+
+env   TAU_SET_STOP_FLAGaa=2
+env   TAU_UNION_FREE_MESHaa=1
+env   USE_TAU_BINARY_OUTPUT=1
+env   nbyxfmm=12
+env   ANSYSEM_FEATURE_F231148_classic_parallel_recovery_ENABLEaa=1
+env   TAU_ACTIVE_ASPECT_RATIOaa=1
+env   TAU_PROFILE_MESHING_TIME=1
+env   TAU_ACIS_FREE_MESHERaa=0
+env   USE_TAU_PORT_MESHERaa=1
+env   TAU_BVM_VERIFYaa=1
+env   DoNotFallBack=1
+env   TAUReferenceOutput=$refoutput
+env   RefernceMeshRepository=$refoutput
+env   SimulateMeshFacetingProcessaa=dump
+#env  UseAnsoftClassicMesher=1
+env   DoNotFallBack=1
+#env  DontUsePhiMesher=1
+#env  IgnoreObliqueBodies=1
+#env  VerifySurfTriAssignments=1
+#env  SaveErrorsUnderConstruction=1
+#env  XSR_SaveG3dFile=1
+#env  PreserveFaceIds=1
+env   DoNotEchoStderr=1
+env   SupressStdErr=1
+env   DontPullPointsToTrueSurface=1
+env   G3D_GEOMPROC=1
+env   MDM_REF_COMPARE_FACTOR=0.05
+env   MDM_REF_COMPARE_MESH_SIZE=50
+env   MDM_REF_COMPARE_MESH_TIME=20.
+env   ForgiveMissingFaceIds=1
+#env  ForceSurfMesh=1
+env   SaveMeshDataRepository="./"
+env   ForgiveDuplicateIds=1
+env   ANSOFT_DEBUG_MODE=2
+env   ANSOFT_DEBUG_LOG=debug.runlog
+
+env  TAU_DO_MESH_COMPAREaaa=1
+env  TAU_work_mesh_folder=d:\test_suite_mdm_mesher_only\test_results\middle_hard_models\2026_05_16(tau01)(auto)(Solid)(199_1)(16_min)
+env   TAU_ref_mesh_folder=d:\test_suite_mdm_mesher_only\test_results\middle_hard_models\2026_05_05(tau01)(auto)(Solid)(199_1)(14_min)

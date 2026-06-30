@@ -1,0 +1,98 @@
+
+************* THIS DOCUMENT CONTAINS DESCRIPTION OF *.runset SETTINGS FILE USED FOR THE TEST SUITE RUNNER *************
+
+A *.runset file contain settings to be used by the test suite runner. Everytime we start the testsuite runner, settings are loaded from this file.
+Every line in the *.runset file starts with either 'kw' or 'env' or '#'. '#' means that line is commented and we ignore it.
+
+1. 'env'
+
+This keyword is used to set the environment variables before running the g3Dmesher on given job files. This keyword is followed by the environment variable and value.
+For example, 
+env ReferenceOutput=$refoutput
+env ForgiveMissingFaceIds=1
+
+The '$refoutput' means it refers to the value of the settings refoutput. While parsing the line env ReferenceOutput=$refoutput, the program replaces the $refoutput with the value of refoutput. 
+For more details on settings refer below
+
+
+2. 'kw'
+
+This keyword is used to set various settings of the testsuite runner such as input path, output path, number of threads etc. Each 'kw' is followed by a setting name and value(s) of that settings seperated by space.
+
+	1. vtune
+		This setting is used to modify the job command line to "vtune -collect hotspots <commandLine>". It basically adds "vtune -collect hotspots " to the existing commmandLine of the job
+		Ex. kw vtune
+	
+	2. prog
+		This setting is used to specify path of the g3Dmesher executable file to run the job. 
+		USAGE: kw prog <executableFilePath>
+		Ex. kw prog E:/ANSYSDev/NoBackup/TestSuiteRuns/bin/20190605_MTSV2Build0068/G3dMesher.exe
+		
+	3. iroot
+		This setting is used to specify path of the root folder of input source files/folder and jobtable files/folder used for the testsuite
+		USAGE: kw iroot <irootFolderPath>
+		Ex. kw iroot E:/ANSYSDev/NoBackup/views/meshgen_qa/python_suite
+		
+	4. output
+		This setting is used to specify path of the output folder to which output files are exported after running a job
+		USAGE: kw output <outputFolderPath>
+		Ex. kw output E:/ANSYSDev/NoBackup/TestSuiteRuns/run/testrun
+		output folder is usually placed in $srcroot. Refer below for $srcroot.
+	
+	5. refoutput
+		This setting is used to specify path of the reference output folder which contains output files of jobs ran using previous version of g3Dmesher. 
+		These outputs can be compared with outputs exported by current version of g3Dmesher to analyze previous vs current builds. 
+		USAGE: kw refoutput <refoutputFolderPath>
+		Ex. kw refoutput E:/ANSYSDev/NoBackup/TestSuiteRuns/dummy
+		refoutput folder is usually placed in $srcroot. Refer below for $srcroot.
+		
+	6. scrroot
+		This setting is used to specify path of the root folder which contains output, refoutput and scratch folders.
+		USAGE: kw srcroot <srcFolderPath>
+		Ex. kw scrroot E:/ANSYSDev/NoBackup/TestSuiteRuns
+		
+	7. threads
+		This setting is used to set the number of processes/jobs that should be run in parallel
+		USAGE: kw threads <value>
+		Ex. kw threads 8
+		
+	8. timeout
+		This setting is used to set the timeout for each job. A job will be killed automatically if it runs for more than the timeout value.
+		USAGE: kw timeout <HH:MM:SS>
+		Ex. kw timeout 00:05:00
+		
+	9. jobtable
+		This setting is used to set the path of the jobtable file, which contains the list of jobnames and relative path (wrt iroot) of respective input files
+		USAGE: kw jobtable <jobtableFilePath>
+		Ex. kw jobtable E:/ANSYSDev/NoBackup/TestSuiteRuns/Settings/jt_current_ecad_1hr_cls.pjtable
+		
+   10. input_file
+		This setting is used to set the type of input files to be used before each job execution. These files will be copied from the input folder to the scratch folder before execution.
+		USAGE: kw input_file <$job.extension1> <$job.extension2> ...
+		"$job" is replaced by the job name while parsing
+		Ex. kw input_file $job.bpsm $job.control
+		
+   11. output_file
+		This setting is used to set the type of output files to be exported after each job execution. These files will be copied from the scratch folder to the output folder after execution.
+		USAGE: kw output_file <$job.extension1> <extension2> <extension3> ...
+		"$job" is replaced by the job name while parsing. If there is no $job for ex, debug.runlog in the below example, the job name will be automatically added before the extension. It becomes <jobname>.debug.runlog
+		Ex. kw output_file debug.runlog $job.testres
+		
+   12. optional_input_file
+		This setting is used to set the type of optional input files to be used if available before each job execution. These files will be copied from the input folder to the scratch folder before execution.
+		USAGE: kw optional_input_file <$job.extension1> <$job.extension2> ...
+			   kw optional_input_file
+		The keyword value can be left blank
+		Ex. kw optional_input_file $job.cfg $job.sat
+		
+   13. optional_output_file
+		This setting is used to set the type of optional output files to be exported if available after each job execution. These files will be copied from the scratch folder to the output folder after execution.
+		USAGE: kw optional_output_file <$job.extension1> <$job.extension2> ...
+			   kw optional_output_file
+		The keyword value can be left blank
+	14. note
+		This setting is used to set test notes. It can be any sting and is goting to print on the first line of test result
+		USAGE: kw note This place is for notes 
+		
+
+3. 'xml'
